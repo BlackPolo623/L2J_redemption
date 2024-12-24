@@ -1,20 +1,20 @@
-2024.12.24 15:20:40,931	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
-2024.12.24 15:20:40,956	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
-2024.12.24 15:20:40,957	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
-2024.12.24 15:20:40,957	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
-2024.12.24 15:20:40,958	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
-2024.12.24 15:20:41,158	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
-2024.12.24 15:20:41,198	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
-2024.12.24 15:20:41,200	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
-2024.12.24 15:20:41,234	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
-2024.12.24 15:20:41,236	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
-2024.12.24 15:20:41,237	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
-2024.12.24 15:20:41,239	INFO	59	org.l2jmobius.commons.network.NetServer	LoginServer: Listening on port 2106 for incoming connections.
-2024.12.24 15:20:53,189	INFO	62	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
-2024.12.24 15:20:53,189	INFO	62	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/24
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.1.0/192.168.1.0/24
-2024.12.24 15:20:53,190	INFO	62	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/0.0.0.0/0
+2024.12.24 17:05:40,380	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2024.12.24 17:05:40,415	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2024.12.24 17:05:40,416	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2024.12.24 17:05:40,416	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2024.12.24 17:05:40,418	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2024.12.24 17:05:40,743	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2024.12.24 17:05:40,797	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2024.12.24 17:05:40,799	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2024.12.24 17:05:40,834	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2024.12.24 17:05:40,836	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2024.12.24 17:05:40,837	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2024.12.24 17:05:40,841	INFO	60	org.l2jmobius.commons.network.NetServer	LoginServer: Listening on port 2106 for incoming connections.
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
+2024.12.24 17:05:54,539	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/24
+2024.12.24 17:05:54,540	INFO	62	org.l2jmobius.loginserver.GameServerThread	192.168.1.0/192.168.1.0/24
+2024.12.24 17:05:54,540	INFO	62	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/0.0.0.0/0
