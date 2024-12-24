@@ -110,9 +110,9 @@ public class L2SuperNpc extends AbstractNpcAI
 		else if (event.equalsIgnoreCase("Boss"))
 		{
 			TextBuilder tb = new TextBuilder();
-			tb.append("<html><title>终极BOSS信息采集员</title><body><br><center>");
+			tb.append("<html><title>終極BOSS信息採集員</title><body><br><center>");
 			tb.append("<img src=\"L2UI_CH3.herotower_deco\" width=256 height=32><br>");
-			tb.append("安塔瑞斯中其中一只被狩猎,其余均不可狩猎<br>");
+			tb.append("安塔瑞斯中其中一隻被狩獵,其餘均不可狩獵<br>");
 			for(int boss : BOSSES)
 			{
 			Connection con = null;
@@ -128,13 +128,13 @@ public class L2SuperNpc extends AbstractNpcAI
 			long delay = rset.getLong("respawn_time");
 			if(STATUS == 0)
 			{
-				tb.append("<font color=\"00C3FF\">" + name + "</color>: " + "<font color=\"9CC300\">沉睡中(可挑战)</color>"+"<br1>");
+				tb.append("<font color=\"00C3FF\">" + name + "</color>: " + "<font color=\"9CC300\">沉睡中(可挑戰)</color>"+"<br1>");
 			}else if (delay*1000 > System.currentTimeMillis())
 			{
 				int hours = (int) ((delay - System.currentTimeMillis()) / 1000 / 60 / 60);
 				int mins = (int) (((delay - (hours * 60 * 60 * 1000)) - System.currentTimeMillis()) / 1000 / 60);
 				int seconts = (int) (((delay - ((hours * 60 * 60 * 1000) + (mins * 60 * 1000))) - System.currentTimeMillis()) / 1000);
-				tb.append("<font color=\"00C3FF\">" + name + "</color>" + "<font color=\"FFFFFF\">" +" " + "刷出时间:</color>" + " " + " <font color=\"32C332\">" + hours + "小时: " + mins + "分: " + seconts + "秒后</color><br1>");
+				tb.append("<font color=\"00C3FF\">" + name + "</color>" + "<font color=\"FFFFFF\">" +" " + "刷出時間:</color>" + " " + " <font color=\"32C332\">" + hours + "小時: " + mins + "分: " + seconts + "秒后</color><br1>");
 			}
 			}
 			rset.close();
@@ -142,7 +142,7 @@ public class L2SuperNpc extends AbstractNpcAI
 		}
 		catch (Exception e)
 		{
-			LOGGER.warning("获取道具列表失败!" + e.getMessage());
+			LOGGER.warning("獲取道具列表失敗!" + e.getMessage());
 		}
 		finally
 		{
@@ -160,15 +160,15 @@ public class L2SuperNpc extends AbstractNpcAI
 			msg.setHtml(tb.toString());
 			player.sendPacket(msg);
 		}
-				
+
 		else if(event.equalsIgnoreCase("RichesRank"))
 		{
 			byte pos = 0;
-			
+
 			TextBuilder tb = new TextBuilder();
-			tb.append("<html><title>连击排行榜</title><body><br1>");
-			tb.append("<center><table width=300><tr><td><center><font color=CAFF70>排名</center></td><td><center>玩家名</center></td><td><center>最高连续击杀数</font></center></td></tr>");
-			
+			tb.append("<html><title>連擊排行榜</title><body><br1>");
+			tb.append("<center><table width=300><tr><td><center><font color=CAFF70>排名</center></td><td><center>玩家名</center></td><td><center>最高連續擊殺數</font></center></td></tr>");
+
 			Connection con = null;
 			try
 			{
@@ -194,7 +194,7 @@ public class L2SuperNpc extends AbstractNpcAI
 				statement.close();
 			}
 			catch (Exception e)
-			{			
+			{
 			}
 			finally
 			{
@@ -224,33 +224,33 @@ public class L2SuperNpc extends AbstractNpcAI
 		else if (event.startsWith("Noble"))
 		{
 			if(player.isNoble()){
-				player.sendMessage("你已经是贵族了，无需再操作");
+				player.sendMessage("你已經是貴族了，無需再操作");
 			}else if(player.getLevel() >= 76 && player.getInventory().getInventoryItemCount(57,0) >= 10000000){
 				player.setNoble(true);
-				Broadcast.toAllOnlinePlayers("恭喜玩家[" + player.getName() + " ]成功转为贵族.", false);
+				Broadcast.toAllOnlinePlayers("恭喜玩家[" + player.getName() + " ]成功轉為貴族.", false);
 			}else{
-				player.sendMessage("转为贵族需要金币1000w且人物等级大于或等于76");
+				player.sendMessage("轉為貴族需要金幣1000w且人物等級大於或等於76");
 			}
 		}
 		else if (event.startsWith("Hero"))
 		{
 			if(player.isHero()){
-				player.sendMessage("你已经是英雄了，无需再操作");
+				player.sendMessage("你已經是英雄了，無需再操作");
 			}else if(player.getLevel() >= 85 && player.getInventory().getInventoryItemCount(9143,0) >= 1){
 				player.setHero(true);
-				Broadcast.toAllOnlinePlayers("恭喜玩家[" + player.getName() + " ]成功转为英雄.", false);
+				Broadcast.toAllOnlinePlayers("恭喜玩家[" + player.getName() + " ]成功轉為英雄.", false);
 			}else{
-				player.sendMessage("转为英雄需要英雄币且人物等级大于或等于85");
+				player.sendMessage("轉為英雄需要英雄幣且人物等級大於或等於85");
 			}
 		}
 		else if(event.equalsIgnoreCase("PKRank"))
 		{
 			byte pos = 0;
-			
+
 			TextBuilder tb = new TextBuilder();
 			tb.append("<html><title>PK排行榜</title><body>");
 			tb.append("<center><table width=300><tr><td><center><font color=FF6A6A>排名</center></td><td><center>玩家名</center></td><td><center>PK值</center></td><td><center>Online</font></center></td></font></tr>");
-			
+
 			Connection con = null;
 			try
 			{
@@ -273,7 +273,7 @@ public class L2SuperNpc extends AbstractNpcAI
 					{
 						OnlineStat = "No";
 						OnlineClolor = "ff0000";
-					}	
+					}
 					pos += 1;
 					if (pos ==1)
 						tb.append("<tr><td><center><font color="+ Pos1Color +">" + pos + "</center></td><td><center><a action=\"bypass -h Quest L2SuperNpc CharInfor "+char_name+"\">" + char_name + "</a></center></td><td><center>" + char_pkkills + "</font></center></td><td><center><font color="+OnlineClolor+">"+OnlineStat+"</center></font></td></tr>");
@@ -289,7 +289,7 @@ public class L2SuperNpc extends AbstractNpcAI
 			}
 			catch (Exception e)
 			{
-				
+
 			}
 			finally
 			{
@@ -300,20 +300,20 @@ public class L2SuperNpc extends AbstractNpcAI
 			catch (Exception localException3)
 			{
 			}
-			}	
+			}
 			tb.append("</table></center></body></html>");
 			NpcHtmlMessage msg = new NpcHtmlMessage(0, 1);
 			msg.setHtml(tb.toString());
-			player.sendPacket(msg);			
+			player.sendPacket(msg);
 		}
 		else if(event.equalsIgnoreCase("PvPRank"))
 		{
 			byte pos = 0;
-			
+
 			TextBuilder tb = new TextBuilder();
 			tb.append("<html><title>PvP排行榜</title><body>");
 			tb.append("<center><table width=300><tr><td><center><font color=20B2AA>排名</center></td><td><center>玩家名</center></td><td><center>PvP值</center></td><td><center>Online</font></center></td></tr>");
-			
+
 			Connection con = null;
 			try
 			{
@@ -336,7 +336,7 @@ public class L2SuperNpc extends AbstractNpcAI
 					{
 						OnlineStat = "No";
 						OnlineClolor = "ff0000";
-					}	
+					}
 					pos += 1;
 					if (pos ==1)
 						tb.append("<tr><td><center><font color="+ Pos1Color +">" + pos + "</center></td><td><center><a action=\"bypass -h Quest L2SuperNpc CharInfor "+char_name+"\">" + char_name + "</a></center></td><td><center>" + char_pvpkills + "</font></center></td><td><center><font color="+OnlineClolor+">"+OnlineStat+"</center></font></td></tr>");
@@ -352,7 +352,7 @@ public class L2SuperNpc extends AbstractNpcAI
 			}
 			catch (Exception e)
 			{
-				
+
 			}
 			finally
 			{
@@ -362,20 +362,20 @@ public class L2SuperNpc extends AbstractNpcAI
 			}
 			catch (Exception localException3)
 			{
-			}			}	
+			}			}
 			tb.append("</table></center></body></html>");
 			NpcHtmlMessage msg = new NpcHtmlMessage(0, 1);
 			msg.setHtml(tb.toString());
-			player.sendPacket(msg);	
+			player.sendPacket(msg);
 		}
 		else if(event.equalsIgnoreCase("FameRank"))
 		{
 			byte pos = 0;
-			
+
 			TextBuilder tb = new TextBuilder();
-			tb.append("<html><title>荣誉排行榜</title><body>");
-			tb.append("<center><table width=300><tr><td><center><font color=ffff00>排名</center></td><td><center>玩家名</center></td><td><center>荣誉值</center></td><td><center>Online</font></center></td></tr>");		
-			
+			tb.append("<html><title>榮譽排行榜</title><body>");
+			tb.append("<center><table width=300><tr><td><center><font color=ffff00>排名</center></td><td><center>玩家名</center></td><td><center>榮譽值</center></td><td><center>Online</font></center></td></tr>");
+
 			Connection con = null;
 			try
 			{
@@ -398,7 +398,7 @@ public class L2SuperNpc extends AbstractNpcAI
 					{
 						OnlineStat = "No";
 						OnlineClolor = "ff0000";
-					}	
+					}
 					pos += 1;
 					if (pos ==1)
 						tb.append("<tr><td><center><font color="+ Pos1Color +">" + pos + "</center></td><td><center><a action=\"bypass -h Quest L2SuperNpc CharInfor "+char_name+"\">" + char_name + "</a></center></td><td><center>" + fame + "</font></center></td><td><center><font color="+OnlineClolor+">"+OnlineStat+"</center></font></td></tr>");
@@ -423,12 +423,12 @@ public class L2SuperNpc extends AbstractNpcAI
 			catch (Exception localException3)
 			{
 			}
-			}	
+			}
 			tb.append("</table></center></body></html>");
 			NpcHtmlMessage msg = new NpcHtmlMessage(0, 1);
 			msg.setHtml(tb.toString());
-			player.sendPacket(msg);	
-		}				
+			player.sendPacket(msg);
+		}
 		else if (event.equalsIgnoreCase("Dlv"))
 		{
 			int level = player.getLevel();
@@ -438,22 +438,22 @@ public class L2SuperNpc extends AbstractNpcAI
 			player.sendPacket(rateReply);
 		}
 		else if (event.startsWith("ReleaseAttribute"))
-		{		
+		{
 			player.sendPacket(new ExShowBaseAttributeCancelWindow(player));
-		}	
+		}
 		else if (event.equalsIgnoreCase("ZSWQ"))
 		{
 			if (Config.CAT_AUTO_UP) {
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.ATRS_WEAPON * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(59111111, player, npc, false);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("止水武器还没有开放兑换", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("止水武器還沒有開放兌換", 5000));
+			}
 			}
 		}
 
@@ -463,13 +463,13 @@ public class L2SuperNpc extends AbstractNpcAI
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.BLKS_WEAPON * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(59111112, player, npc, true);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("虎魄武器还没有开放兑换", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("虎魄武器還沒有開放兌換", 5000));
+			}
 			}
 		}
 		else if (event.equalsIgnoreCase("PXWQ"))
@@ -478,13 +478,13 @@ public class L2SuperNpc extends AbstractNpcAI
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.LDBE_WEAPON * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(59111113, player, npc, true);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("破星武器还没有开放兑换", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("破星武器還沒有開放兌換", 5000));
+			}
 			}
 		}
 		else if (event.equalsIgnoreCase("ZSZB"))
@@ -493,13 +493,13 @@ public class L2SuperNpc extends AbstractNpcAI
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.KDL_F * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(58111113, player, npc, true);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("止水装备还没有开放升级", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("止水裝備還沒有開放升級", 5000));
+			}
 			}
 		}
 		else if (event.equalsIgnoreCase("HPZB"))
@@ -508,13 +508,13 @@ public class L2SuperNpc extends AbstractNpcAI
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.ADO_F * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(58111114, player, npc, true);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("虎魄装备还没有开放升级", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("虎魄裝備還沒有開放升級", 5000));
+			}
 			}
 		}
 		else if (event.equalsIgnoreCase("PXZB"))
@@ -523,15 +523,15 @@ public class L2SuperNpc extends AbstractNpcAI
 			try {
 				openServerDate = new SimpleDateFormat("yyyyMMdd").parse(Config.NEW_SERVER_DATE);
 			} catch (ParseException e) {
-				System.out.println("自动装备更新系统异常");
+				System.out.println("自動裝備更新系統異常");
 			}
 			if (System.currentTimeMillis() >= (openServerDate.getTime() + (Config.HMSS * 24 * 3600 * 1000) + (Config.CAT_AUTO_UP_HOURS * 3600 * 1000))) {
 					MultisellData.getInstance().separateAndSend(58111115, player, npc, true);
 				}else{
-				player.sendPacket(new ExShowScreenMessage("破星装备还没有开放升级", 5000));	
-			}				
+				player.sendPacket(new ExShowScreenMessage("破星裝備還沒有開放升級", 5000));
 			}
-		}		
+			}
+		}
 		return htmltext;
 	}
 
@@ -541,19 +541,19 @@ public class L2SuperNpc extends AbstractNpcAI
 		try
 		{
 			con = DatabaseFactory.getConnection();
-			
+
 			PreparedStatement statement = con.prepareStatement("INSERT INTO heroes (charId, class_id, count, played, claimed) VALUES (?,?,?,?,?)");
-			
+
 			statement.setInt(1, player.getObjectId());
-			statement.setInt(2, player.getClassId().getId());			
+			statement.setInt(2, player.getClassId().getId());
 			statement.setInt(3, 1);
-			statement.setInt(4, 1);			
+			statement.setInt(4, 1);
 			statement.setString(5, "false");
-			statement.executeUpdate();			
+			statement.executeUpdate();
 			statement.close();
 		}catch (Exception e)
 		{
-			LOGGER.warning("写入yingxiong失败!" + e.getMessage());
+			LOGGER.warning("寫入yingxiong失敗!" + e.getMessage());
 		}
 		finally
 		{
@@ -567,7 +567,7 @@ public class L2SuperNpc extends AbstractNpcAI
 		}
 	}
 
-	
+
 	@Override
 	public String onFirstTalk(Npc npc, Player player)
 	{
@@ -583,18 +583,18 @@ public class L2SuperNpc extends AbstractNpcAI
 		}
 		return htmltext;
 	}
-	
-	public L2SuperNpc() 
+
+	public L2SuperNpc()
 	{
 		super();
 		addStartNpc(npcIds);
 		addTalkId(npcIds);
 		addFirstTalkId(npcIds);
 	}
-	
+
 	public static void main(String[] args)
 	{
 		new L2SuperNpc();
-		System.out.println("INFO 多功能NPC V2.0版读取成功");
+		System.out.println("INFO 多功能NPC V2.0版讀取成功");
 	}		
 }

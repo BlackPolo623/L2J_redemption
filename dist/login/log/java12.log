@@ -1,22 +1,19 @@
-2023.12.17 19:17:02,766	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
-2023.12.17 19:17:02,798	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
-2023.12.17 19:17:02,802	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
-2023.12.17 19:17:02,802	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
-2023.12.17 19:17:02,802	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
-2023.12.17 19:17:03,156	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
-2023.12.17 19:17:03,220	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
-2023.12.17 19:17:03,224	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 0 registered Game Servers.
-2023.12.17 19:17:03,275	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
-2023.12.17 19:17:03,279	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
-2023.12.17 19:17:03,279	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
-2023.12.17 19:17:03,283	INFO	24	org.l2jmobius.commons.network.NetServer	LoginServer: Listening on port 2106 for incoming connections.
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	192.168.50.1/192.168.50.0/24
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	192.168.126.1/192.168.126.0/24
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	192.168.2.104/192.168.2.0/24
-2023.12.17 19:17:06,364	INFO	26	org.l2jmobius.loginserver.GameServerThread	125.95.196.190/0.0.0.0/0
-2023.12.17 19:56:27,967	WARNING	34	org.l2jmobius.loginserver.LoginController	Exception while retriving account info for '159753'!
-2023.12.17 19:56:31,089	WARNING	34	org.l2jmobius.loginserver.LoginController	Exception while retriving account info for '159753'!
-2023.12.17 19:59:04,237	INFO	26	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset
-2023.12.17 19:59:04,239	INFO	26	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.
+2024.04.26 19:32:09,734	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2024.04.26 19:32:09,808	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2024.04.26 19:32:09,815	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2024.04.26 19:32:09,816	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2024.04.26 19:32:09,819	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2024.04.26 19:32:10,522	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2024.04.26 19:32:10,689	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2024.04.26 19:32:10,697	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2024.04.26 19:32:10,780	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2024.04.26 19:32:10,791	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2024.04.26 19:32:10,792	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2024.04.26 19:32:10,799	INFO	24	org.l2jmobius.commons.network.NetServer	LoginServer: Listening on port 2106 for incoming connections.
+2024.04.26 19:35:16,204	INFO	26	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2024.04.26 19:35:16,204	INFO	26	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2024.04.26 19:35:16,204	INFO	26	org.l2jmobius.loginserver.GameServerThread	10.0.28.16/10.0.28.0/22
+2024.04.26 19:35:16,204	INFO	26	org.l2jmobius.loginserver.GameServerThread	111.229.184.240/0.0.0.0/0
+2024.04.26 19:39:42,985	INFO	31	org.l2jmobius.loginserver.LoginController	Auto created account 'qwe243301171'.
+2024.05.10 18:02:07,355	INFO	31	org.l2jmobius.loginserver.LoginController	Auto created account 'qqwo5380'.
+2024.05.28 13:58:24,234	INFO	31	org.l2jmobius.loginserver.LoginController	Auto created account '931102'.

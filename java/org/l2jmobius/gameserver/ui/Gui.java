@@ -162,11 +162,30 @@ public class Gui {
 		menuBar.add(menu);
 
 		menu.add(createMenuItem("關閉伺服器", e -> {
-			if (JOptionPane.showOptionDialog(null, "確定要關閉伺服器嗎？", "選擇一個選項",
-					JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, shutdownOptions, shutdownOptions[1]) == 0) {
-				final String input = showDelayInputDialog("關閉延遲（秒）");
+			String[] delayOptions = {"1 秒", "30 秒", "60 秒", "120 秒", "自訂...", "取消"};
+			int choice = JOptionPane.showOptionDialog(null,
+					"請選擇關閉延遲時間",
+					"關閉伺服器",
+					JOptionPane.DEFAULT_OPTION,
+					JOptionPane.QUESTION_MESSAGE,
+					null,
+					delayOptions,
+					delayOptions[5]);
+
+			if (choice >= 0 && choice < 4) {
+				int[] delays = {1, 30, 60, 120};
+				Shutdown.getInstance().startShutdown(null, delays[choice], false);
+			} else if (choice == 4) {
+				String input = (String) JOptionPane.showInputDialog(null,
+						"請輸入延遲秒數",
+						"自訂延遲",
+						JOptionPane.PLAIN_MESSAGE,
+						null,
+						null,
+						"600");
+
 				if (input != null && Util.isDigit(input)) {
-					final int delay = Integer.parseInt(input);
+					int delay = Integer.parseInt(input);
 					if (delay > 0) {
 						Shutdown.getInstance().startShutdown(null, delay, false);
 					}
@@ -175,11 +194,30 @@ public class Gui {
 		}));
 
 		menu.add(createMenuItem("重啟伺服器", e -> {
-			if (JOptionPane.showOptionDialog(null, "確定要重啟伺服器嗎？", "選擇一個選項",
-					JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, restartOptions, restartOptions[1]) == 0) {
-				final String input = showDelayInputDialog("重啟延遲（秒）");
+			String[] delayOptions = {"1 秒", "30 秒", "60 秒", "120 秒", "自訂...", "取消"};
+			int choice = JOptionPane.showOptionDialog(null,
+					"請選擇重啟延遲時間",
+					"重啟伺服器",
+					JOptionPane.DEFAULT_OPTION,
+					JOptionPane.QUESTION_MESSAGE,
+					null,
+					delayOptions,
+					delayOptions[5]);
+
+			if (choice >= 0 && choice < 4) {
+				int[] delays = {1, 30, 60, 120};
+				Shutdown.getInstance().startShutdown(null, delays[choice], true);
+			} else if (choice == 4) {
+				String input = (String) JOptionPane.showInputDialog(null,
+						"請輸入延遲秒數",
+						"自訂延遲",
+						JOptionPane.PLAIN_MESSAGE,
+						null,
+						null,
+						"600");
+
 				if (input != null && Util.isDigit(input)) {
-					final int delay = Integer.parseInt(input);
+					int delay = Integer.parseInt(input);
 					if (delay > 0) {
 						Shutdown.getInstance().startShutdown(null, delay, true);
 					}

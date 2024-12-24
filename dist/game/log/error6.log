@@ -1,0 +1,16 @@
+12月 24, 2024 5:13:08 下午 org.l2jmobius.gameserver.scripting.ScriptEngineManager executeScriptList
+WARNING: ScriptEngine: E:\L2_Mobius_85\SRC\dist\game\data\scripts\ai\bosses\Core\Core.java failed execution!
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.l2jmobius.gameserver.scripting.java.JavaExecutionContext.executeScripts(JavaExecutionContext.java:209)
+	at org.l2jmobius.gameserver.scripting.ScriptEngineManager.executeScriptList(ScriptEngineManager.java:178)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:368)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:663)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at org.l2jmobius.gameserver.instancemanager.GrandBossManager.getStatus(GrandBossManager.java:205)
+	at ai.bosses.Core.Core.<init>(Core.java:87)
+	at ai.bosses.Core.Core.main(Core.java:232)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 5 more
+

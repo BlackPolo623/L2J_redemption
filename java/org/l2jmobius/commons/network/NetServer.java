@@ -113,7 +113,7 @@ public class NetServer<E extends NetClient>
 				server.setSoTimeout(0); // Non-blocking I/O.
 				
 				// Listen for new connections.
-				LOGGER.info(_name + ": Listening on port " + _port + " for incoming connections.");
+				LOGGER.info(_name + "：監聽端口 - " + _port + " 等待連接中");
 				while (true)
 				{
 					final Socket socket = server.accept();

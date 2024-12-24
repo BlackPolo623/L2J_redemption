@@ -149,7 +149,7 @@ public class LoginServerThread extends Thread
 			try
 			{
 				// Connection
-				LOGGER.info(getClass().getSimpleName() + ": Connecting to login on " + _hostname + ":" + _port);
+				LOGGER.info(getClass().getSimpleName() + "：成功連接至 - " + _hostname + ":" + _port);
 				_loginSocket = new Socket(_hostname, _port);
 				final InputStream in = _loginSocket.getInputStream();
 				_out = new BufferedOutputStream(_loginSocket.getOutputStream());
@@ -241,7 +241,7 @@ public class LoginServerThread extends Thread
 							final int serverID = aresp.getServerId();
 							_serverName = aresp.getServerName();
 							Config.saveHexid(serverID, hexToString(_hexID));
-							LOGGER.info(getClass().getSimpleName() + ": Registered on login as Server " + serverID + ": " + _serverName);
+							LOGGER.info(getClass().getSimpleName() + "：成功註冊登陸伺服器 - " + serverID + " - " + _serverName);
 							final ServerStatus st = new ServerStatus();
 							if (Config.SERVER_LIST_BRACKET)
 							{

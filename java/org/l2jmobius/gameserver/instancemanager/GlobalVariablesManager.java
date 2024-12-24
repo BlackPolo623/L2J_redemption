@@ -94,7 +94,7 @@ public class GlobalVariablesManager extends AbstractVariables
 			return false;
 		}
 		
-		LOGGER.info(getClass().getSimpleName() + ": Stored " + getSet().size() + " variables.");
+		LOGGER.info(getClass().getSimpleName() + "：定時儲存 - " + getSet().size() + " 世界變數.");
 		return true;
 	}
 	

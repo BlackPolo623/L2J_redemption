@@ -47,7 +47,7 @@ public class TaskSevenSignsUpdate extends Task
 			{
 				SevenSignsFestival.getInstance().saveFestivalData(false);
 			}
-			LOGGER.info("SevenSigns: Data updated successfully.");
+			LOGGER.info("SevenSigns: 資料成功更新！");
 		}
 		catch (Exception e)
 		{

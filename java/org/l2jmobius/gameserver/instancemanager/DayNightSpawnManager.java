@@ -107,7 +107,7 @@ public class DayNightSpawnManager
 						i++;
 					}
 				}
-				LOGGER.info("DayNightSpawnManager: Removed " + i + " " + unspawnLogInfo + " creatures");
+				LOGGER.info("DayNightSpawnManager：移除" + i + " " + unspawnLogInfo + " 生物");
 			}
 			
 			int i = 0;
@@ -122,7 +122,7 @@ public class DayNightSpawnManager
 				i++;
 			}
 			
-			LOGGER.info("DayNightSpawnManager: Spawned " + i + " " + spawnLogInfo + " creatures");
+			LOGGER.info("DayNightSpawnManager：生成 " + i + " " + spawnLogInfo + " 生物");
 		}
 		catch (Exception e)
 		{
@@ -237,7 +237,7 @@ public class DayNightSpawnManager
 			case 0:
 			{
 				boss.deleteMe();
-				LOGGER.info(getClass().getSimpleName() + ": Deleting Hellman raidboss");
+				LOGGER.info(getClass().getSimpleName() + ": 移除 Hellman raidboss 中");
 				break;
 			}
 			case 1:
@@ -246,7 +246,7 @@ public class DayNightSpawnManager
 				{
 					boss.spawnMe();
 				}
-				LOGGER.info(getClass().getSimpleName() + ": Spawning Hellman raidboss");
+				LOGGER.info(getClass().getSimpleName() + ": 生成 Hellman raidboss 中");
 				break;
 			}
 		}

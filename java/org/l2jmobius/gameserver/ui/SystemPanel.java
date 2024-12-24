@@ -66,13 +66,13 @@ public class SystemPanel extends JPanel {
 		add(lblBuildDate);
 
 		// Set initial values
-		lblProtocol.setText("版本: 亞丁【高等精靈】");
+		lblProtocol.setText("版本: 確認中...");
 		lblConnected.setText("連接數量: 0");
 		lblMaxConnected.setText("最大連接數量: 0");
 		lblOfflineShops.setText("離線交易: 0");
 		lblElapsedTime.setText("伺服器運行時間: 0 sec");
 		lblJavaVersion.setText("JDK版本: " + System.getProperty("java.version"));
-		lblBuildDate.setText("核心建構時間: 2024/12/17");
+		lblBuildDate.setText("核心建構時間: 確認中...");
 
 		try {
 			final File jarName = Locator.getClassSource(GameServer.class);

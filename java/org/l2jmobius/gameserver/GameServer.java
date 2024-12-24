@@ -23,17 +23,15 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.lang.management.ManagementFactory;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.io.BufferedReader;
-import java.util.Map;
-import java.util.HashMap;
+import java.util.*;
 import java.io.IOException;
-import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 import java.lang.Object;
-import java.util.Scanner;
 
 import org.l2jmobius.Config;
 import org.l2jmobius.commons.database.DatabaseFactory;
@@ -179,24 +177,24 @@ public class GameServer
 	private static boolean isfufei = true;
 	private static final String[] jiqima =
 	{
-	 "00000000000000018CE38E030040CFFFBFEBFBFF000A0652",//小天电脑
-	 "YS202010001110AABFEBFBFF000206D7"//小天服务器	
-	};	
-	
+	 "00000000000000018CE38E030040CFFFBFEBFBFF000A0652",//小天電腦
+	 "YS202010001110AABFEBFBFF000206D7"//小天服務器
+	};
+
 	public long getUsedMemoryMB()
 	{
 		return (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / 1048576;
 	}
-	
+
 	public DeadLockDetector getDeadLockDetectorThread()
 	{
 		return _deadDetectThread;
 	}
-	
+
 	public GameServer() throws Exception
 	{
 		final long serverLoadStart = System.currentTimeMillis();
-		
+
 		// GUI
 		final PropertiesParser interfaceConfig = new PropertiesParser(Config.INTERFACE_CONFIG_FILE);
 		Config.ENABLE_GUI = interfaceConfig.getBoolean("EnableGUI", true);
@@ -206,11 +204,11 @@ public class GameServer
 			System.out.println("GameServer: Running in GUI mode.");
 			new Gui();
 		}
-		
+
 		// Create log folder
 		final File logFolder = new File(".", "log");
 		logFolder.mkdir();
-		
+
 		// Create input stream for log file -- or store file data into memory
 		try (InputStream is = new FileInputStream(new File("./log.cfg")))
 		{
@@ -220,41 +218,41 @@ public class GameServer
 		if(isfufei){
 		// Initialize config
 		Config.load(ServerMode.GAME);
-		
+
 		printSection("Database");
 		DatabaseFactory.init();
-		
+
 		printSection("ThreadPool");
 		ThreadPool.init();
-		
+
 		// Start game time task manager early
 		GameTimeTaskManager.getInstance();
-		
+
 		printSection("IdManager");
 		IdManager.getInstance();
-		
+
 		printSection("Scripting Engine");
 		EventDispatcher.getInstance();
 		ScriptEngineManager.getInstance();
-		
+
 		printSection("World");
 		InstanceManager.getInstance();
 		World.getInstance();
 		MapRegionManager.getInstance();
 		AnnouncementsTable.getInstance();
 		GlobalVariablesManager.getInstance();
-		
+
 		printSection("Data");
 		CategoryData.getInstance();
 		SecondaryAuthData.getInstance();
-		
+
 		printSection("Skills");
 		EffectHandler.getInstance().executeScript();
 		EnchantSkillGroupsData.getInstance();
 		SkillTreeData.getInstance();
 		SkillData.getInstance();
 		PetSkillData.getInstance();
-		
+
 		printSection("Items");
 		ItemTable.getInstance();
 		EnchantItemGroupsData.getInstance();
@@ -274,7 +272,7 @@ public class GameServer
 		HennaData.getInstance();
 		PrimeShopData.getInstance();
 		PcCafePointsManager.getInstance();
-		
+
 		printSection("Characters");
 		ClassListData.getInstance();
 		InitialEquipmentData.getInstance();
@@ -289,22 +287,22 @@ public class GameServer
 		RaidBossPointsManager.getInstance();
 		PetDataTable.getInstance();
 		CharSummonTable.getInstance().init();
-		
+
 		if (Config.PREMIUM_SYSTEM_ENABLED)
 		{
 			LOGGER.info("PremiumManager: Premium system is enabled.");
 			PremiumManager.getInstance();
 		}
-		
+
 		printSection("Clans");
 		ClanTable.getInstance();
 		CHSiegeManager.getInstance();
 		ClanHallTable.getInstance();
 		ClanHallAuctionManager.getInstance();
-		
+
 		printSection("Geodata");
 		GeoEngine.getInstance();
-		
+
 		printSection("NPCs");
 		DoorData.getInstance();
 		FenceData.getInstance();
@@ -320,14 +318,14 @@ public class GameServer
 		ZoneManager.getInstance();
 		GrandBossManager.getInstance().initZones();
 		EventDropManager.getInstance();
-		
+
 		printSection("Olympiad");
 		Olympiad.getInstance();
 		Hero.getInstance();
-		
+
 		printSection("Seven Signs");
 		SevenSigns.getInstance();
-		
+
 		// Call to load caches
 		printSection("Cache");
 		HtmCache.getInstance();
@@ -352,7 +350,7 @@ public class GameServer
 			SendMessageLocalisationData.getInstance();
 			NpcNameLocalisationData.getInstance();
 		}
-		
+
 		printSection("Scripts");
 		QuestManager.getInstance();
 		BoatManager.getInstance();
@@ -360,7 +358,7 @@ public class GameServer
 		SoDManager.getInstance();
 		SoIManager.getInstance();
 		suijizz.getInstance().load();
-		
+
 		try
 		{
 			LOGGER.info("Loading server scripts...");
@@ -371,13 +369,13 @@ public class GameServer
 		{
 			LOGGER.log(Level.WARNING, "Failed to execute script list!", e);
 		}
-		
+
 		SpawnTable.getInstance().load();
 		DayNightSpawnManager.getInstance().trim().notifyChangeMode();
 		FourSepulchersManager.getInstance().init();
 		DimensionalRiftManager.getInstance();
 		RaidBossSpawnManager.getInstance();
-		
+
 		printSection("Siege");
 		SiegeManager.getInstance().getSieges();
 		CastleManager.getInstance().activateInstances();
@@ -385,47 +383,47 @@ public class GameServer
 		FortManager.getInstance().activateInstances();
 		FortSiegeManager.getInstance();
 		SiegeScheduleData.getInstance();
-		
+
 		MerchantPriceConfigTable.getInstance().updateReferences();
 		TerritoryWarManager.getInstance();
 		CastleManorManager.getInstance();
 		MercTicketManager.getInstance();
-		
+
 		QuestManager.getInstance().report();
-		
+
 		if (Config.SAVE_DROPPED_ITEM)
 		{
 			ItemsOnGroundManager.getInstance();
 		}
-		
+
 		if ((Config.AUTODESTROY_ITEM_AFTER > 0) || (Config.HERB_AUTO_DESTROY_TIME > 0))
 		{
 			ItemsAutoDestroyTaskManager.getInstance();
 		}
-		
+
 		MonsterRace.getInstance();
 		Lottery.getInstance();
-		
+
 		SevenSigns.getInstance().spawnSevenSignsNPC();
 		SevenSignsFestival.getInstance();
 		AutoSpawnHandler.getInstance();
-		
+
 		LOGGER.info("AutoSpawnHandler: Loaded " + AutoSpawnHandler.getInstance().size() + " handlers in total.");
-		
+
 		if (Config.ALLOW_WEDDING)
 		{
 			CoupleManager.getInstance();
 		}
-		
+
 		if (Config.ALT_FISH_CHAMPIONSHIP_ENABLED)
 		{
 			FishingChampionshipManager.getInstance();
 		}
-		
+
 		TaskManager.getInstance();
-		
+
 		AntiFeedManager.getInstance().registerEvent(AntiFeedManager.GAME_ID);
-		
+
 		if (Config.ALLOW_MAIL)
 		{
 			MailManager.getInstance();
@@ -434,28 +432,28 @@ public class GameServer
 		{
 			CustomMailManager.getInstance();
 		}
-		
+
 		if (EventDispatcher.getInstance().hasListener(EventType.ON_SERVER_START))
 		{
 			EventDispatcher.getInstance().notifyEventAsync(new OnServerStart());
 		}
-		
+
 		PunishmentManager.getInstance();
-		
+
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
-		
+
 		LOGGER.info("IdManager: Free ObjectID's remaining: " + IdManager.getInstance().size());
-		
+
 		if ((Config.OFFLINE_TRADE_ENABLE || Config.OFFLINE_CRAFT_ENABLE) && Config.RESTORE_OFFLINERS)
 		{
 			OfflineTraderTable.getInstance().restoreOfflineTraders();
 		}
-		
+
 		if (Config.SERVER_RESTART_SCHEDULE_ENABLED)
 		{
 			ServerRestartManager.getInstance();
 		}
-		
+
 		if (Config.PRECAUTIONARY_RESTART_ENABLED)
 		{
 			PrecautionaryRestartManager.getInstance();
@@ -479,11 +477,12 @@ public class GameServer
 		}
 		System.gc();
 		final long totalMem = Runtime.getRuntime().maxMemory() / 1048576;
-		LOGGER.info(getClass().getSimpleName() + ": 已用内存:" + getUsedMemoryMB() + " MB.总内存： " + totalMem + "MB.");
-		LOGGER.info(getClass().getSimpleName() + ": 服务器最大连接数为: " + Config.MAXIMUM_ONLINE_USERS + ".");
-		LOGGER.info(getClass().getSimpleName() + ": 服务器启动时间" + ((System.currentTimeMillis() - serverLoadStart) / 1000) + " 秒.");
+		LOGGER.info(getClass().getSimpleName() + "：已用內存 - " + getUsedMemoryMB() + " MB.總內存 - " + totalMem + "MB.");
+		LOGGER.info(getClass().getSimpleName() + "：服務器最大連接數為 - " + Config.MAXIMUM_ONLINE_USERS + ".");
+		LOGGER.info(getClass().getSimpleName() + "：服務器啟動耗費時間 - " + ((System.currentTimeMillis() - serverLoadStart) / 1000) + " 秒.");
+		LOGGER.info(getClass().getSimpleName() + "：伺服器已經啟動完畢！");
+		LOGGER.info("------------------ " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + " ------------------");
 
-		
 		final NetServer<GameClient> server = new NetServer<>(Config.GAMESERVER_HOSTNAME, Config.PORT_GAME, new PacketHandler(), GameClient::new);
 		server.setName(getClass().getSimpleName());
 		server.getNetConfig().setReadPoolSize(Config.CLIENT_READ_POOL_SIZE);
@@ -495,18 +494,18 @@ public class GameServer
 		server.getNetConfig().setFailedDecryptionLogged(Config.FAILED_DECRYPTION_LOGGED);
 		server.getNetConfig().setTcpNoDelay(Config.TCP_NO_DELAY);
 		server.start();
-		
+
 		LoginServerThread.getInstance().start();
-		
+
 		Toolkit.getDefaultToolkit().beep();
 		}
 	}
-	
+
 	public long getStartedTime()
 	{
 		return ManagementFactory.getRuntimeMXBean().getStartTime();
 	}
-	
+
 	public String getUptime()
 	{
 		final long uptime = ManagementFactory.getRuntimeMXBean().getUptime() / 1000;
@@ -515,7 +514,7 @@ public class GameServer
 		final long secs = ((uptime - (hours * 3600)) - (mins * 60));
 		if (hours > 0)
 		{
-			return hours + "小时" + mins + "分" + secs + "秒";
+			return hours + "小時" + mins + "分" + secs + "秒";
 		}
 		return mins + "分" + secs + "秒";
 	}
@@ -523,7 +522,7 @@ public class GameServer
 	public String getjiqima(){
 			String property= System.getProperty("os.name").toLowerCase();
 			Map<String,Object> codeMap=new HashMap<>(2);
-			String result = "";			
+			String result = "";
 			if(property.contains("windows")){
             String processorId = getCPUSerialNumber();
             codeMap.put("ProcessorId",processorId);
@@ -531,7 +530,7 @@ public class GameServer
             codeMap.put("SerialNumber",serialNumber);
             String codeMapStr = codeMap.toString();
             result= getSplitString(codeMapStr, "", 4);
-		   }else if(property.contains("linux")){// 获取cpu序列号
+		   }else if(property.contains("linux")){// 獲取cpu序列號
             String boisVersion = getBoisVersion();
             codeMap.put("boisVersion",boisVersion);
             System.out.println("boisVersion：" + boisVersion);
@@ -540,8 +539,8 @@ public class GameServer
             System.out.println("uuid：" + uuid);
             String codeMapStr = codeMap.toString();
             result= getSplitString(codeMapStr, "", 0);
-		   }			
-		return result;	
+		   }
+		return result;
 	 }
 
 	 public static String getCPUSerialNumber() {
@@ -553,11 +552,11 @@ public class GameServer
             String serial = sc.next();
             next = sc.next();
         } catch (IOException e) {
-            throw new RuntimeException("获取CPU序列号失败");
+            throw new RuntimeException("獲取CPU序列號失敗");
         }
         return next;
     }
-	 
+
     public static String getHardDiskSerialNumber() {
         try {
             Process process = Runtime.getRuntime().exec(new String[]{"wmic", "path", "win32_physicalmedia", "get", "serialnumber"});
@@ -566,10 +565,10 @@ public class GameServer
             String serial = sc.next();
             return sc.next();
         } catch (IOException e) {
-            throw new RuntimeException("获取硬盘序列号失败");
+            throw new RuntimeException("獲取硬盤序列號失敗");
         }
     }
-	
+
     private static String getSplitString(String str, String split, int length) {
 		String intm = "";
         int len = str.length();
@@ -592,7 +591,7 @@ public class GameServer
  		intm = intm.replace(" ", "");
       return intm;
     }
-	
+
     public static String getBoisVersion() {
         String result = "";
         Process p;
@@ -607,7 +606,7 @@ public class GameServer
             }
             br.close();
         } catch (IOException e) {
-            System.out.println("获取主板信息错误");
+            System.out.println("獲取主板信息錯誤");
         }
         return result;
     }
@@ -626,18 +625,18 @@ public class GameServer
             br.close();
             in.close();
             process.destroy();
-            System.out.println("获取序列号："+result);
+            System.out.println("獲取序列號："+result);
         } catch (Throwable e) {
             e.printStackTrace();
         }
 		return result;
-    }  
+    }
 
 
 	private void jiqimas() {
 	    StringBuffer sb1 = new StringBuffer();
-		sb1.append("当前电脑机器码:"+getjiqima()+",请联系QQ:619028749获取权限开启服务端"+"\r\n");		
-		File file = new File("D:\\机器码.txt");
+		sb1.append("當前電腦機器碼:"+getjiqima()+",請聯繫QQ:619028749獲取權限開啟服務端"+"\r\n");
+		File file = new File("D:\\機器碼.txt");
 		if (!file.exists()) {
 			try {
 				file.createNewFile();

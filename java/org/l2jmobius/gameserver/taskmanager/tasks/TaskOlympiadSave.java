@@ -42,7 +42,7 @@ public class TaskOlympiadSave extends Task
 		if (Olympiad.getInstance().inCompPeriod())
 		{
 			Olympiad.getInstance().saveOlympiadStatus();
-			LOGGER.info("Olympiad System: Data updated.");
+			LOGGER.info("Olympiad System：資料已更新！");
 		}
 	}
 	

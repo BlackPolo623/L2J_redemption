@@ -1,0 +1,441 @@
+2024.12.24 17:17:24,428	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2024.12.24 17:17:24,492	WARNING	1	org.l2jmobius.Config	[SkillDurationList]: invalid config property -> SkillDurationList 
+2024.12.24 17:17:24,507	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2024.12.24 17:17:24,523	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2024.12.24 17:17:24,667	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2024.12.24 17:17:24,667	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2024.12.24 17:17:24,668	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2024.12.24 17:17:24,676	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 64 total threads.
+2024.12.24 17:17:24,676	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 32 total threads.
+2024.12.24 17:17:24,677	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2024.12.24 17:17:24,678	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2024.12.24 17:17:24,685	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2024.12.24 17:17:24,687	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2024.12.24 17:17:24,688	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2024.12.24 17:17:24,688	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2024.12.24 17:17:24,742	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 415 files to exclude.
+2024.12.24 17:17:24,742	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2024.12.24 17:17:24,748	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Multiverse Instance created.
+2024.12.24 17:17:24,748	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Universe Instance created.
+2024.12.24 17:17:24,756	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 160 instance names.
+2024.12.24 17:17:24,942	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 126 instance templates.
+2024.12.24 17:17:24,985	INFO	1	org.l2jmobius.gameserver.model.World	World: (256 by 272) World Region Grid set up.
+2024.12.24 17:17:25,037	INFO	1	org.l2jmobius.commons.util.IXmlReader	MapRegionManager: Loaded 57 map regions.
+2024.12.24 17:17:25,046	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 13 variables.
+2024.12.24 17:17:25,046	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2024.12.24 17:17:25,063	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 180 categories.
+2024.12.24 17:17:25,067	INFO	1	org.l2jmobius.commons.util.IXmlReader	SecondaryAuthData: Loaded 328 forbidden passwords.
+2024.12.24 17:17:25,067	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2024.12.24 17:17:26,055	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 162 effect handlers.
+2024.12.24 17:17:26,065	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+2024.12.24 17:17:26,351	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 19514 Class Skills for 103 class skill trees.
+2024.12.24 17:17:26,352	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 76 sub-class skills.
+2024.12.24 17:17:26,352	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 77 transfer skills for 3 transfer skill trees.
+2024.12.24 17:17:26,352	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2024.12.24 17:17:26,352	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 3 collect skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 74 clan skills, 44 for clan and 30 residential.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 18 sub-pledge skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 32 transform skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 8 noble skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 5 hero skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master skills.
+2024.12.24 17:17:26,355	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master aura skills.
+2024.12.24 17:17:28,640	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,640	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,640	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,641	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,641	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,641	WARNING	1	org.l2jmobius.gameserver.model.effects.AbstractEffect	DefenceTrait: must have parameters.
+2024.12.24 17:17:28,642	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 66015 Skill templates from XML files.
+2024.12.24 17:17:28,672	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 881 skills.
+2024.12.24 17:17:28,673	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2024.12.24 17:17:29,038	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Highest item id used: 100085
+2024.12.24 17:17:29,041	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 11521 etc items.
+2024.12.24 17:17:29,041	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 3918 armor items.
+2024.12.24 17:17:29,041	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 3988 weapon items.
+2024.12.24 17:17:29,041	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 19427 items in total.
+2024.12.24 17:17:29,054	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 4 item group templates.
+2024.12.24 17:17:29,054	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2024.12.24 17:17:29,058	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 71 enchant scrolls.
+2024.12.24 17:17:29,058	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 20 support items.
+2024.12.24 17:17:29,396	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 25005 options.
+2024.12.24 17:17:29,403	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemOptionsData: Loaded 31 items and 1261 options.
+2024.12.24 17:17:29,406	INFO	1	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 30 elemental attribute items.
+2024.12.24 17:17:29,411	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemHPBonusData: Loaded 6 enchant HP bonuses.
+2024.12.24 17:17:29,412	INFO	1	org.l2jmobius.gameserver.data.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2024.12.24 17:17:29,771	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Folder E:\L2_Mobius_85\SRC\dist\game\data\buylists\custom doesn't exist!
+2024.12.24 17:17:29,771	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 759 buyLists.
+2024.12.24 17:17:29,918	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 10 is less than sell price 500000 at entry 15 of multisell 60005.
+2024.12.24 17:17:29,918	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100 is less than sell price 1778000 at entry 24 of multisell 60005.
+2024.12.24 17:17:29,919	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100 is less than sell price 958500 at entry 25 of multisell 60005.
+2024.12.24 17:17:29,943	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100 is less than sell price 17500 at entry 10 of multisell 95501.
+2024.12.24 17:17:29,943	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1000 is less than sell price 2000000 at entry 11 of multisell 95501.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 3000000 at entry 3 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 1500000 at entry 4 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 17500000 at entry 6 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 200000 at entry 7 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 125000 at entry 8 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 10000000 at entry 9 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 10000000 at entry 10 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 10000000 at entry 11 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 100000 is less than sell price 10000000 at entry 12 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 5000 is less than sell price 15000 at entry 17 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 5000 is less than sell price 50000 at entry 18 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 5000 is less than sell price 150000 at entry 19 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 5000 is less than sell price 500000 at entry 20 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 50000 is less than sell price 150000 at entry 27 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 50000 is less than sell price 450000 at entry 28 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 50000 is less than sell price 750000 at entry 29 of multisell 95502.
+2024.12.24 17:17:29,944	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 50000 is less than sell price 1250000 at entry 30 of multisell 95502.
+2024.12.24 17:17:29,972	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 1 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 2 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 3 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 4 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 5 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 6 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 7 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 8 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 9 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 10 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 11 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 12 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 13 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 14 of multisell 600014.
+2024.12.24 17:17:29,973	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1336100 is less than sell price 3340250 at entry 15 of multisell 600014.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 1 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 2 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 3 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 4 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 5 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 6 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 7 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 8 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 9 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 10 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 11 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 12 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 13 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 14 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 15 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 16 of multisell 88000006.
+2024.12.24 17:17:29,991	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 17 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 18 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 19 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 20 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 21 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 22 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 23 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 24 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 25 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 26 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 27 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 28 of multisell 88000006.
+2024.12.24 17:17:29,992	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 29 of multisell 88000006.
+2024.12.24 17:17:29,993	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 30 of multisell 88000006.
+2024.12.24 17:17:29,993	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 20000000 is less than sell price 21379700 at entry 31 of multisell 88000006.
+2024.12.24 17:17:29,995	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24123 in list: 80102
+2024.12.24 17:17:29,995	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24127 in list: 80102
+2024.12.24 17:17:29,995	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80102
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80102
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80102
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24122 in list: 80102
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33054 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33059 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33064 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33050 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33055 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33060 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33051 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33056 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33061 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33052 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33057 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33062 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33053 in list: 95505
+2024.12.24 17:17:29,996	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33058 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33063 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33069 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33074 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33079 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33065 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33070 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33075 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33066 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33071 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33076 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33067 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33072 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33062 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33077 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33068 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33073 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 33078 in list: 95505
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 23000 in list: 95507
+2024.12.24 17:17:29,997	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24123 in list: 80152
+2024.12.24 17:17:29,998	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24127 in list: 80152
+2024.12.24 17:17:29,998	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80152
+2024.12.24 17:17:29,998	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80152
+2024.12.24 17:17:29,998	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80152
+2024.12.24 17:17:29,998	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24122 in list: 80152
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24123 in list: 80202
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24127 in list: 80202
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80202
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80202
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80202
+2024.12.24 17:17:29,999	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24122 in list: 80202
+2024.12.24 17:17:30,001	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24123 in list: 80252
+2024.12.24 17:17:30,001	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24127 in list: 80252
+2024.12.24 17:17:30,001	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80252
+2024.12.24 17:17:30,001	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80252
+2024.12.24 17:17:30,002	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24126 in list: 80252
+2024.12.24 17:17:30,002	WARNING	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 24122 in list: 80252
+2024.12.24 17:17:30,005	INFO	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 285 multisell lists.
+2024.12.24 17:17:30,028	INFO	1	org.l2jmobius.commons.util.IXmlReader	RecipeData: Loaded 1000 recipes.
+2024.12.24 17:17:30,045	INFO	1	org.l2jmobius.commons.util.IXmlReader	ArmorSetData: Loaded 213 armor sets.
+2024.12.24 17:17:30,050	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2024.12.24 17:17:30,051	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2024.12.24 17:17:30,051	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2024.12.24 17:17:30,065	INFO	1	org.l2jmobius.commons.util.IXmlReader	HennaData: Loaded 180 henna data.
+2024.12.24 17:17:30,066	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2024.12.24 17:17:30,068	INFO	1	org.l2jmobius.commons.util.IXmlReader	ClassListData: Loaded 103 class data.
+2024.12.24 17:17:30,071	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialEquipmentData: Loaded 11 initial equipment data.
+2024.12.24 17:17:30,074	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 5 initial global shortcut data.
+2024.12.24 17:17:30,074	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 4 initial shortcut data.
+2024.12.24 17:17:30,074	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 0 macro presets.
+2024.12.24 17:17:30,076	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 86 levels.
+2024.12.24 17:17:30,076	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 85.
+2024.12.24 17:17:30,076	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 85.
+2024.12.24 17:17:30,078	INFO	1	org.l2jmobius.commons.util.IXmlReader	KarmaData: Loaded 85 karma modifiers.
+2024.12.24 17:17:30,078	INFO	1	org.l2jmobius.commons.util.IXmlReader	HitConditionBonusData: Loaded hit condition bonuses.
+2024.12.24 17:17:30,198	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 103 character templates.
+2024.12.24 17:17:30,198	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 52530 level up gain records.
+2024.12.24 17:17:30,199	INFO	1	org.l2jmobius.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 0 char names.
+2024.12.24 17:17:30,202	INFO	1	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 10 access levels.
+2024.12.24 17:17:30,205	INFO	1	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 438 access commands.
+2024.12.24 17:17:30,206	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossPointsManager	RaidBossPointsManager: Loaded 0 Characters Raid Points.
+2024.12.24 17:17:30,340	INFO	1	org.l2jmobius.commons.util.IXmlReader	PetDataTable: Loaded 49 pets.
+2024.12.24 17:17:30,342	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2024.12.24 17:17:30,345	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2024.12.24 17:17:30,345	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2024.12.24 17:17:30,348	INFO	1	org.l2jmobius.gameserver.instancemanager.CHSiegeManager	CHSiegeManager: Loaded 6 conquerable clan halls.
+2024.12.24 17:17:30,358	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Loaded 38 auction(s)
+2024.12.24 17:17:30,358	INFO	1	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 0 clan halls
+2024.12.24 17:17:30,358	INFO	1	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 38 free clan halls
+2024.12.24 17:17:30,359	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2024.12.24 17:17:30,366	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 0 regions.
+2024.12.24 17:17:30,367	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2024.12.24 17:17:30,385	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 17 by 18 Zone Region Grid set up.
+2024.12.24 17:17:31,638	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 10461 NPCs.
+2024.12.24 17:17:31,648	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 33 custom NPCs.
+2024.12.24 17:17:31,652	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillLearnData: Loaded 256 skill learn data.
+2024.12.24 17:17:31,656	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2024.12.24 17:17:31,656	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 巨蚁女王(29001) status is 0.
+2024.12.24 17:17:31,656	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 核心(29006) status is 0.
+2024.12.24 17:17:31,656	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 奥尔芬(29014) status is 0.
+2024.12.24 17:17:31,656	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 巴温(29020) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 巴拉卡斯(29028) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 安塔瑞斯(29068) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 巴尔勒(33349) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 林德拜尔(33350) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: 芙蕾雅(33351) status is 0.
+2024.12.24 17:17:31,657	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 11 Instances
+2024.12.24 17:17:31,738	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 30 zone classes and 2841 zones.
+2024.12.24 17:17:31,741	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200105.
+2024.12.24 17:17:31,782	INFO	1	org.l2jmobius.commons.util.IXmlReader	DoorData: Loaded 1301 doors.
+2024.12.24 17:17:31,788	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2024.12.24 17:17:31,789	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2024.12.24 17:17:31,790	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2024.12.24 17:17:32,585	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 123 walking routes.
+2024.12.24 17:17:32,590	INFO	1	org.l2jmobius.commons.util.IXmlReader	StaticObjectData: Loaded 51 static object templates.
+2024.12.24 17:17:32,596	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32320.
+2024.12.24 17:17:32,597	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 1 on 17:00:00 27.12.24 for instance 32320
+2024.12.24 17:17:32,598	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32321.
+2024.12.24 17:17:32,599	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 2 on 17:00:00 30.12.24 for instance 32321
+2024.12.24 17:17:32,599	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32322.
+2024.12.24 17:17:32,599	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 3 on 17:00:00 25.12.24 for instance 32322
+2024.12.24 17:17:32,599	INFO	1	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Loaded 3 instance(s).
+2024.12.24 17:17:32,604	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles
+2024.12.24 17:17:32,607	INFO	1	org.l2jmobius.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+2024.12.24 17:17:32,607	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 12 Grand Boss Zones
+2024.12.24 17:17:32,608	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2024.12.24 17:17:32,612	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2024.12.24 17:17:32,612	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2024.12.24 17:17:32,612	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 7 days, 18 hours and 42 mins until period ends.
+2024.12.24 17:17:32,612	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 6 days, 20 hours and 6 mins.
+2024.12.24 17:17:32,612	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2024.12.24 17:17:32,614	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 0 hours and 43 mins.
+2024.12.24 17:17:32,620	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Tue Dec 24 18:00:32 CST 2024
+2024.12.24 17:17:32,621	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2024.12.24 17:17:32,621	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2024.12.24 17:17:32,621	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------=[ Seven Signs ]
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Dec 30 18:00:32 CST 2024
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 6 days, 0 hours and 42 mins.
+2024.12.24 17:17:32,623	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2024.12.24 17:17:32,624	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2024.12.24 17:17:33,769	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 10.544 megabytes on 22346 files loaded.
+2024.12.24 17:17:33,771	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2024.12.24 17:17:33,773	INFO	1	org.l2jmobius.gameserver.data.sql.TeleportLocationTable	TeleportLocationTable: Loaded 957 teleport location templates.
+2024.12.24 17:17:33,775	INFO	1	org.l2jmobius.gameserver.data.xml.UIData	UIData: Loaded 4 keys 5 categories.
+2024.12.24 17:17:33,810	INFO	1	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 33960 augmentations.
+2024.12.24 17:17:33,810	INFO	1	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 2754 accessory augmentations.
+2024.12.24 17:17:33,813	INFO	1	org.l2jmobius.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded : 2 cursed weapon(s).
+2024.12.24 17:17:33,942	INFO	1	org.l2jmobius.commons.util.IXmlReader	TransformData: Loaded 111 transform templates.
+2024.12.24 17:17:33,948	INFO	1	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2024.12.24 17:17:33,949	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2024.12.24 17:17:33,951	INFO	1	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2024.12.24 17:17:33,951	INFO	1	org.l2jmobius.gameserver.instancemanager.SoDManager	Seed of Destruction Manager: Loaded. Current stage is: 1
+2024.12.24 17:17:33,951	INFO	1	org.l2jmobius.gameserver.instancemanager.SoIManager	Seed of Infinity Manager: Loaded. Current stage is: 1
+2024.12.24 17:17:33,953	INFO	1	org.l2jmobius.gameserver.data.xml.suijizz	随机制作: 读取 31 个物品制作数据.
+2024.12.24 17:17:33,954	INFO	1	org.l2jmobius.gameserver.data.xml.suijizz	随机制作: 读取 31 个物品制作数据.
+2024.12.24 17:17:33,954	INFO	1	org.l2jmobius.gameserver.GameServer	Loading server scripts...
+2024.12.24 17:17:35,156	INFO	1	handlers.MasterHandler	Loading Handlers...
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 443 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 47 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 19 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 30 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 17 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 11 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2024.12.24 17:17:35,282	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2024.12.24 17:17:38,263	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Handy's Block Checker Event is enabled
+2024.12.24 17:17:38,268	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Fantasy Isle: Parade starting at 2024/12/24 17:20 and is scheduled each next 1 hours.
+2024.12.24 17:17:38,273	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Fantasy Isle: MC show script starting at 25/12/2024 07:02:38 and is scheduled each next 4 hours.
+2024.12.24 17:17:38,290	INFO	1	ai.areas.Gracia.GraciaLoader	GraciaLoader: Loading Gracia related scripts.
+2024.12.24 17:17:38,504	INFO	1	ai.areas.Hellbound.HellboundLoader	HellboundLoader: Loading Hellbound related scripts:
+2024.12.24 17:17:38,505	INFO	1	org.l2jmobius.commons.util.IXmlReader	HellboundPointData: Loaded 47 trust point reward data.
+2024.12.24 17:17:38,515	INFO	1	org.l2jmobius.commons.util.IXmlReader	HellboundSpawns: Loaded 598 Hellbound spawns.
+2024.12.24 17:17:38,516	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Level: 11
+2024.12.24 17:17:38,516	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Trust: 4000000
+2024.12.24 17:17:38,516	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Status: unlocked.
+2024.12.24 17:17:38,564	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 187 Instances
+2024.12.24 17:17:38,565	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2024.12.24 17:17:38,635	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcBuffersData: Loaded 33 buffers data.
+2024.12.24 17:17:38,661	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Devastated Castle siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,662	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Bandit StrongHold siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,664	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Beast Farm siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,665	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Fortress of Resistance siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,666	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Fortress of the Dead siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,667	CONFIG	1	org.l2jmobius.gameserver.model.events.AbstractScript	Rainbow Springs siege scheduled for Tue Jan 07 12:00:00 CST 2025.
+2024.12.24 17:17:38,701	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 芙蕾雅庆典 has passed... Ignored 
+2024.12.24 17:17:38,703	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 活力的礼物 has passed... Ignored 
+2024.12.24 17:17:38,704	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 纪念章活动 has passed... Ignored 
+2024.12.24 17:17:38,705	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 收集组合文字 has passed... Ignored 
+2024.12.24 17:17:38,706	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 爱你守门人 has passed... Ignored 
+2024.12.24 17:17:38,707	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 余义的强化 has passed... Ignored 
+2024.12.24 17:17:38,712	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 救圣诞老人 has passed... Ignored 
+2024.12.24 17:17:38,713	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event 情人节活动 has passed... Ignored 
+2024.12.24 17:17:38,715	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event Watermelon Ninja has passed... Ignored 
+2024.12.24 17:17:38,735	INFO	1	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 26 spawn zones data.
+2024.12.24 17:17:38,735	INFO	1	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 94 spawns data.
+2024.12.24 17:17:38,923	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	[EnhanceYourWeapon] Loaded 54 Soul Crystal data.
+2024.12.24 17:17:38,923	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	[EnhanceYourWeapon] Loaded 240 npc Leveling info data.
+2024.12.24 17:17:38,956	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	TerritoryWarSuperClass: Siege date: Sun Jan 05 22:00:00 CST 2025
+2024.12.24 17:17:38,969	INFO	1	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Initializing spawns...
+2024.12.24 17:17:39,520	INFO	48	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Spawned 424 NPCs.
+2024.12.24 17:17:39,705	INFO	1	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: 46196 spawns have been initialized!
+2024.12.24 17:17:39,706	INFO	1	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2024.12.24 17:17:39,709	INFO	1	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2024.12.24 17:17:39,711	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 20 Mysterious-Box spawns.
+2024.12.24 17:17:39,721	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Physical type monsters spawns.
+2024.12.24 17:17:39,728	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Magical type monsters spawns.
+2024.12.24 17:17:39,731	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 92 Church of duke monsters spawns.
+2024.12.24 17:17:39,733	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 68 Emperor's grave NPC spawns.
+2024.12.24 17:17:39,733	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Conquerors' Sepulcher Manager
+2024.12.24 17:17:39,733	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Emperors' Sepulcher Manager
+2024.12.24 17:17:39,733	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Great Sages' Sepulcher Manager
+2024.12.24 17:17:39,734	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Judges' Sepulcher Manager
+2024.12.24 17:17:39,734	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: Beginning in Attack time
+2024.12.24 17:17:39,736	INFO	1	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2024.12.24 17:17:39,738	INFO	1	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2024.12.24 17:17:39,738	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2024.12.24 17:17:39,744	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2024.12.24 17:17:39,744	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Jan 05 16:00:00 CST 2025
+2024.12.24 17:17:39,745	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Jan 05 20:00:00 CST 2025
+2024.12.24 17:17:39,745	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Jan 05 16:00:00 CST 2025
+2024.12.24 17:17:39,745	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Jan 05 20:00:00 CST 2025
+2024.12.24 17:17:39,745	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Jan 05 16:00:00 CST 2025
+2024.12.24 17:17:39,745	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Jan 05 20:00:00 CST 2025
+2024.12.24 17:17:39,746	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Jan 05 16:00:00 CST 2025
+2024.12.24 17:17:39,746	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Jan 05 20:00:00 CST 2025
+2024.12.24 17:17:39,746	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Jan 05 16:00:00 CST 2025
+2024.12.24 17:17:39,768	INFO	1	org.l2jmobius.gameserver.instancemanager.FortManager	FortManager: Loaded 21 fortress
+2024.12.24 17:17:39,800	INFO	1	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Loaded 258 seeds.
+2024.12.24 17:17:39,802	INFO	1	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Manor data loaded.
+2024.12.24 17:17:39,803	INFO	1	org.l2jmobius.gameserver.instancemanager.MercTicketManager	MercTicketManager: Loaded 0 Mercenary Tickets
+2024.12.24 17:17:39,803	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 526 quests.
+2024.12.24 17:17:39,803	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 308 scripts.
+2024.12.24 17:17:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.games.MonsterRace	MonsterRace: loaded 0 records, currently on race #1
+2024.12.24 17:17:39,819	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2024.12.24 17:17:39,819	INFO	1	org.l2jmobius.gameserver.GameServer	AutoSpawnHandler: Loaded 129 handlers in total.
+2024.12.24 17:17:39,823	INFO	1	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 12 Tasks.
+2024.12.24 17:17:39,824	INFO	1	org.l2jmobius.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2024.12.24 17:17:39,825	INFO	1	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2024.12.24 17:17:39,826	INFO	1	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1878995862
+2024.12.24 17:17:39,826	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2024.12.24 17:17:39,827	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2024.12.24 17:17:40,014	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: 已用内存:598 MB.总内存： 4096MB.
+2024.12.24 17:17:40,015	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: 服务器最大连接数为: 2000.
+2024.12.24 17:17:40,015	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: 服务器启动时间16 秒.
+2024.12.24 17:17:40,019	INFO	203	org.l2jmobius.commons.network.NetServer	GameServer: Listening on port 7778 for incoming connections.
+2024.12.24 17:17:40,022	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2024.12.24 17:17:40,076	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2024.12.24 17:25:59,842	INFO	44	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 13 variables.
+2024.12.24 17:47:39,837	INFO	85	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2024.12.24 17:55:59,833	INFO	97	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 13 variables.
+2024.12.24 18:00:32,614	INFO	86	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Olympiad Games have started.
+2024.12.24 18:00:32,661	INFO	86	org.l2jmobius.gameserver.model.olympiad.OlympiadGameManager	Olympiad System: Loaded 160 stadiums.
+2024.12.24 18:02:39,824	INFO	69	org.l2jmobius.gameserver.taskmanager.tasks.TaskOlympiadSave	Olympiad System: Data updated.
+2024.12.24 18:03:36,822	WARNING	35	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Restart in 1 seconds!
+2024.12.24 18:03:37,825	WARNING	8504	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. restarting NOW!
+2024.12.24 18:03:37,825	INFO	8504	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(0ms).
+2024.12.24 18:03:37,825	INFO	8504	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(0ms).
+2024.12.24 18:03:37,825	INFO	8504	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2024.12.24 18:03:37,826	INFO	8504	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(1ms).
+2024.12.24 18:03:37,826	INFO	8504	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2024.12.24 18:03:37,826	INFO	8504	org.l2jmobius.gameserver.Shutdown	GM restart received. Restarting NOW!
+2024.12.24 18:03:37,839	INFO	8504	org.l2jmobius.gameserver.Shutdown	SevenSignsFestival: Festival data saved(13ms).
+2024.12.24 18:03:37,839	INFO	8504	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs data saved(0ms).
+2024.12.24 18:03:37,840	INFO	8504	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs status saved(1ms).
+2024.12.24 18:03:37,917	INFO	8504	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(77ms).
+2024.12.24 18:03:37,922	INFO	8504	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(5ms).
+2024.12.24 18:03:37,922	INFO	8504	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2024.12.24 18:03:37,923	INFO	8504	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(1ms).
+2024.12.24 18:03:37,923	INFO	8504	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(0ms).
+2024.12.24 18:03:37,923	INFO	8504	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(0ms).
+2024.12.24 18:03:37,923	INFO	8504	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(0ms).
+2024.12.24 18:03:37,924	INFO	8504	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(1ms).
+2024.12.24 18:03:37,924	CONFIG	8504	org.l2jmobius.gameserver.model.events.AbstractScript	FortressOfTheDead: Successfully saved attackers to database.
+2024.12.24 18:03:37,924	CONFIG	8504	org.l2jmobius.gameserver.model.events.AbstractScript	DevastatedCastle: Successfully saved attackers to database.
+2024.12.24 18:03:37,924	CONFIG	8504	org.l2jmobius.gameserver.model.events.AbstractScript	BanditStronghold: Successfully saved attackers to database.
+2024.12.24 18:03:37,924	CONFIG	8504	org.l2jmobius.gameserver.model.events.AbstractScript	FortressOfResistance: Successfully saved attackers to database.
+2024.12.24 18:03:37,924	CONFIG	8504	org.l2jmobius.gameserver.model.events.AbstractScript	WildBeastReserve: Successfully saved attackers to database.
+2024.12.24 18:03:37,924	INFO	8504	org.l2jmobius.gameserver.Shutdown	CHSiegeManager: Siegable hall attacker lists saved!
+2024.12.24 18:03:37,924	INFO	8504	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(0ms).
+2024.12.24 18:03:37,929	INFO	8504	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 13 variables.
+2024.12.24 18:03:37,930	INFO	8504	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(5ms).
+2024.12.24 18:03:37,930	INFO	8504	org.l2jmobius.gameserver.Shutdown	Fishing Championship data has been saved.
+2024.12.24 18:03:37,933	INFO	8504	org.l2jmobius.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2024.12.24 18:03:37,933	INFO	8504	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2024.12.24 18:03:42,949	INFO	8504	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(13ms).
+2024.12.24 18:03:42,949	INFO	8504	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.
