@@ -400,3 +400,8 @@
 2024.12.24 17:05:54,480	INFO	206	org.l2jmobius.commons.network.NetServer	GameServer: Listening on port 7778 for incoming connections.
 2024.12.24 17:05:54,483	INFO	207	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
 2024.12.24 17:05:54,541	INFO	207	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2024.12.24 17:11:49,962	WARNING	35	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 1 seconds!
+2024.12.24 17:11:50,963	WARNING	1277	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2024.12.24 17:11:52,248	WARNING	207	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2024.12.24 17:11:57,249	INFO	207	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2024.12.24 17:11:57,249	WARNING	207	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...

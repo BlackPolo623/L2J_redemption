@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68001cfb-eb59-4537-939e-1ea62f582b90" name="更改" comment="推送全檔案" />
+    <list default="true" id="68001cfb-eb59-4537-939e-1ea62f582b90" name="更改" comment="資料庫更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2_Mobius_85.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L2_Mobius_85.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Database/Database_Installer_GS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/Database/Database_Installer_GS.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Database/Database_Installer_LS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/Database/Database_Installer_LS.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/GameServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/GameServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/LoginServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/LoginServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/org/l2jmobius/gameserver/ui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/org/l2jmobius/gameserver/ui/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/org/l2jmobius/loginserver/ui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/org/l2jmobius/loginserver/ui/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/libs/GameServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/libs/GameServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/libs/LoginServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/libs/LoginServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/org/l2jmobius/gameserver/ui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/org/l2jmobius/gameserver/ui/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/org/l2jmobius/loginserver/ui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/org/l2jmobius/loginserver/ui/Gui.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,24 +31,29 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2qecOePi5eFjxCOEJw5sm7RRnbK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/L2_Mobius_85&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20116279&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/L2_Mobius_85",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.20116279",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735027732084</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="資料庫更新">
+      <option name="closed" value="true" />
+      <created>1735031284184</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735031284184</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,8 +127,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="推送" />
     <MESSAGE value="推送全檔案" />
-    <option name="LAST_COMMIT_MESSAGE" value="推送全檔案" />
+    <MESSAGE value="資料庫更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="資料庫更新" />
   </component>
 </project>

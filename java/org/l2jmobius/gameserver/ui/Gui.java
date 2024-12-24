@@ -100,7 +100,7 @@ public class Gui {
 	}
 
 	private void createMainFrame() {
-		frame = new JFrame("Lineage II - GameServer");
+		frame = new JFrame("救贖天堂2 - 盟戰長久服版本 - 遊戲伺服器");
 		frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		frame.setBackground(BACKGROUND_COLOR);
 		frame.setJMenuBar(createMenuBar());
