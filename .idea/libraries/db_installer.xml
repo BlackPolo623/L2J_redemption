@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="db_installer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/db_installer/Database_Installer_LS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/db_installer/Database_Installer_GS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
