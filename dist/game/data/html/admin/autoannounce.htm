@@ -1,0 +1,50 @@
+<html><title>公告管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>循环公告选项</center></td>
+<td><Button value="返回" action="bypass -h admin_admin7" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<font color="0EE280"><center>【 新增循环公告 】</center></font><br1>
+<table width=270 cellpadding="4">
+<tr>
+<td align="right" fixwidth="220">初始延迟时间〔秒〕：</td>
+<td align="left"fixwidth="200"><edit var="autoann_initial" width=120></td>
+</tr>
+<tr>
+<td align="right" fixwidth="220">公告循环时间〔秒〕：</td>
+<td align="left" fixwidth="200"><edit var="autoann_delay" width=120></td>
+</tr>
+<tr>
+<td align="right" fixwidth="220">重复次数〔-1无限次〕：</td>
+<td align="left" fixwidth="200"><edit var="autoann_repeat" width=120></td>
+</tr>
+<tr>
+<td align="right" fixwidth="220">关键：</td>
+<td align="left" fixwidth="200"><combobox var="autoann_critical" list="false;true" width=120></td>
+</tr>
+<tr>
+<td align="right" fixwidth="220">关键：</td>
+<td align="left" fixwidth="200"><combobox var="autoann_critical" list="false;true" width=120></td>
+</tr></table>
+<br>
+
+<table width=270>
+<tr>
+<td>内容：</td>
+</tr></table>
+<multiedit var="autoann_memo" width=250 height=50>
+<br>
+<center>
+<table><tr>
+<td><Button value="新增公告" action="bypass -h admin_add_autoann $autoann_initial $autoann_delay $autoann_repeat $autoann_critical $autoann_memo" width=70 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="重读载入" action="bypass -h admin_reload_autoann" width=70 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table></center>
+<br>
+%announces%
+</center>
+<img src="L2UI.SquareBlank" width="260" height="25">
+</body></html>

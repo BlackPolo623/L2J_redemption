@@ -1,0 +1,44 @@
+<html><title>要塞战管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>要塞战操作介面</center></td>
+<td><button value="返回" action="bypass -h admin_fortsiege" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+要塞：%fortName%<br>
+<table width=260><tr>
+<td><button value="加入攻方" action="bypass -h admin_add_fortattacker %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="加入防方" action="bypass -h admin_add_fortdefender %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="攻城名单" action="bypass -h admin_list_fortsiege_clans %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="清除名单" action="bypass -h admin_clear_fortsiege_list %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="移动守方" action="bypass -h admin_move_fortdefenders %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="召唤城门" action="bypass -h admin_spawn_fortdoors %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="开始攻城" action="bypass -h admin_startfortsiege %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="结束攻城" action="bypass -h admin_endfortsiege %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="给予城堡" action="bypass -h admin_setfort %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="移除城堡" action="bypass -h admin_removefort %fortId%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td width=60>NPC ID：</td><td><edit var="value" width=60></td><td><button value="添加警卫" action="bypass -h admin_add_guard %fortId% $value" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="123">
+</body></html>

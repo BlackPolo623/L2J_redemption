@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+	<!-- S84 Elegia Armor Sets -->
+	<set id="188">
+		<chest id="15575" /> <!-- Elegia Breastplate -->
+		<legs id="15578" /> <!-- Elegia Gaiter -->
+		<head id="15572" /> <!-- Elegia Helmet -->
+		<gloves id="15581" /> <!-- Elegia Gauntlet -->
+		<feet id="15584" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8403" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="189">
+		<chest id="15576" /> <!-- Elegia Leather Breastplate -->
+		<legs id="15579" /> <!-- Elegia Leather Legging -->
+		<head id="15573" /> <!-- Elegia Leather Helmet -->
+		<gloves id="15582" /> <!-- Elegia Leather Gloves -->
+		<feet id="15585" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8404" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="190">
+		<chest id="15577" /> <!-- Elegia Tunic -->
+		<legs id="15580" /> <!-- Elegia Stockings -->
+		<head id="15574" /> <!-- Elegia Circlet -->
+		<gloves id="15583" /> <!-- Elegia Gloves -->
+		<feet id="15586" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8405" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+
+
+
+	<set id="211">
+		<chest id="33080" /> <!-- Elegia Breastplate -->
+		<legs id="33081" /> <!-- Elegia Gaiter -->
+		<head id="33084" /> <!-- Elegia Helmet -->
+		<gloves id="33082" /> <!-- Elegia Gauntlet -->
+		<feet id="33083" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53022" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="6" />
+		<con val="-1" />
+	</set>
+	<set id="212">
+		<chest id="33085" /> <!-- Elegia Leather Breastplate -->
+		<legs id="33086" /> <!-- Elegia Leather Legging -->
+		<head id="33089" /> <!-- Elegia Leather Helmet -->
+		<gloves id="33087" /> <!-- Elegia Leather Gloves -->
+		<feet id="33088" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53023" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="5" />
+		<con val="-1" />
+		<dex val="2" />
+	</set>
+	<set id="213">
+		<chest id="33090" /> <!-- Elegia Tunic -->
+		<legs id="33091" /> <!-- Elegia Stockings -->
+		<head id="33094" /> <!-- Elegia Circlet -->
+		<gloves id="33092" /> <!-- Elegia Gloves -->
+		<feet id="33093" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53024" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="4" />
+		<men val="1" />
+		<wit val="4" />
+	</set>
+
+
+	
+	<set id="214">
+		<chest id="33095" /> <!-- Elegia Breastplate -->
+		<legs id="33096" /> <!-- Elegia Gaiter -->
+		<head id="33099" /> <!-- Elegia Helmet -->
+		<gloves id="33097" /> <!-- Elegia Gauntlet -->
+		<feet id="33098" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53025" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="7" />
+		<con val="2" />
+	</set>
+	<set id="215">
+		<chest id="33100" /> <!-- Elegia Leather Breastplate -->
+		<legs id="33101" /> <!-- Elegia Leather Legging -->
+		<head id="33104" /> <!-- Elegia Leather Helmet -->
+		<gloves id="33102" /> <!-- Elegia Leather Gloves -->
+		<feet id="33103" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53026" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="6" />
+		<con val="1" />
+		<dex val="3" />
+	</set>
+	<set id="216">
+		<chest id="33105" /> <!-- Elegia Tunic -->
+		<legs id="33106" /> <!-- Elegia Stockings -->
+		<head id="33109" /> <!-- Elegia Circlet -->
+		<gloves id="33107" /> <!-- Elegia Gloves -->
+		<feet id="33108" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53027" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="5" />
+		<men val="2" />
+		<wit val="5" />
+	</set>
+	<set id="217">
+		<chest id="27095" /> <!-- Elegia Breastplate -->
+		<legs id="27096" /> <!-- Elegia Gaiter -->
+		<head id="27099" /> <!-- Elegia Helmet -->
+		<gloves id="27097" /> <!-- Elegia Gauntlet -->
+		<feet id="27098" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53029" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="9" />
+		<con val="4" />
+	</set>
+	<set id="218">
+		<chest id="27100" /> <!-- Elegia Leather Breastplate -->
+		<legs id="27101" /> <!-- Elegia Leather Legging -->
+		<head id="27104" /> <!-- Elegia Leather Helmet -->
+		<gloves id="27102" /> <!-- Elegia Leather Gloves -->
+		<feet id="27103" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53030" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="8" />
+		<con val="3" />
+		<dex val="5" />
+	</set>
+	<set id="219">
+		<chest id="27105" /> <!-- Elegia Tunic -->
+		<legs id="27106" /> <!-- Elegia Stockings -->
+		<head id="27109" /> <!-- Elegia Circlet -->
+		<gloves id="27107" /> <!-- Elegia Gloves -->
+		<feet id="27108" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53031" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="7" />
+		<men val="4" />
+		<wit val="7" />
+	</set>
+	<set id="220">
+		<chest id="28095" /> <!-- Elegia Breastplate -->
+		<legs id="28096" /> <!-- Elegia Gaiter -->
+		<head id="28099" /> <!-- Elegia Helmet -->
+		<gloves id="28097" /> <!-- Elegia Gauntlet -->
+		<feet id="28098" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53032" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="11" />
+		<con val="6" />
+	</set>
+	<set id="223">
+		<chest id="28100" /> <!-- Elegia Leather Breastplate -->
+		<legs id="28101" /> <!-- Elegia Leather Legging -->
+		<head id="28104" /> <!-- Elegia Leather Helmet -->
+		<gloves id="28102" /> <!-- Elegia Leather Gloves -->
+		<feet id="28103" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53033" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="10" />
+		<con val="5" />
+		<dex val="7" />
+	</set>
+	<set id="224">
+		<chest id="28105" /> <!-- Elegia Tunic -->
+		<legs id="28106" /> <!-- Elegia Stockings -->
+		<head id="28109" /> <!-- Elegia Circlet -->
+		<gloves id="28107" /> <!-- Elegia Gloves -->
+		<feet id="28108" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53034" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="9" />
+		<men val="6" />
+		<wit val="9" />
+	</set>
+	<set id="225">
+		<chest id="29095" /> <!-- Elegia Breastplate -->
+		<legs id="29096" /> <!-- Elegia Gaiter -->
+		<head id="29099" /> <!-- Elegia Helmet -->
+		<gloves id="29097" /> <!-- Elegia Gauntlet -->
+		<feet id="29098" /> <!-- Elegia Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53035" level="1" /> <!-- Elegia Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="13" />
+		<con val="8" />
+	</set>
+	<set id="226">
+		<chest id="29100" /> <!-- Elegia Leather Breastplate -->
+		<legs id="29101" /> <!-- Elegia Leather Legging -->
+		<head id="29104" /> <!-- Elegia Leather Helmet -->
+		<gloves id="29102" /> <!-- Elegia Leather Gloves -->
+		<feet id="29103" /> <!-- Elegia Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53036" level="1" /> <!-- Elegia Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="12" />
+		<con val="7" />
+		<dex val="9" />
+	</set>
+	<set id="227">
+		<chest id="29105" /> <!-- Elegia Tunic -->
+		<legs id="29106" /> <!-- Elegia Stockings -->
+		<head id="29109" /> <!-- Elegia Circlet -->
+		<gloves id="29107" /> <!-- Elegia Gloves -->
+		<feet id="29108" /> <!-- Elegia Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="53037" level="1" /> <!-- Elegia Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="11" />
+		<men val="8" />
+		<wit val="11" />
+	</set>
+
+	
+</list>

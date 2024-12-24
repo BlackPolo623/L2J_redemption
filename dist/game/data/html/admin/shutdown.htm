@@ -1,0 +1,40 @@
+<html><title>系统管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>关闭伺服器</center></td>
+<td><button value="返回" action="bypass -h admin_admin4" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td width=60>关闭时间：</td>
+<td><edit var="qbox" width=120 height=11></td>
+<td><button value="帮助" action="bypass -h admin_html help/shutdown.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+<table width=260><tr>
+<td align="right" fixwidth="100">线上人数：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%count%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">内存使用：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%used% bytes</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">游戏时间：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%time%</font></td>
+</tr></table>
+<br><br>
+
+<center><table><tr><td>
+<button value="关闭系统" action="bypass -h admin_server_shutdown $qbox" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td><td>
+<button value="重新启动" action="bypass -h admin_server_restart $qbox" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td><td>
+<button value="取消关闭" action="bypass -h admin_server_abort" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td></tr>
+</table></center>
+</body></html>

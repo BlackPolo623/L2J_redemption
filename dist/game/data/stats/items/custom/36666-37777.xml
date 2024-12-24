@@ -1,0 +1,3274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="24128" type="Armor" name="亚贝里乌斯斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24129" type="Armor" name="克伦毕斯特斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24130" type="Armor" name="索特克里格斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24131" type="Armor" name="拉伊斯特斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24132" type="Armor" name="凯修纳格斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24133" type="Armor" name="隆菲洛斯斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24134" type="Armor" name="纳比亚罗普斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+	<item id="24135" type="Armor" name="拉奇西斯斗篷">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="A" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="110" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="21244-1" /> 
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="10" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>	
+	<item id="31010" type="EtcItem" name="领取10装备礼包">
+		<set name="icon" val="icon.etc_ketra_badge_grunt_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>	
+	<item id="31015" type="EtcItem" name="止水材料礼包">
+		<!-- If you double click, Soul Silver Foil and Soul Scent items are created. No exchange/drop/sale/destroy available. (You can only use on every 24 hours.) -->
+		<set name="icon" val="BranchSys.icon.br_ghost_MAGICalbox_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="FISH" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="34168,30000,30000,100;38004,30000,30000,100" />
+	</item>
+	<item id="31020" type="EtcItem" name="虎魄材料礼包">
+		<!-- If you double click, Soul Silver Foil and Soul Scent items are created. No exchange/drop/sale/destroy available. (You can only use on every 24 hours.) -->
+		<set name="icon" val="BranchSys.icon.br_ghost_MAGICalbox_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="FISH" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="23003,60000,60000,100;23007,60000,60000,100;23010,60000,60000,100" />
+	</item>
+	<item id="31025" type="EtcItem" name="破星材料礼包">
+		<!-- If you double click, Soul Silver Foil and Soul Scent items are created. No exchange/drop/sale/destroy available. (You can only use on every 24 hours.) -->
+		<set name="icon" val="BranchSys.icon.br_ghost_MAGICalbox_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="FISH" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="23003,60000,60000,100;23007,60000,60000,100;23010,60000,60000,100" />
+	</item>
+	<item id="32000" type="EtcItem" name="全套25装备礼包">
+		<!-- If you double click, Soul Silver Foil and Soul Scent items are created. No exchange/drop/sale/destroy available. (You can only use on every 24 hours.) -->
+		<set name="icon" val="BranchSys.icon.br_ghost_MAGICalbox_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="FISH" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="31010,1,1,100;23015,1,1,100;31015,1,1,100;31025,1,1,100;31020,1,1,100;30054,1,1,100;30055,1,1,100;30056,1,1,100;38011,10,10,100;" />
+	</item>
+	<item id="30015" type="EtcItem" name="强化25凭证">
+		<set name="icon" val="icon.etc_ketra_badge_grunt_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>	
+	<item id="30020" type="EtcItem" name="强化35凭证">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30025" type="EtcItem" name="强化45凭证">
+		<set name="icon" val="icon.etc_ketra_badge_officer_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30060" type="EtcItem" name="强化30凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30051" type="EtcItem" name="武器属性强化凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30052" type="EtcItem" name="防具属性强化凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30053" type="EtcItem" name="神谕装备凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30054" type="EtcItem" name="止水装备凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30055" type="EtcItem" name="虎魄装备凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="30056" type="EtcItem" name="破星装备凭证">
+		<set name="icon" val="BranchSys.icon.br_stone_of_time_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="38001" type="EtcItem" name="灵魂碎片">
+		<set name="icon" val="icon.etc_armor_soul_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="38002" type="EtcItem" name="制作种子">
+		<set name="icon" val="icon.etc_leaf_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="24037" type="EtcItem" name="安塔瑞斯的灵魂碎片">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>	
+	<item id="24038" type="EtcItem" name="巴拉卡斯的灵魂碎片">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>	
+	<item id="24069" type="EtcItem" name="林德拜尔的灵魂碎片">
+		<set name="icon" val="icon.r99_soul_stone_piece_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>	
+	<item id="65544" type="Weapon" name="安塔瑞斯 单手剑">
+		<set name="icon" val="SacriDragonWeaponTex.antaras_cutter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="725" />
+			<set stat="mAtk" val="335" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.08" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65545" type="Weapon" name="安塔瑞斯 塑造者">
+		<set name="icon" val="icon.weapon_mambaedge_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="3572-3" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="645" />
+			<set stat="mAtk" val="305" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="655" />
+			<add stat="rEvas" val="10" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65546" type="Weapon" name="安塔瑞斯 复仇者">
+		<set name="icon" val="icon.weapon_expowder_mace_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="725" />
+			<set stat="mAtk" val="335" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="150" />
+			<add stat="critDmgAdd" val="1065" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65547" type="Weapon" name="安塔瑞斯 双手钝器">
+		<set name="icon" val="icon.weapon_pereztear_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="817" />
+			<set stat="mAtk" val="345" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="150" />
+			<add stat="critDmgAdd" val="1065" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65548" type="Weapon" name="安塔瑞斯 双手剑">
+		<set name="icon" val="icon.weapon_lavamond_saw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="817" />
+			<set stat="mAtk" val="345" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtk" val="1.08" /> 
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65549" type="Weapon" name="安塔瑞斯 龙鳞爪">
+		<set name="icon" val="icon.weapon_jademice_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="oncrit_chance" val="43" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="817" />
+			<set stat="mAtk" val="345" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<add stat="rEvas" val="6" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65550" type="Weapon" name="安塔瑞斯 猛攻者">
+		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="725" />
+			<set stat="mAtk" val="355" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.08" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="65551" type="Weapon" name="安塔瑞斯歌唱者">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="oncast_chance" val="20" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="605" />
+			<set stat="mAtk" val="465" />
+			<mul stat="mAtkSpd" val="1.12" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtk" val="1.2" /> 
+			<mul stat="pvpMagicalDmg" val="1.5" />
+		</for>
+	</item>
+	<item id="65553" type="Weapon" name="安塔瑞斯 爆裂剑">
+		<set name="icon" val="icon.weapon_archangel_sword_i001" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="570" />
+			<set stat="mAtk" val="425" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtkSpd" val="1.17" />
+			<mul stat="pvpMagicalDmg" val="1.5" />
+		</for>
+	</item>
+	<item id="65554" type="Weapon" name="安塔瑞斯 发射器">
+		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="12" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="800" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<mul stat="pvpPhysDmg" val="1.2" />
+			<mul stat="pvpPhysSkillsDmg" val="1.2" />
+			<mul stat="pvpMagicalDmg" val="1.2" />
+			<set stat="pAtk" val="1257" />
+			<set stat="mAtk" val="327" />
+			<set stat="pAtkSpd" val="293" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="655" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="BOW" />
+			</add>
+		</for>
+	</item>
+	<item id="65555" type="Weapon" name="安塔瑞斯 细剑">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="675" />
+			<set stat="mAtk" val="405" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="critRate" val="200" />
+			<mul stat="mAtkSpd" val="1.12" />
+			<mul stat="mAtk" val="1.25" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="65556" type="Weapon" name="安塔瑞斯 古代剑">
+		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="785" />
+			<set stat="mAtk" val="325" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtk" val="1.08" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="65557" type="Weapon" name="安塔瑞斯十字弩">
+		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<set name="oncrit_chance" val="33" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="1185" />
+			<set stat="mAtk" val="305" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="655" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="CROSSBOW" />
+			</add>
+		</for>
+	</item>
+	<item id="66152" type="Weapon" name="安塔瑞斯短剑二刀流">
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="11421" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<and>
+				<player level="81" />
+				<player categoryType="DAGGER_MASTER" />
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="635" />
+			<set stat="mAtk" val="327" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="655" />
+			<mul stat="pAtk" val="1.08" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="66154" type="Weapon" name="安塔瑞斯 二刀流">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="835" />
+			<set stat="mAtk" val="346" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="75544" type="Weapon" name="巴拉卡斯单手剑">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="790" />
+			<set stat="mAtk" val="400" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75545" type="Weapon" name="巴拉卡斯匕首">
+		<set name="icon" val="icon.weapon_mambaedge_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="3572-3" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="710" />
+			<set stat="mAtk" val="370" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1065" />
+			<add stat="rEvas" val="15" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75546" type="Weapon" name="巴拉卡斯复仇者">
+		<set name="icon" val="icon.weapon_expowder_mace_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="790" />
+			<set stat="mAtk" val="400" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1065" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75547" type="Weapon" name="巴拉卡斯铁锤">
+		<set name="icon" val="icon.weapon_pereztear_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="872" />
+			<set stat="mAtk" val="410" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<add stat="critDmgAdd" val="1065" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75548" type="Weapon" name="巴拉卡斯双手剑">
+		<set name="icon" val="icon.weapon_lavamond_saw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="872" />
+			<set stat="mAtk" val="410" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75549" type="Weapon" name="巴拉卡斯磷爪">
+		<set name="icon" val="icon.weapon_jademice_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="oncrit_chance" val="43" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="882" />
+			<set stat="mAtk" val="410" />
+			<add stat="critRate" val="200" />
+			<mul stat="mReuse" val="0.92" />
+			<mul stat="pReuse" val="0.92" />
+			<mul stat="maxCp" val="1.30" />
+			<mul stat="maxHp" val="1.25" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75550" type="Weapon" name="巴拉卡斯风暴">
+		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="790" />
+			<set stat="mAtk" val="420" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="75551" type="Weapon" name="巴拉卡斯歌唱者">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="oncast_chance" val="20" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="670" />
+			<set stat="mAtk" val="530" />
+			<mul stat="mAtkSpd" val="1.12" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtk" val="1.2" /> 
+			<mul stat="pvpMagicalDmg" val="1.6" />
+		</for>
+	</item>
+	<item id="75552" type="Weapon" name="巴拉卡斯卡斯特">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="oncast_chance" val="20" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="635" />
+			<set stat="mAtk" val="490" />
+			<mul stat="mAtkSpd" val="1.17" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtk" val="1.15" /> 
+			<mul stat="pvpMagicalDmg" val="1.6" />
+		</for>
+	</item>
+	<item id="75553" type="Weapon" name="巴拉卡斯爆裂剑">
+		<set name="icon" val="icon.weapon_archangel_sword_i001" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="635" />
+			<set stat="mAtk" val="490" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtkSpd" val="1.17" />
+			<mul stat="pvpMagicalDmg" val="1.6" />
+		</for>
+	</item>
+	<item id="75554" type="Weapon" name="巴拉卡斯发射器">
+		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="12" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="800" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<mul stat="pvpPhysDmg" val="1.3" />
+			<mul stat="pvpPhysSkillsDmg" val="1.3" />
+			<mul stat="pvpMagicalDmg" val="1.3" />
+			<set stat="pAtk" val="1322" />
+			<set stat="mAtk" val="392" />
+			<set stat="pAtkSpd" val="293" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1065" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="BOW" />
+			</add>
+		</for>
+	</item>
+	<item id="75555" type="Weapon" name="巴拉卡斯细剑">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="740" />
+			<set stat="mAtk" val="470" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="mAtk" val="1.25" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="75556" type="Weapon" name="巴拉卡斯古代剑">
+		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="850" />
+			<set stat="mAtk" val="390" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="75557" type="Weapon" name="巴拉卡斯十字弩">
+		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<set name="oncrit_chance" val="33" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="1250" />
+			<set stat="mAtk" val="370" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1065" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="CROSSBOW" />
+			</add>
+		</for>
+	</item>
+	<item id="76152" type="Weapon" name="巴拉卡斯短剑二刀流">
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="11421" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<and>
+				<player level="81" />
+				<player categoryType="DAGGER_MASTER" />
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="704" />
+			<set stat="mAtk" val="392" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1065" />
+			<mul stat="pAtk" val="1.08" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="76154" type="Weapon" name="巴拉卡斯二刀流">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="889" />
+			<set stat="mAtk" val="410" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="critRate" val="200" />
+			<mul stat="mReuse" val="0.92" />
+			<mul stat="pReuse" val="0.92" />
+			<mul stat="maxCp" val="1.25" />
+			<mul stat="maxHp" val="1.25" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="85544" type="Weapon" name="林德拜尔单手剑">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="855" />
+			<set stat="mAtk" val="465" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85545" type="Weapon" name="林德拜尔匕首">
+		<set name="icon" val="icon.weapon_mambaedge_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="3572-3" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="775" />
+			<set stat="mAtk" val="435" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1200" />
+			<add stat="rEvas" val="18" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85546" type="Weapon" name="林德拜尔复仇者">
+		<set name="icon" val="icon.weapon_expowder_mace_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="855" />
+			<set stat="mAtk" val="465" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85547" type="Weapon" name="林德拜尔铁锤">
+		<set name="icon" val="icon.weapon_pereztear_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="947" />
+			<set stat="mAtk" val="475" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<add stat="critDmgAdd" val="1200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85548" type="Weapon" name="林德拜尔双手剑">
+		<set name="icon" val="icon.weapon_lavamond_saw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="947" />
+			<set stat="mAtk" val="475" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85549" type="Weapon" name="林德拜尔磷爪">
+		<set name="icon" val="icon.weapon_jademice_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="oncrit_chance" val="43" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="947" />
+			<set stat="mAtk" val="475" />
+			<add stat="critRate" val="200" />
+			<mul stat="mReuse" val="0.92" />
+			<mul stat="pReuse" val="0.92" />
+			<mul stat="maxCp" val="1.30" />
+			<mul stat="maxHp" val="1.25" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85550" type="Weapon" name="林德拜尔风暴">
+		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="855" />
+			<set stat="mAtk" val="485" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="pvpPhysDmg" val="1.03" />
+			<mul stat="pvpPhysSkillsDmg" val="1.03" />
+			<mul stat="pvpMagicalDmg" val="1.03" />
+		</for>
+	</item>
+	<item id="85551" type="Weapon" name="林德拜尔歌唱者">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="oncast_chance" val="20" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="735" />
+			<set stat="mAtk" val="595" />
+			<mul stat="mAtkSpd" val="1.12" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtk" val="1.2" /> 
+			<mul stat="pvpMagicalDmg" val="1.8" />
+		</for>
+	</item>
+	<item id="85552" type="Weapon" name="林德拜尔卡斯特">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="oncast_chance" val="20" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="700" />
+			<set stat="mAtk" val="595" />
+			<mul stat="mAtkSpd" val="1.12" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtk" val="1.2" /> 
+			<mul stat="pvpMagicalDmg" val="1.8" />
+		</for>
+	</item>
+	<item id="85553" type="Weapon" name="林德拜尔爆裂剑">
+		<set name="icon" val="icon.weapon_archangel_sword_i001" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_MAGIC_weapon" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>	
+			<set stat="pAtk" val="700" />
+			<set stat="mAtk" val="555" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<mul stat="mAtkSpd" val="1.17" />
+			<mul stat="pvpMagicalDmg" val="1.8" />
+		</for>
+	</item>
+	<item id="85554" type="Weapon" name="林德拜尔发射器">
+		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="12" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="800" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<mul stat="pvpPhysDmg" val="1.4" />
+			<mul stat="pvpPhysSkillsDmg" val="1.4" />
+			<mul stat="pvpMagicalDmg" val="1.4" />
+			<set stat="pAtk" val="1398" />
+			<set stat="mAtk" val="457" />
+			<set stat="pAtkSpd" val="293" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1200" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="BOW" />
+			</add>
+		</for>
+	</item>
+	<item id="85555" type="Weapon" name="林德拜尔细剑">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="805" />
+			<set stat="mAtk" val="535" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="critRate" val="200" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<mul stat="mAtk" val="1.25" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="85556" type="Weapon" name="林德拜尔古代剑">
+		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="925" />
+			<set stat="mAtk" val="390" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="critRate" val="200" />
+			<mul stat="maxHp" val="1.25" />
+			<mul stat="pAtkSpd" val="1.11" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="85557" type="Weapon" name="林德拜尔十字弩">
+		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<set name="oncrit_chance" val="33" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="KAMAEL" />
+		</cond>
+		<for>
+			<set stat="pAtk" val="1315" />
+			<set stat="mAtk" val="435" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1200" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+			<add stat="pAtkRange" val="200">
+				<using kind="CROSSBOW" />
+			</add>
+		</for>
+	</item>
+	<item id="86152" type="Weapon" name="林德拜尔短剑二刀流">
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="11421" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<and>
+				<player level="81" />
+				<player categoryType="DAGGER_MASTER" />
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="769" />
+			<set stat="mAtk" val="457" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="critRate" val="200" />
+			<add stat="critDmgAdd" val="1200" />
+			<mul stat="pAtk" val="1.08" /> 
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="86154" type="Weapon" name="林德拜尔二刀流">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="9872" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="price" val="13960000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set stat="pAtk" val="954" />
+			<set stat="mAtk" val="476" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="critRate" val="200" />
+			<mul stat="mReuse" val="0.92" />
+			<mul stat="pReuse" val="0.92" />
+			<mul stat="maxCp" val="1.30" />
+			<mul stat="maxHp" val="1.25" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="33330" type="Armor" name="奥塔比斯手镯">
+		<!-- Activates 4 talisman slots when equipped. Increase Max MP by 120. -->
+		<set name="icon" val="icon.octavis_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="170" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="3556000" />
+		<set name="item_skill" val="53008-1" /> <!-- Mithril Bracelet -->
+		<for>
+			<add stat="maxMp" val="120" />
+		</for>
+	</item>
+	<item id="33329" type="Armor" name="奥塔比斯腰带">
+		<!-- Inventory Slot + 36. -->
+		<set name="icon" val="icon.octavis_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="53009-1" /> <!-- Add Belt Inventory Slot -->
+		<for>
+			<add order="0" stat="pDef" val="14" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>	
+	<item id="33327" type="Armor" name="奥塔比斯衬衫">
+		<!-- Increases Max CP by 744 when over-enchanted to 4 or more. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.octavis_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="53010-1" /> 
+		<for>
+			<add order="0" stat="pDef" val="30" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>	
+	
+	<item id="23015" type="EtcItem" name="VIP凭证">
+		<!-- Ancient characters which endow mysterious ability if stored in the inventory. It increases acquired Experience Points by 10%. It applies up to a maximum of 50%. The remaining period decreases even during log-off state. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.xmas_pcwin1_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="53016-1" /> <!-- Rune of Experience Points 10% -->
+		<set name="for_npc" val="true" />	<!-- Rune of Experience Points 10% -->
+		<set name="is_questitem" val="true" />
+	</item>	
+	<item id="100085" type="EtcItem" name="晋升凭证">
+		<set name="icon" val="icon.etc_armor_soul_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="0" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>	
+	<item id="38004" type="EtcItem" name="鳄鱼皮">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="38007" type="Armor" name="英雄帽">
+		<!-- Hair accessory exclusively used by Heroes. -->
+		<set name="icon" val="icon.accessory_hero_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="weight" val="10" />
+		<for>
+			<add stat="STR" val="2" />		
+			<add stat="INT" val="2" />		
+			<add stat="CON" val="2" />		
+			<add stat="MEN" val="2" />		
+			<add stat="DEX" val="2" />		
+			<add stat="WIT" val="2" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<mul stat="pvpMagicalDef" val="1.05" />
+			<mul stat="pvpPhysSkillsDef" val="1.05" />
+			<mul stat="pvpPhysDef" val="1.05" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+	</item>
+
+	<item id="38008" type="Armor" name="英雄帽-不发光">
+		<!-- Hair accessory exclusively used by Heroes. -->
+		<set name="icon" val="icon.accessory_hero_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="weight" val="10" />
+		<for>
+			<add stat="STR" val="2" />		
+			<add stat="INT" val="2" />		
+			<add stat="CON" val="2" />		
+			<add stat="MEN" val="2" />		
+			<add stat="DEX" val="2" />		
+			<add stat="WIT" val="2" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<mul stat="pvpMagicalDef" val="1.05" />
+			<mul stat="pvpPhysSkillsDef" val="1.05" />
+			<mul stat="pvpPhysDef" val="1.05" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+		</item>
+
+
+	<item id="38009" type="Armor" name="吊坠">
+		<!-- Bracelet that summons Phoenix Agathion. When Oriental Phoenix is used, all Debuff is canceled with the power of Phoenix. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. Special skill reuse delay is 4 hours. -->
+		<set name="icon" val="BranchSys2.icon.br_aga_china_phoenix_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21191-1;23171-1;23173-1;53021-1" /> <!-- Dismiss Agathion -->
+	</item>
+
+	<item id="38010" type="EtcItem" name="吊坠碎片">
+		<set name="icon" val="icon.etc_armor_soul_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+
+
+	<item id="38011" type="EtcItem" name="装备升级凭证">
+		<set name="icon" val="icon.etc_armor_soul_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	
+
+	<item id="33084" type="Armor" name="王权头盔">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33089" type="Armor" name="王权皮头盔">
+		<set name="icon" val="icon.armor_LEATHER_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33094" type="Armor" name="王权头箍">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33080" type="Armor" name="王权胸甲">
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="3214" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="290" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33085" type="Armor" name="王权皮胸甲">
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add stat="pDef" val="218" />
+			<enchant order="0" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33090" type="Armor" name="王权外衣">
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="144" />
+			<add order="0" stat="maxMp" val="661" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33081" type="Armor" name="王权胫甲">
+		<set name="icon" val="icon.armor_t97_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2009" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="182" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33086" type="Armor" name="王权皮胫甲">
+		<set name="icon" val="icon.armor_t98_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="138" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33091" type="Armor" name="王权长袜">
+		<set name="icon" val="icon.armor_t99_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="91" />
+			<add order="0" stat="maxMp" val="439" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33082" type="Armor" name="王权长手套">
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33087" type="Armor" name="王权皮手套">
+		<set name="icon" val="icon.armor_t98_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33092" type="Armor" name="王权手套">
+		<set name="icon" val="icon.armor_t99_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33083" type="Armor" name="王权靴">
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33088" type="Armor" name="王权皮靴">
+		<set name="icon" val="icon.armor_t98_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33093" type="Armor" name="王权靴">
+		<set name="icon" val="icon.armor_t99_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+
+
+	<item id="33099" type="Armor" name="神谕头盔">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33104" type="Armor" name="神谕皮头盔">
+		<set name="icon" val="icon.armor_LEATHER_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33109" type="Armor" name="神谕头箍">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="116" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33095" type="Armor" name="神谕胸甲">
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="3214" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="290" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33100" type="Armor" name="神谕皮胸甲">
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="218" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33105" type="Armor" name="神谕外衣">
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="144" />
+			<add order="0" stat="maxMp" val="661" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33096" type="Armor" name="神谕胫甲">
+		<set name="icon" val="icon.armor_t97_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="2009" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="182" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33101" type="Armor" name="神谕皮胫甲">
+		<set name="icon" val="icon.armor_t98_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="138" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33106" type="Armor" name="神谕长袜">
+		<set name="icon" val="icon.armor_t99_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="91" />
+			<add order="0" stat="maxMp" val="439" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33097" type="Armor" name="神谕长手套">
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33102" type="Armor" name="神谕皮手套">
+		<set name="icon" val="icon.armor_t98_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33107" type="Armor" name="神谕手套">
+		<set name="icon" val="icon.armor_t99_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33098" type="Armor" name="神谕长靴">
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant  stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="33103" type="Armor" name="神谕皮靴">
+		<set name="icon" val="icon.armor_t98_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="33108" type="Armor" name="神谕靴">
+		<set name="icon" val="icon.armor_t99_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="2" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="80" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+
+	<item id="38012" type="EtcItem" name="超神的防具强化卷-S级">
+		<!-- 10% increase in enchant success rate. . When enchant fails, the existing enchant value is retained. . Defense power for Grade S armor or accessory by 1 and by 3 starting from +4. It can be safely enchanted up to +3. For one-piece armor, it can be safely enchanted up to +4. Also increases HP according to level when armor is enchanted above +4. Cannot use armors enchanted by above 16. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22076-1" /> <!-- Ancient Armor Enchant Crystal - S grade -->
+	</item>
+	
+	<item id="38013" type="EtcItem" name="超神的武器强化卷-S级">
+		<!-- Enchant success rate is 100%. . Attack power for S-grade sword, one-handed blunt, one-handed dagger, spear, and other weapons increases by 5 when enchanted. Attack power for sword, two-handed blunt, two-handed dualsword, and combat and dual-handed weapons increases by 6. Attack power for bow weapons increases by 10. Magic power for all weapons increases by 4. Attack and magic power increase two times after +4. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22075-1" /> <!-- Holy Weapon Enchant Crystal - S grade -->
+	</item>
+
+	<item id="38015" type="EtcItem" name="突破神圣的防具强化卷-S级">
+		<!-- 10% increase in enchant success rate. . When enchant fails, the existing enchant value is retained. . Defense power for Grade S armor or accessory by 1 and by 3 starting from +4. It can be safely enchanted up to +3. For one-piece armor, it can be safely enchanted up to +4. Also increases HP according to level when armor is enchanted above +4. Cannot use armors enchanted by above 16. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22076-1" /> <!-- Ancient Armor Enchant Crystal - S grade -->
+	</item>
+	
+	<item id="38016" type="EtcItem" name="突破神圣的武器强化卷-S级">
+		<!-- Enchant success rate is 100%. . Attack power for S-grade sword, one-handed blunt, one-handed dagger, spear, and other weapons increases by 5 when enchanted. Attack power for sword, two-handed blunt, two-handed dualsword, and combat and dual-handed weapons increases by 6. Attack power for bow weapons increases by 10. Magic power for all weapons increases by 4. Attack and magic power increase two times after +4. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22075-1" /> <!-- Holy Weapon Enchant Crystal - S grade -->
+	</item>
+
+	<item id="38017" type="EtcItem" name="突破超神的防具强化卷-S级">
+		<!-- 10% increase in enchant success rate. . When enchant fails, the existing enchant value is retained. . Defense power for Grade S armor or accessory by 1 and by 3 starting from +4. It can be safely enchanted up to +3. For one-piece armor, it can be safely enchanted up to +4. Also increases HP according to level when armor is enchanted above +4. Cannot use armors enchanted by above 16. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22076-1" /> <!-- Ancient Armor Enchant Crystal - S grade -->
+	</item>
+	
+	<item id="38018" type="EtcItem" name="突破超神的武器强化卷-S级">
+		<!-- Enchant success rate is 100%. . Attack power for S-grade sword, one-handed blunt, one-handed dagger, spear, and other weapons increases by 5 when enchanted. Attack power for sword, two-handed blunt, two-handed dualsword, and combat and dual-handed weapons increases by 6. Attack power for bow weapons increases by 10. Magic power for all weapons increases by 4. Attack and magic power increase two times after +4. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22075-1" /> <!-- Holy Weapon Enchant Crystal - S grade -->
+	</item>
+
+	<item id="38019" type="EtcItem" name="突破至尊防具强化卷-S级">
+		<!-- 10% increase in enchant success rate. . When enchant fails, the existing enchant value is retained. . Defense power for Grade S armor or accessory by 1 and by 3 starting from +4. It can be safely enchanted up to +3. For one-piece armor, it can be safely enchanted up to +4. Also increases HP according to level when armor is enchanted above +4. Cannot use armors enchanted by above 16. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22076-1" /> <!-- Ancient Armor Enchant Crystal - S grade -->
+	</item>
+	
+	<item id="38020" type="EtcItem" name="突破至尊武器强化卷-S级">
+		<!-- Enchant success rate is 100%. . Attack power for S-grade sword, one-handed blunt, one-handed dagger, spear, and other weapons increases by 5 when enchanted. Attack power for sword, two-handed blunt, two-handed dualsword, and combat and dual-handed weapons increases by 6. Attack power for bow weapons increases by 10. Magic power for all weapons increases by 4. Attack and magic power increase two times after +4. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22075-1" /> <!-- Holy Weapon Enchant Crystal - S grade -->
+	</item>
+	
+	<item id="23003" type="EtcItem" name="神圣羽毛">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="23007" type="EtcItem" name="魔粉">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="23010" type="EtcItem" name="首领灵魂碎片">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="23012" type="EtcItem" name="薪薪之火">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="23056" type="EtcItem" name="魔法结晶">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="23063" type="EtcItem" name="合成之石">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="34168" type="EtcItem" name="净化药水">
+		<set name="icon" val="icon.etc_ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	
+	<item id="33331" type="Armor" name="真-奥塔比斯手镯">
+		<!-- Activates 4 talisman slots when equipped. Increase Max MP by 120. -->
+		<set name="icon" val="icon.octavis_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="170" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="3556000" />
+		<set name="item_skill" val="53038-1" /> <!-- Mithril Bracelet -->
+		<for>
+			<add stat="maxMp" val="120" />
+		</for>
+	</item>
+	<item id="33332" type="Armor" name="真-奥塔比斯腰带">
+		<!-- Inventory Slot + 36. -->
+		<set name="icon" val="icon.octavis_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="53039-1" /> <!-- Add Belt Inventory Slot -->
+		<for>
+			<add order="0" stat="pDef" val="14" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>	
+	<item id="33333" type="Armor" name="真-奥塔比斯衬衫">
+		<!-- Increases Max CP by 744 when over-enchanted to 4 or more. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.octavis_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="true" />
+		<set name="item_skill" val="53040-1" /> 
+		<for>
+			<add order="0" stat="pDef" val="30" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>	
+	
+	<item id="38014" type="Armor" name="彩蝶">
+		<!-- Hair accessory exclusively used by Heroes. -->
+		<set name="icon" val="icon.accessory_hero_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="weight" val="10" />
+		<for>
+			<add stat="STR" val="2" />		
+			<add stat="INT" val="2" />		
+			<add stat="CON" val="2" />		
+			<add stat="MEN" val="2" />		
+			<add stat="DEX" val="2" />		
+			<add stat="WIT" val="2" />
+			<mul stat="pDef" val="1.15" />
+			<mul stat="mDef" val="1.15" />
+			<mul stat="pAtkSpd" val="1.10" />
+			<mul stat="mAtkSpd" val="1.10" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<mul stat="pvpMagicalDef" val="1.05" />
+			<mul stat="pvpPhysSkillsDef" val="1.05" />
+			<mul stat="pvpPhysDef" val="1.05" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
+		</item>
+
+
+
+
+	
+</list>

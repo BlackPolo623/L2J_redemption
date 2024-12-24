@@ -1,0 +1,56 @@
+<html><title>伺服器管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>登入伺服器</center></td>
+<td><Button value="返回" action="bypass -h admin_admin4" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td align="right" fixwidth="80">最大连线：</td>
+<td><edit var="qbox" width=120 height=13></td>
+<td><Button value="帮助" action="bypass -h admin_html help/login.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+<table width=260><tr>
+<td align="right" fixwidth="100">注册：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%server_name%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">状态：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%status%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">计时器：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%clock%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">架设：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%brackets%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">最大连线：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%max_players%</font></td>
+</tr></table>
+<br><br>
+
+<table width=200><tr>
+<td><Button value="唯独 GM 上线" action="bypass -h admin_server_gm_only" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="踢除非 GM" action="bypass -h admin_kick_non_gm" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="允许所有" action="bypass -h admin_server_all" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="计时器开启" action="bypass -h admin_server_list_clock on" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="计时器关闭" action="bypass -h admin_server_list_clock off" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="最大连线数" action="bypass -h admin_server_max_player $qbox" width=95 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+</center>
+
+<img src="L2UI.SquareBlank" width="260" height="87">
+</body></html>

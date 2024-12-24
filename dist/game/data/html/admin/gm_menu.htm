@@ -1,0 +1,95 @@
+<html><title>系统管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="角色" action="bypass -h admin_admin6" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="游戏" action="bypass -h admin_admin2" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="管理" action="bypass -h admin_admin7" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><font color="LEVEL">数值：</font></td>
+<td><edit var="qbox" width=150 height=11></td>
+<td><button value="帮助" action="bypass -h admin_html help/main_menu.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<table width=260>
+<tr>
+<td><button value="名单登录" action="bypass -h admin_gmliston" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="公告选项" action="bypass -h admin_announces list" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="隐身模式" action="bypass -h admin_invis_menu" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="名单除名" action="bypass -h admin_gmlistoff" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="活动管理" action="bypass -h admin_event_menu" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="无敌模式" action="bypass -h admin_invul" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="诉求管理" action="bypass -h admin_view_petitions" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="即时区域" action="bypass -h admin_html instancezone.htm" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="瘦身模式" action="bypass -h admin_diet" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="拒绝密语" action="bypass -h admin_silence" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="例外情况" action="bypass -h admin_exceptions" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="GM 商店" action="bypass -h admin_gmshop" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="拒绝交易" action="bypass -h admin_tradeoff" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="伺服管理" action="bypass -h admin_admin4" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="强化选单" action="bypass -h admin_enchant" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+</table>
+
+
+<table width=260><tr>
+<td><font color="LEVEL">超级加速：</font></td>
+<td><button value="1" action="bypass -h admin_superhaste 1" width=30 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="2" action="bypass -h admin_superhaste 2" width=30 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="3" action="bypass -h admin_superhaste 3" width=30 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="4" action="bypass -h admin_superhaste 4" width=30 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="关闭" action="bypass -h admin_superhaste 0" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<center><multiedit var="new_announcement" width=250 height=60></center>
+<br>
+<center>
+<table width="260">
+<tr>
+<td><button value="立即公告" action="bypass -h admin_announce $new_announcement" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="关键公告" action="bypass -h admin_announce_crit $new_announcement" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="屏幕公告" action="bypass -h admin_announce_screen $new_announcement" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="GM 频道" action="bypass -h admin_gmchat_menu $new_announcement" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<br><br>
+
+<table width=260>
+<tr>
+<td><button value="鬃狼" action="bypass -h admin_ride_wolf" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="座龙" action="bypass -h admin_ride_strider" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="飞龙" action="bypass -h admin_ride_wyvern" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="鬃马" action="bypass -h admin_ride_horse" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="喷射战车" action="bypass -h admin_ride_bike" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td></td>
+</tr></table>
+</center>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="0">
+</body></html>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>955</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <!-- Agathion of Love (Event) -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="20021" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20666" count="1"/>
+  </item>
+
+  <!-- Endeavor Potion -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="20668" count="1"/>
+  </item>
+
+  <!-- Greater Swift Attack Potion -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="20670" count="1"/>
+  </item>
+
+  <!-- Greater Haste Potion -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="20672" count="1"/>
+  </item>
+
+  <!-- Greater Magic Haste Potion -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="20674" count="1"/>
+  </item>
+
+  <!-- Greater Healing Potion -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20676" count="1"/>
+  </item>
+
+  <!-- Spirit Ore -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20678" count="1"/>
+  </item>
+
+  <!-- Battle Symbol -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20792" count="1"/>
+  </item>
+
+  <!-- Magic Symbol -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20793" count="1"/>
+  </item>
+
+  <!-- Phoenix Blood -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="20897" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13488" count="1"/>
+  </item>
+
+  <!-- Halloween Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13489" count="1"/>
+  </item>
+
+  <!-- Arrow-Pierced Apple -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13490" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13491" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13492" count="1"/>
+  </item>
+
+  <!-- Refined Carnival Circlet -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13493" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13494" count="1"/>
+  </item>
+
+  <!-- Refined Devil Horn -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13495" count="1"/>
+  </item>
+
+  <!-- Refined Pirate Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13496" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13497" count="1"/>
+  </item>
+
+  <!-- Refined Wizard Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13498" count="1"/>
+  </item>
+
+  <!-- Refined Jester Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13499" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13500" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13502" count="1"/>
+  </item>
+
+  <!-- Refined Medieval Style Party Mask -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13503" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13504" count="1"/>
+  </item>
+
+  <!-- Clownfish Hat -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13505" count="1"/>
+  </item>
+
+  <!-- Improved Lord's Crown -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13506" count="1"/>
+  </item>
+
+  <!-- Circlet of Flames -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13507" count="1"/>
+  </item>
+
+  <!-- Circlet of Freeze -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13508" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13509" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13510" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13511" count="1"/>
+  </item>
+
+  <!-- Circlet of Splendor -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13512" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13513" count="1"/>
+  </item>
+  
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <production id="13514" count="1"/>
+  </item>
+
+</list>

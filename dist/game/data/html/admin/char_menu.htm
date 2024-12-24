@@ -1,0 +1,79 @@
+<html><title>角色管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="角色" action="bypass -h admin_admin6" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="游戏" action="bypass -h admin_admin2" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="管理" action="bypass -h admin_admin7" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><font color="LEVEL">数值：</font></td>
+<td><edit var="qbox" width=150 height=11></td>
+<td><Button value="帮助" action="bypass -h admin_html help/main_menu.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<font color="0EE280">【 人物相关 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="玩家列表" action="bypass -h admin_show_characters 0" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="查找双开" action="bypass -h admin_find_dualbox $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="玩家管理" action="bypass -h admin_char_manage" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="设置名称" action="bypass -h admin_changename $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设置称号" action="bypass -h admin_settitle $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设置评价" action="bypass -h admin_rec $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="设置声誉" action="bypass -h admin_setfame $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设置 PVP" action="bypass -h admin_setpvp $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设置 P k" action="bypass -h admin_setpk $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="设置活力" action="bypass -h admin_set_vitality $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="最大活力" action="bypass -h admin_full_vitality" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="队伍资讯" action="bypass -h admin_partyinfo" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="获得状态" action="bypass -h admin_getbuffs $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="任务资讯" action="bypass -h admin_charquestmenu $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="效果管理" action="bypass -h admin_admin3" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="活动点数" action="bypass -h admin_pccafepoints" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="NCoins" action="bypass -h admin_primepoints" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="高级用户" action="bypass -h admin_premium_menu" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><Button value="前往" action="bypass -h admin_goto_char_menu $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="召唤" action="bypass -h admin_recall_char_menu $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设置性向" action="bypass -h admin_setreputation $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="清除性向" action="bypass -h admin_nokarma" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="禁言" action="bypass -h admin_ban_chat $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="解除禁言" action="bypass -h admin_unban_chat $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="监禁" action="bypass -h admin_jail $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="监狱释放" action="bypass -h admin_unjail $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="踢除" action="bypass -h admin_kick_menu $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="封锁" action="bypass -h admin_punishment player $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="寻找" action="bypass -h admin_find_character $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="修复" action="bypass -h admin_repair $qbox" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="31">
+</center></body></html>

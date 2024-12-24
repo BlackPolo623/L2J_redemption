@@ -1,0 +1,211 @@
+<html><title>玩家信息管理：%name%</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>玩家：%name%</center></td>
+<td><Button value="返回" action="bypass -h admin_admin7" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><Button value="前往玩家" action="bypass -h admin_goto_char_menu %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="踢除玩家" action="bypass -h admin_kick_menu %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="封锁帐号" action="bypass -h admin_ban_acc %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="角色停权" action="bypass -h admin_ban_char %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="召唤玩家" action="bypass -h admin_recall_char_menu %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="技能相关" action="bypass -h admin_show_skills" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="修改玩家" action="bypass -h admin_edit_character" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="变更职业" action="bypass -h admin_setclass" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="修改等级" action="bypass -h admin_add_exp_sp_to_character" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="即时地区" action="bypass -h admin_instancezone %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="辅助状态" action="bypass -h admin_getbuffs %name%" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="队伍资讯" action="bypass -h admin_partyinfo" width=65 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<tr>
+<td align="right" fixwidth="100">帐号：</td>
+<td align="left" fixwidth="250"><a action="bypass -h admin_find_account %name%"><font color="LEVEL" >%account%</a></font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">IP：</td>
+<td align="left" fixwidth="250"><a action="bypass -h admin_find_ip %ip%"><font color="LEVEL" >%ip%</a></font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">硬件 MAC：</td>
+<td align="left" fixwidth="250"><a action="bypass -h admin_hwid"><font color="LEVEL" >%hwid%</a></font></td>
+</tr> 
+
+<tr>
+<td align="right" fixwidth="100">惩罚：</td>
+<td align="left" fixwidth="250"><a action="bypass -h admin_punishment player %name%"><font color="LEVEL" >Info</a></font></td>
+</tr> 
+
+<tr>
+<td align="right" fixwidth="100">版本：</td>
+<td align="left" fixwidth="250"><font color="LEVEL" >%protocol%</font></td>
+</tr></table>
+<br><br>
+
+<table width=240><tr>
+<tr>
+<td align="right" fixwidth="100">名称：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%name%</font></td>
+<td><Button value="刷新" action="bypass -h admin_character_info %name%" width=60 height=20 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">血盟：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%clan%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">等级：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%level%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">职业：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%class%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">主职：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%baseclass%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">CP 值：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%currentcp%</font>/ %maxcp%</td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">HP 值：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%currenthp%</font>/ %maxhp%</td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">MP 值：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%currentmp%</font>/ %maxmp%</td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">负重：</td>
+<td align="left" fixwidth="280"><font color="LEVEL">%currentload% / %maxload%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">EXP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%xp%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">SP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%sp%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">贵族：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%noblesse%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">副本：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%inst%</font></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td align="right" fixwidth="140">物攻：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%patk%</font></td>
+<td align="right" fixwidth="140">魔攻：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%matk%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="140">物防：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%pdef%</font></td>
+<td align="right" fixwidth="140">魔防：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%mdef%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="140">命中：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%accuracy%</font></td>
+<td align="right" fixwidth="140">回避：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%evasion%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="140">致命：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%critical%</font></td>
+<td align="right" fixwidth="140">跑速：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%runspeed%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="140">攻速：</td>
+<td align="left" fixwidth="200"><font color="LEVEL">%patkspd%</font></td>
+<td align="right" fixwidth="140">施展：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%matkspd%</font></td>
+</tr></table>
+<br><br>
+
+<table width=260><tr>
+<td align="right" fixwidth="100">HP 重生：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%hpregen%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">MP 重生：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%mpregen%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">CP 重生：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%cpregen%</font></td>
+</tr></table>
+<br>
+
+<table width=260 bgcolor="666666">
+<tr>
+<td align="right" fixwidth="100">PvP 指数：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%pvpkills%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">声誉：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%reputation%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">PK 指数：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%pkkills%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">PvP 状态：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%pvpflag%</font></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td align="right" fixwidth="100">玩家位置：</td>
+<td align="left" fixwidth="250"><font color="LEVEL"> %x% %y% %z%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">标题：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%heading%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="100">AI：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%ai%</font></td>
+</tr></table>
+</center>
+</body></html>

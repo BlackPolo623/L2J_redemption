@@ -1,0 +1,37 @@
+<html><title>召唤管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center><button value="召唤选单" action="bypass -h admin_show_npcs" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></center></td>
+<td><button value="返回" action="bypass -h admin_spawn" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<font color="0EE280">召唤 NPC/怪物 ID：永久或暂时</font><font color="LEVEL"> [★]</font><br1>
+<table width=260>
+<tr>
+<td align="right" fixwidth="60">ID/数量：</td>
+<td width=60><edit var="id" width=55 height=11></td>
+<td width=15><edit var="qty" width=22 height=12></td>
+<td width=50><button value="永久" action="bypass -h admin_spawn_monster $id $qty" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=30><button value="暂时" action="bypass -h admin_spawn_once $id $qty" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+
+<font color="0EE280">【 特别的 】</font><br1>
+<button value="重新读取" action="bypass -h admin_spawn_reload" width=200 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="移除所有 NPC" action="bypass -h admin_unspawnall" width=200 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="重新召唤 NPC" action="bypass -h admin_respawnall" width=200 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="夜晚型" action="bypass -h admin_spawnnight" width=200 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="白天型" action="bypass -h admin_spawnday" width=200 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+
+<br><br>
+
+<font color="LEVEL">[★]</font>：<font color="0EE280">名称不区分大小写，但是您必<br1>须使用下划线而不是空格。
+如果你不需要<br1>一个以上的怪物，你可以把数量字段留空。</font>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="24">
+</body></html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="25_14">
+		<npc id="31385" x="189866" y="-105147" z="-728" heading="61793" respawnDelay="10" /> <!-- Heart of Volcano -->
+		<npc id="33335" x="190275" y="-106568" z="-786" heading="55554" respawnDelay="10" /> <!-- 传送管理员 - 传送管理员 -->
+	</spawn>
+</list>

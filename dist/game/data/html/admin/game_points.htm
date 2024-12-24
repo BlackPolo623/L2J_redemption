@@ -1,0 +1,33 @@
+<html><title>创造物品</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>游戏点数选单</center></td>
+<td><Button value="返回" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 游戏点数 】</font><br1>
+
+
+游戏点数是游戏内物品商城<br1>
+〔也称为 Prime Shop〕使用的一种货币。<br1>
+
+<table width="260">
+<tr>
+<td align="right" fixwidth="60">数值：</td>
+<td><edit var="qbox" width=130 height=12></td>
+</tr></table>
+
+
+<img src="L2UI.SquareBlank" width="250" height="20">
+
+<button value="添加" action="bypass -h admin_add_game_points $qbox" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="减去" action="bypass -h admin_subtract_game_points $qbox" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="设置" action="bypass -h admin_set_game_points $qbox" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="统计" action="bypass -h admin_count_game_points" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="返回" action="bypass -h admin_admin6" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+
+</center>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html><body>
+<font color="LEVEL">〔城堡金库管理〕</font><br>
+目前，有<font color="00ffff">%tax_income% 金币</font>藏在城堡的保险库中。<br>
+到目前为止收集的税收收入是<font color="CCFF00">%tax_income_reserved% 金币</font>。
+并且，在此期间，该庄园的种子销售收入为<font color="CCFF00">%seed_income% 金币</font>。<br><br>
+请输入您要提取或存入的金额。<br>
+<center>
+<table height=27 width=280 bgColor="cccccc">
+<tbody><tr>
+<td align=middle width=60>金额</td>
+<td ALIGN="LEFT" width=170><edit width="180" var="data1" type="number"></td>
+<td ALIGN="LEFT" width=60>金币</td></tr></tbody></table><br><br>
+<Button width="74" fore="L2UI_CH3.Btn1_normal" back="L2UI_CH3.Btn1_normalOn" height="21" value="提款" action="bypass -h Quest CastleChamberlain withdraw $data1">
+<Button width="74" fore="L2UI_CH3.Btn1_normal" back="L2UI_CH3.Btn1_normalOn" height="21" value="存款" action="bypass -h Quest CastleChamberlain deposit $data1"><br><br><br>
+<Button width="74" fore="L2UI_CH3.Btn1_normal" back="L2UI_CH3.Btn1_normalOn" height="21" value="取消" action="bypass -h Quest CastleChamberlain chamberlain-01.html">
+</center>
+</body></html>

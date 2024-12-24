@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd " maintainEnchantment="true">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <item>
+    <ingredient id="15572" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33084" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15573" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33089" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15574" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33094" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15575" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33080" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15576" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33085" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15577" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33090" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15578" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33081" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15579" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33086" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15580" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33091" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15581" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33082" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15582" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33087" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15583" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33092" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15584" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33083" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15585" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33088" count="1" enchantmentLevel="15"/>
+  </item>
+
+  <item>
+    <ingredient id="15586" count="1" enchantmentLevel="15"/>
+    <ingredient id="38011" count="1" />
+
+    <production id="33093" count="1" enchantmentLevel="15"/>
+  </item>
+
+</list>

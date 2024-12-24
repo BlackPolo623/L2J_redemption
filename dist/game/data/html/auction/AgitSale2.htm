@@ -1,0 +1,29 @@
+<html><body>
+这个根据地的系统标准价是<font color="aaccff"> %AGIT_LAST_PRICE% </font>金币，
+最终交易价是<font color="aaccff"> %AGIT_LAST_PRICE% </font>金币。<br>
+结束拍卖时，所收到的金额是从得标价扣除<font color="LEVEL">交易税 [10%] </font>後的金额。
+拍卖标准价（最低投标价）要设为多少？
+<table width=270 border=0>
+<tr>
+<td width=220 align=right><edit var=minbid width=230 align=right type=number></td>
+<td width=40 align=right>金币</td>
+</tr>
+</table>
+拍卖期间要设为多少？
+<table width=270 border=0>
+<tr>
+<td width=270 align=right><combobox width=50 var=day list="7;3;1"></td>
+</tr>
+</table>
+请写出有关根据地的说明。<multiedit var="comment" width=270>
+<img src="L2UI.SquareBlank" width=270 height=10>
+<img src="L2UI.SquareWhite" width=270 height=1>
+<img src="L2UI.SquareBlank" width=270 height=5>
+<table width=270 border=0>
+<tr>
+<td width=110></td>
+<td width=80 align=center><Button action="%AGIT_LINK_BACK%" value="上一步" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=80 align=center><Button action="bypass -h npc_%objectId%_auction $day $minbid" value="下一步" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</body></html>

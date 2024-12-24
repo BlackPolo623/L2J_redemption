@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="23_18">
+		<npc id="31862" x="112598" y="14063" z="10075" respawnDelay="10" /> <!-- Angelic Vortex -->
+	</spawn>
+</list>

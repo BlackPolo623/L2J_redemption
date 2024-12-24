@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="38001" count="1000"/> 
+    <production id="14941" count="1"/>
+  </item>
+
+  <!-- Halloween Hat -->
+  <item>
+    <ingredient id="38001" count="1000"/> 
+    <production id="14945" count="1"/>
+  </item>
+
+  <!-- Arrow-Pierced Apple -->
+  <item>
+    <ingredient id="38001" count="1000"/> 
+    <production id="14949" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="38001" count="1000"/>
+    <production id="14953" count="1"/>
+  </item>
+
+  <!-- Graduation Cap -->
+<item>
+    <ingredient id="38001" count="1000"/>
+    <production id="14957" count="1"/>
+  </item>
+
+  <!-- Refined Carnival Circlet -->
+<item>
+    <ingredient id="38001" count="1000"/>
+    <production id="14961" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+<item>
+    <ingredient id="38001" count="1000"/>
+    <production id="13392" count="1"/>
+  </item>
+
+  <!-- Refined Devil Horn -->
+<item>
+    <ingredient id="38001" count="1000"/>
+    <production id="10512" count="1"/>
+  </item>
+
+</list>

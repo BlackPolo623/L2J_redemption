@@ -1,0 +1,23 @@
+<html><title>攻城管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=60 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>攻城</center></td>
+<td><Button value="返回" action="bypass -h admin_siege" width=60 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<br>ClanHall: %clanhallName%<br>
+<br>ClanHall Owner: %clanhallOwner%<br>
+
+
+<button value="开门" action="bypass -h admin_clanhallopendoors %clanhallId%" width=135 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="关门" action="bypass -h admin_clanhallclosedoors %clanhallId%" width=135 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+
+<button value="给予大厅" action="bypass -h admin_clanhallset %clanhallId%" width=135 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="收回大厅" action="bypass -h admin_clanhalldel %clanhallId%" width=135 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<button value="传送自己" action="bypass -h admin_clanhallteleportself %clanhallId%" width=135 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+
+</center>
+</body></html>

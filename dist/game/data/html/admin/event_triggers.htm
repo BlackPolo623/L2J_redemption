@@ -1,0 +1,23 @@
+<html><title>活动触发管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>活动触发器</center></td>
+<td><button value="返回" action="bypass -h admin_html server_menu.htm" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><font color="LEVEL">ID：</font></td>
+<td><edit var="qbox" width=150 height=11></td>
+</tr></table>
+<br><br>
+
+<table width=270><tr>
+<td><button value="启用" action="bypass -h admin_event_trigger $qbox true" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="禁用" action="bypass -h admin_event_trigger $qbox false" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>	
+</tr></table>
+</center>
+</body></html>

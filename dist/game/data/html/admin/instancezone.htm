@@ -1,0 +1,50 @@
+<html><title>实例维护管理</title><body>
+<center>
+<table width=270><tr>
+<td width=45><Button value="首页" action="bypass -h admin_admin" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=180><center>实例创建选单</center></td>
+<td width=45><Button value="返回" action="bypass -h admin_admin" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><Button value="一般" action="bypass -h admin_html instancezone.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="个人" action="bypass -h admin_html instancezone2.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="模板" action="bypass -h admin_html help/instancezone_list.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+<font color="0EE280">【 创建实例 】</font><br1>
+
+<font color="LEVEL">实例：[ 1 ]  - 模板: [ demo.xml ]</font>
+<br><br>
+
+<table width=260>
+<tr>
+<td></td>
+<td>实例</td>
+<td>模板 XML</td>
+</tr>
+<tr>
+<td><Button value="创建" action="bypass -h admin_instancecreate $instanceid_create $templateid" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><edit var="instanceid_create" width=50></td>
+<td><edit var="templateid" width=80></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td><Button value="销毁" action="bypass -h admin_destroyinstance $instanceid_destroy $templateid" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><edit var="instanceid_destroy" width=50></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td><Button value="设置" action="bypass -h admin_setinstance $instanceid_set $templateid" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><edit var="instanceid_set" width=50></td>
+</tr>
+</table>
+<br><br>
+<Button value="列出实例" action="bypass -h admin_listinstances" width=110 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"><br><br>
+<font color="LEVEL">IDs => 300000：保留动态实例！</font>
+</center>
+</body></html>

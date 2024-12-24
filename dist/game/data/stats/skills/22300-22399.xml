@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+  <skill id="22300" levels="1" name="梦幻岛魔法">
+    <!-- Magic obtained from Fantasy Isle. Increases Speed by 30%, and decreases fall damage when falling from a high place. -->
+    <set name="abnormalTime" val="300" />
+    <set name="icon" val="icon.skill22300" />
+    <set name="operateType" val="A2" />
+    <set name="targetType" val="ONE" />
+    <for>
+      <effect name="Buff">
+        <mul stat="runSpd" val="1.30" />
+        <!-- Increases Speed by 30% -->
+        <mul stat="fall" val="0.7" />
+      </effect>
+    </for>
+  </skill>
+  <skill id="22301" levels="1" name="派对用鲜奶油蛋糕">
+    <set name="targetType" val="SELF" />
+    <set name="abnormalTime" val="1200" />
+    <set name="isMagic" val="2" />
+    <!-- Static Skill -->
+    <set name="magicLevel" val="1" />
+    <set name="operateType" val="A1" />
+    <for>
+      <effect name="SummonNpc">
+        <param npcId="147" npcCount="1" despawnDelay="1200000" />
+      </effect>
+    </for>
+  </skill>
+  <skill id="22302" levels="1" name="香甜巧克力-4小时">
+    <!-- For 4 hours, recovers energy when Exp. is acquired through hunting. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22303" levels="1" name="派对用鲜奶油蛋糕">
+    <!-- Party Cake's Vitality effect. Maintains Vitality for 20 minutes. -->
+    <set name="icon" val="br_birthday_cake_i00" />
+    <set name="targetType" val="PARTY" />
+    <set name="affectRange" val="500" />
+    <set name="castRange" val="500" />
+    <set name="abnormalTime" val="1200" />
+    <set name="canBeDispeled" val="false" />
+    <set name="isMagic" val="2" />
+    <!-- Static Skill -->
+    <set name="magicLevel" val="1" />
+    <set name="operateType" val="A2" />
+    <for>
+      <effect name="Buff">
+        <mul stat="vitalityConsumeRate" val="0" />
+      </effect>
+    </for>
+  </skill>
+  <skill id="22304" levels="1" name="火堆的暖气">
+    <!-- The campfire's warmth can be felt. Increases HP regeneration by 80%, CP regeneration by 60%, and MP regeneration by 40%. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22305" levels="1" name="火堆传票">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22306" levels="1" name="事件-召唤宝宝布尼·卷轴">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22307" levels="1" name="事件--《召唤》的宝宝布尼·队长·卷轴">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22308" levels="1" name="事件--《召唤》的悲伤宝宝布尼·卷轴">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22309" levels="1" name="事件--《召唤》的悲伤宝宝布尼·队长·卷轴">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22310" levels="1" name="邱比特的治疗剂">
+    <!-- Calms those angry bunnies and gives them lovely warm fuzzy feelings. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22311" levels="1" name="邱比特的强力治疗剂">
+    <!-- Calms those angry bunnies and gives them lovely warm fuzzy feelings. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22312" levels="1" name="欢乐活力水药水">
+    <!-- Birthday gift received once a year. Increases your Vitality whenever you gain experience. This buff is active for 4 hours and is not lost upon death. However, it will disappear if you change to a subclass. -->
+    <set name="abnormalTime" val="14400" />
+    <set name="canBeDispeled" val="false" />
+    <set name="operateType" val="A2" />
+    <set name="reuseDelay" val="3600000" />
+    <set name="stayAfterDeath" val="true" />
+    <set name="stayOnSubclassChange" val="false" />
+    <set name="targetType" val="SELF" />
+    <for>
+      <effect name="Buff">
+        <sub stat="vitalityConsumeRate" val="10" />
+      </effect>
+    </for>
+  </skill>
+  <skill id="22313" levels="1" name="帕阿格里奥的温暖和风-4小时">
+    <!-- For 4 hours, recovers Vitality when Exp. is acquired through hunting. -->
+    <set name="abnormalLevel" val="1" />
+    <set name="abnormalTime" val="14400" />
+    <set name="abnormalVisualEffect" val="VP_KEEP" />
+    <set name="icon" val="BranchSys2.Icon.pi_wind_of_paagrio" />
+    <set name="isMagic" val="2" />
+    <!-- Static Skill -->
+    <set name="itemConsumeCount" val="1" />
+    <set name="itemConsumeId" val="21880" />
+    <set name="operateType" val="A2" />
+    <set name="targetType" val="SELF" />
+    <for>
+      <effect name="Buff">
+        <sub stat="vitalityConsumeRate" val="10" />
+      </effect>
+    </for>
+  </skill>
+  <skill id="22314" levels="1" name="宝藏袋第一名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22315" levels="2" name="宝藏袋第二名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22316" levels="3" name="宝藏袋第3名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22317" levels="4" name="宝藏袋第4名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22318" levels="5" name="Treasure Sack第5名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22319" levels="6" name="宝藏袋第6名">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22320" levels="1" name="狂暴的精神">
+    <!-- Decreases P. Def. by 8%, M. Def. by 16%, and Evasion by 4, increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22321" levels="1" name="灵活思绪">
+    <!-- Increases Casting Spd. by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22322" levels="1" name="魔障">
+    <!-- Increases M. Def. by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22323" levels="1" name="澄澈思绪">
+    <!-- Decreases MP Consumption by 20% for physical skills, by 10% for magical skills, and by 20% for song/dance skills for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22324" levels="1" name="幸福的灵魂">
+    <!-- Increases Max MP by 35% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22325" levels="1" name="祝福身体">
+    <!-- Increases Max HP by 35% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22326" levels="1" name="魔力催化">
+    <!-- Increases M. Atk. by 75% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22327" levels="1" name="风行">
+    <!-- Increases Speed by 33 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22328" levels="1" name="防护罩">
+    <!-- Increases P. Def. by 15% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22329" levels="1" name="风行">
+    <!-- Increases Speed by 33 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22330" levels="1" name="防护罩">
+    <!-- Increases P. Def. by 15% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22331" levels="1" name="速度激发">
+    <!-- Increases Atk. Spd. by 33% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22332" levels="1" name="死之呢喃">
+    <!-- Increases Critical Attack by 35% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22333" levels="1" name="吸血鬼之怒">
+    <!-- Absorbs 9% of standard melee damage inflicted upon the enemy as HP for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22334" levels="1" name="导引">
+    <!-- Increases Accuracy by 4 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22335" levels="1" name="可能">
+    <!-- Increases P. Atk. by 15% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22336" levels="1" name="祝福身体">
+    <!-- Increases Max HP by 35% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22337" levels="1" name="弱点侦测">
+    <!-- Increases Critical Rate by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22338" levels="1" name="保佑盾">
+    <!-- Increases Shield Defense Rate by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22339" levels="1" name="狂暴的精神">
+    <!-- Decreases P. Def. by 8%, M. Def. by 16%, and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22340" levels="1" name="可能">
+    <!-- Increases P. Atk. by 15% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22341" levels="1" name="风行">
+    <!-- Increases Speed by 33 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22342" levels="1" name="速度激发">
+    <!-- Increases Atk. Spd. by 33% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22343" levels="1" name="吸血鬼之怒">
+    <!-- Absorbs 9% of standard melee damage inflicted upon the enemy as HP for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22344" levels="1" name="狂暴的精神">
+    <!-- Decreases P. Def. by 8%, M. Def. by 16%, and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22345" levels="1" name="魔力催化">
+    <!-- Increases M. Atk. by 75% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22346" levels="1" name="灵活思绪">
+    <!-- Increases Casting Spd. by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22347" levels="1" name="防护罩">
+    <!-- Increases P. Def. by 15% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22348" levels="1" name="弱点侦测">
+    <!-- Increases Critical Rate by 30% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22349" levels="1" name="死之呢喃">
+    <!-- Increases Critical Attack by 35% for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22350" levels="1" name="导引">
+    <!-- Increases Accuracy by 4 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22351" levels="1" name="澄澈思绪">
+    <!-- Decreases MP Consumption by 20% for physical skills, by 10% for magical skills, and by 20% for song/dance skills for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22352" levels="1" name="野性魔力">
+    <!-- Increases the chance of prominent magic damage by 2 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22353" levels="6" name="精神专注">
+    <!-- Decreases magic cancel damage by 53 for 60 minutes. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22354" levels="1" name="秋蓉壶精的礼物">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22355" levels="1" name="搜魂石箱子-17级">
+    <set name="blockedInOlympiad" val="true" />
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22356" levels="1" name="搜魂石箱子-18级">
+    <set name="blockedInOlympiad" val="true" />
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22357" levels="1" name="S84高级武器箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22358" levels="1" name="Vorpal装甲箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22359" levels="1" name="卷轴：附魔的杀伤性武器（S级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22360" levels="1" name="卷轴：毁灭附魔盔甲（S级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22361" levels="1" name="卷轴：附魔的杀伤性武器（A级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22362" levels="1" name="卷轴：毁灭附魔盔甲（A级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22363" levels="1" name="卷轴：附魔毁灭武器（B级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22364" levels="1" name="卷轴：附魔毁灭之甲（B级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22365" levels="1" name="卷轴：附魔的杀伤性武器（C级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22366" levels="1" name="卷轴：毁灭附魔盔甲（C级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22367" levels="1" name="卷轴：附魔的杀伤性武器（D级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22368" levels="1" name="卷轴：毁灭附魔盔甲（D级）">
+    <set name="operateType" val="A1" />
+    <!-- FIXME: value unconfirmed -->
+    <set name="targetType" val="SELF" />
+  </skill>
+  <skill id="22369" levels="1" name="受祝福的魔灵弹-S级">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22370" levels="1" name="神秘的灵魂弹组-S级">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22371" levels="1" name="神秘的祝福的魔灵弹组-S级">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22372" levels="1" name="陨石术">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22373" levels="1" name="坠星术">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22374" levels="1" name="香甜巧克力">
+    <!-- For 30 minutes, Vitality is replenished when Exp. is acquired through hunting. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22375" levels="1" name="情人节爱情小袋">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22376" levels="1" name="香甜巧克力">
+    <!-- For 30 minutes, Vitality is replenished when Exp. is acquired through hunting. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22377" levels="1" name="坏坏兔项链箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22378" levels="1" name="坏坏兔耳环箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22379" levels="1" name="坏坏兔戒指箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22380" levels="1" name="秋蓉壶精礼物组">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22381" levels="1" name="属性矿石·箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22382" levels="1" name="属性水晶箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22383" levels="1" name="开拓者补给品">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22384" levels="1" name="开拓者补给品">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22385" levels="1" name="开拓者补给品">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22386" levels="1" name="N商城变身卷轴礼盒PC咖啡馆">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22387" levels="1" name="礼盒PC咖啡馆">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22388" levels="1" name="PC Café转换棒箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22389" levels="1" name="箱子头饰PC咖啡馆">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22390" levels="1" name="PC Café豪华礼盒">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22391" levels="1" name="宝石盒-护身符">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22392" levels="1" name="幸福蛋糕-低档">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22393" levels="1" name="幸福蛋糕-中档">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22394" levels="1" name="幸福蛋糕-高档">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22395" levels="1" name="幸福蛋糕-上品">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22396" levels="1" name="神圣幸福蛋糕">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22397" levels="1" name="香甜巧克力饼干">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22398" levels="1" name="艾雷格拉礼盒">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22399" levels="1" name="拉图斯礼盒">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+</list>

@@ -1,0 +1,117 @@
+<html><title>角色管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>角色管理选单</center></td>
+<td><button value="返回" action="bypass -h admin_admin6" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td width=60>角色名称：</td><td><edit var="qbox" width=120 height=13></td>
+<td><button value="帮助" action="bypass -h admin_html help/charmanage.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+
+<table width=260><tr>
+<td><button value="前往" action="bypass -h admin_goto_char_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="踢除" action="bypass -h admin_kick_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="停权" action="bypass -h admin_ban_char $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="封锁" action="bypass -h admin_ban_acc $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="召唤" action="bypass -h admin_recall_char_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="杀死" action="bypass -h admin_kill_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="解除停权" action="bypass -h admin_unban_char $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="解除封锁" action="bypass -h admin_unban_acc $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="整队召唤" action="bypass -h admin_recall_party_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="血盟召集" action="bypass -h admin_recall_clan_menu $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="监禁" action="bypass -h admin_jail $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="释放" action="bypass -h admin_unjail $qbox" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td width=15>X:</td><td><edit var="char_cord_x" width=50></td>
+<td width=15>Y:</td><td><edit var="char_cord_y" width=50></td>
+<td width=15>Z:</td><td><edit var="char_cord_z" width=50></td>
+<td><button value="传送" action="bypass -h admin_teleport_character_to_menu $qbox $char_cord_x $char_cord_y $char_cord_z" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280">【 主要城镇 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="奇岩城镇" action="bypass -h admin_teleport_character_to_menu $qbox 83400 147943 -3404" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="亚丁城镇" action="bypass -h admin_teleport_character_to_menu $qbox 147450 26741 -2204" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="狄恩城镇" action="bypass -h admin_teleport_character_to_menu $qbox 15670 142983 -2705" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="欧瑞城镇" action="bypass -h admin_teleport_character_to_menu $qbox 82956 53162 -1495" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="古鲁丁城镇" action="bypass -h admin_teleport_character_to_menu $qbox -12672 122776 -3116" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="古鲁丁村庄" action="bypass -h admin_teleport_character_to_menu $qbox -80826 149775 -3043" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="猎人村庄" action="bypass -h admin_teleport_character_to_menu $qbox 117110 76883 -2695" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="芙罗兰村庄" action="bypass -h admin_teleport_character_to_menu $qbox 17838 170274 -3508" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="高达特城镇" action="bypass -h admin_teleport_character_to_menu $qbox 147928 -55273 -2734" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="修加特城镇" action="bypass -h admin_teleport_character_to_menu $qbox 87386 -143246 -1293" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="鲁因城镇" action="bypass -h admin_teleport_character_to_menu $qbox 43799 -47727 -798" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="水上都市海音斯" action="bypass -h admin_teleport_character_to_menu $qbox 111409 219364 -3545" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280">【 新手村庄 】</font><br1>
+<table width=260>
+<tr>
+<td><button value="说话之岛村庄" action="bypass -h admin_teleport_character_to_menu $qbox -84318 244579 -3730" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="闇天使村庄" action="bypass -h admin_teleport_character_to_menu $qbox -116793 46565 368" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="黑暗精灵村庄" action="bypass -h admin_teleport_character_to_menu $qbox 9745 15606 -4574" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="矮人村庄" action="bypass -h admin_teleport_character_to_menu $qbox 115113 -178212 -901" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="精灵村庄" action="bypass -h admin_teleport_character_to_menu $qbox 46934 51467 -2977" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="半兽人村庄" action="bypass -h admin_teleport_character_to_menu $qbox -44836 -112352 -239" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280">【 竞技场 】</font><br1>
+<table width=260>
+
+<tr>
+<td><Button value="古鲁丁竞技场" action="bypass -h admin_teleport_character_to_menu $qbox -86979 142402 -3643" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="奇岩竞技场" action="bypass -h admin_teleport_character_to_menu $qbox 73890 142656 -3778" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="大圆形竞技场" action="bypass -h admin_teleport_character_to_menu $qbox 147451 46728 -3410" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+</body></html>

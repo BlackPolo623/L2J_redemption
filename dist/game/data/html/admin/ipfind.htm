@@ -1,0 +1,30 @@
+<html><title>管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>IP</center></td>
+<td><button value="返回" action="bypass -h admin_find_dualbox" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+自<font color="LEVEL">%ip%</font>登陆的玩家：<br>
+<table width=260>
+<tr><td width=80>名称</td><td width=100>职业</td><td>等级</td></tr>
+%results%
+</table>
+<br>
+
+<table><tr>
+<tr>
+<td align="right" fixwidth="140">IP 位址：</td>
+<td align="left" fixwidth="250"><edit var="ip_number" width=100></td>
+<td align="left" fixwidth="250"><button value="搜寻" action="bypass -h admin_find_ip $ip_number" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<br>
+
+搜寻到 %number% 个玩家 %end%
+</center>
+<img src="L2UI.SquareBlank" width="260" height="2">
+</body></html>

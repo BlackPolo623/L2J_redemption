@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+  <skill id="14156" levels="1" name="史奈克">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14157" levels="1" name="巨型毒蛇">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14158" levels="1" name="长刃钢爪">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14164" levels="1" name="阿卡因喷气机">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14165" levels="1" name="Akain爆发">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14167" levels="1" name="黑色粉尘">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="14168" levels="1" name="投掷谷粒">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+</list>

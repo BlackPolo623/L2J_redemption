@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="12_25">
+		<npc id="33335" x="-248631" y="250214" z="4334" heading="35830" respawnDelay="60" /> <!-- 传送管理员 - 传送管理员 -->
+	</spawn>
+</list>

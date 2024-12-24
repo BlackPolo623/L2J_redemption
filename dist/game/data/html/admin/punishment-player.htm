@@ -1,0 +1,70 @@
+<html><title>惩罚管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>玩家: %player_name%</center></td>
+<td><button value="返回" action="bypass -h admin_punishment" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width=260>
+<tr>
+<td align="right" fixwidth="140" action="bypass -h admin_punishment info %acc% ACCOUNT">授惩罚的帐户：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%acc%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="140" action="bypass -h admin_punishment info %char% CHARACTER">授惩罚的角色：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%char%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="140" action="bypass -h admin_punishment info %ip% IP">授惩罚的 IP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%ip%</font></td>
+</tr></table>
+
+<br>
+<table width=260 cellpadding="4">
+<tr>
+<td align="right" fixwidth="60">处罚类型：</td>
+<td><combobox width=140 height=17 var="punishmentType" list="%punishments%"></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="60">时间：</td>
+<td><edit var="expiration" width="140" height="12" type="number"></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="60">原因：</td>
+<td><multiedit var="reason" width=140 height=32></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="60">账户：</td>
+<td><font color="LEVEL">%acc%</font></td>
+<td><a action="bypass -h admin_punishment_add %acc% ACCOUNT $punishmentType $expiration $reason">禁止</a></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="60">角色：</td>
+<td><font color="LEVEL">%char%</font></td>
+<td><a action="bypass -h admin_punishment_add %char% CHARACTER $punishmentType $expiration $reason">禁止</a></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="60">IP：</td>
+<td><font color="LEVEL">%ip%</font></td>
+<td><a action="bypass -h admin_punishment_add %ip% IP $punishmentType $expiration $reason">禁止</a></td>
+</tr></table>
+<br><br>
+
+<font color="FF3333">对於永久禁令，使用 0 作为时间。<br1>
+同样的时间以分钟为单位。</font>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="24">
+</body></html>

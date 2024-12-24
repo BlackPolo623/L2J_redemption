@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <item>
+    <ingredient id="10639" count="1000"/>
+    <production id="14679" count="3"/>
+  </item>
+
+  <item>
+    <ingredient id="10639" count="500"/>
+    <production id="16178" count="3"/>
+  </item>
+
+    <item>
+    <ingredient id="10639" count="1000"/>
+    <production id="6570" count="1"/>
+  </item>
+  
+   <item>
+    <ingredient id="10639" count="20000"/>
+    <production id="24130" count="1"/>
+	 <production id="33331" count="1"/>
+	  <production id="33332" count="1"/>
+	   <production id="33333" count="1"/>
+  </item>
+  
+   <item>
+    <ingredient id="10639" count="20000"/>
+    <production id="38007" count="1"/>
+  </item>
+  <item>
+    <ingredient id="10639" count="20000"/>
+    <production id="38014" count="1"/>
+  </item>
+
+   <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="30053" count="1"/>
+  </item>
+    <item>
+    <ingredient id="10639" count="20000"/>
+    <production id="30054" count="1"/>
+  </item>
+
+   <item>
+    <ingredient id="10639" count="30000"/>
+    <production id="30055" count="1"/>
+  </item>
+
+   <item>
+    <ingredient id="10639" count="40000"/>
+    <production id="30056" count="1"/>
+  </item>
+ 
+   <item>
+    <ingredient id="10639" count="5000"/>
+    <production id="31015" count="1"/>
+  </item>
+ 
+   <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="31020" count="1"/>
+  </item>
+
+   <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="31025" count="1"/>
+  </item>
+   <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="30015" count="1"/>
+  </item>
+
+     <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="30020" count="1"/>
+  </item>
+  
+   <item>
+    <ingredient id="10639" count="10000"/>
+    <production id="30025" count="1"/>
+  </item>  
+</list>

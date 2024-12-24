@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+  <skill id="22400" levels="1" name="卷轴-札肯转型">
+    <!-- Transformed into Zaken. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22401" levels="1" name="卷轴-劳库转型">
+    <!-- Transformed into Ranku. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22402" levels="1" name="啾啾壶精的礼物">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22403" levels="1" name="额外入口通行证-卡玛洛卡（深渊之厅）">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22404" levels="1" name="开拓者奖励品">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22405" levels="1" name="S84顶级武器箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22406" levels="1" name="Ellegia Armor箱子">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22407" levels="1" name="PC Cafe Energy">
+    <!-- For 60 minutes, recovers Vitality when Exp. is acquired through hunting. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22408" levels="1" name="附魔工具箱">
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+  <skill id="22409" levels="1" name="命运的鲁因">
+    <!-- Increases acquired XP and SP by 200%. -->
+    <set name="operateType" val="P" />
+    <set name="targetType" val="NONE" />
+  </skill>
+</list>

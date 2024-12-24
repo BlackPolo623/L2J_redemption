@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd " maintainEnchantment="true">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33099" count="1"/>
+    <production id="33104" count="1"/>
+  </item>
+
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33099" count="1"/>
+    <production id="33109" count="1"/>
+  </item>
+
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33104" count="1"/>
+    <production id="33109" count="1"/>
+  </item>
+
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33104" count="1"/>
+    <production id="33099" count="1"/>
+  </item>
+
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33109" count="1"/>
+    <production id="33104" count="1"/>
+  </item>
+
+  <!-- Birthday Hat -->
+  <item>
+    <ingredient id="33109" count="1"/>
+    <production id="33099" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33095" count="1"/>
+    <production id="33100" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33095" count="1"/>
+    <production id="33105" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33105" count="1"/>
+    <production id="33100" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33105" count="1"/>
+    <production id="33095" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33100" count="1"/>
+    <production id="33095" count="1"/>
+  </item>
+
+  <!-- Popped-Out Eye -->
+  <item>
+    <ingredient id="33100" count="1"/>
+    <production id="33105" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33096" count="1"/>
+    <production id="33101" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33096" count="1"/>
+    <production id="33106" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33106" count="1"/>
+    <production id="33096" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33106" count="1"/>
+    <production id="33101" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33101" count="1"/>
+    <production id="33096" count="1"/>
+  </item>
+
+  <!-- Refined Angel Ring -->
+  <item>
+    <ingredient id="33101" count="1"/>
+    <production id="33106" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33097" count="1"/>
+    <production id="33102" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33097" count="1"/>
+    <production id="33107" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33102" count="1"/>
+    <production id="33107" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33102" count="1"/>
+    <production id="33097" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33107" count="1"/>
+    <production id="33102" count="1"/>
+  </item>
+
+  <!-- Event - Refined Chick Hat -->
+  <item>
+    <ingredient id="33107" count="1"/>
+    <production id="33097" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33098" count="1"/>
+    <production id="33103" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33098" count="1"/>
+    <production id="33108" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33108" count="1"/>
+    <production id="33103" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33108" count="1"/>
+    <production id="33098" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33103" count="1"/>
+    <production id="33098" count="1"/>
+  </item>
+
+  <!-- Event - Refined Black Feather Mask -->
+  <item>
+    <ingredient id="33103" count="1"/>
+    <production id="33108" count="1"/>
+  </item>
+
+</list>

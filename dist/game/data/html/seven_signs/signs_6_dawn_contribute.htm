@@ -1,0 +1,8 @@
+<html><body>黎明的祭司:<br>
+<font color="LEVEL">[ 交出 %contribStoneColor% 封印石 ]</font><br>
+你现在拥有 %stoneCount% 个 %stoneColor% 封印石。要交付其中几个呢？<br>
+[ 输入要交出的数量 ]
+<br>
+<edit var="amount" width=100>
+<Button value="交出" action="bypass -h npc_%objectId%_SevenSigns 21 %stoneItemId% $amount" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" width=80 height=27>
+</body></html>

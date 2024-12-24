@@ -1,0 +1,41 @@
+<html><title>实例管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>实例创建选单</center></td>
+<td><Button value="返回" action="bypass -h admin_html instancezone.htm" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><Button value="一般" action="bypass -h admin_html instancezone.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="个人" action="bypass -h admin_html instancezone2.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="模板" action="bypass -h admin_html help/instancezone_list.htm" width=83 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280">【 角色相关 】</font><br1>
+<table width=260>
+<tr>
+<td></td>
+<td>玩家名称</td>
+<td>模板ID</td>
+</tr>
+<tr>
+<td><Button value="清除" action="bypass -h admin_instancezone_clear $playername $instanceid" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><edit var="playername" width=90></td>
+<td><edit var="instanceid" width=60></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td><Button value="列表" action="bypass -h admin_instancezone $playername2" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><edit var="playername2" width=90></td>
+</tr>
+</table><br><br><br>
+<font color="LEVEL">〔 注意 〕<br1>模板 ID 保存在：game\data\InstanceNames.xml</font>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="116">
+</body></html>

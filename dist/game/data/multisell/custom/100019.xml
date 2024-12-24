@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <!-- [Ring Of Binding] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4445" count="10"/>
+  </item>
+
+  <!-- [Earring Of Binding] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4446" count="10"/>
+  </item>
+
+  <!-- [Necklace Of Binding] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4447" count="10"/>
+  </item>
+
+  <!-- [Earring Of Black Ore] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4448" count="10"/>
+  </item>
+
+  <!-- [Ring Of Black Ore] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4449" count="10"/>
+  </item>
+
+  <!-- [Necklace Of Black Ore] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4450" count="10"/>
+  </item>
+
+  <!-- [Majestic Necklace] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4451" count="10"/>
+  </item>
+
+  <!-- [Majestic Ring] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4452" count="10"/>
+  </item>
+
+  <!-- [Majestic Earring] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4453" count="10"/>
+  </item>
+
+  <!-- [1Majestic Earring] -->
+  <item>
+    <ingredient id="57" count="40000" />
+    <production id="4454" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4455" count="10"/>
+  </item>
+
+  <!-- [3Majestic Earring] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4456" count="10"/>
+  </item>
+
+  <!-- [4Majestic Earring] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4457" count="10"/>
+  </item>
+
+  <!-- [5Majestic Earring] -->
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4458" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4459" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4460" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4461" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4462" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4463" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4464" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4465" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4466" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4467" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4468" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="400000" />
+    <production id="4469" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4470" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4471" count="10"/>
+  </item>
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4472" count="10"/>
+  </item>
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4473" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4474" count="10"/>
+  </item>
+  <item>
+    <ingredient id="57" count="420000"/>
+    <production id="4475" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4476" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4477" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4478" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4479" count="10"/>
+  </item>
+
+  <item>
+    <ingredient id="57" count="420000" />
+    <production id="4480" count="10"/>
+  </item>
+
+</list>
+

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+ 	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+   <item>
+    <ingredient id="30055" count="1"/>
+    <production id="28095" count="1" enchantmentLevel="35"/>
+    <production id="28096" count="1" enchantmentLevel="35"/>
+    <production id="28097" count="1" enchantmentLevel="35"/>
+    <production id="28098" count="1" enchantmentLevel="35"/>
+    <production id="28099" count="1" enchantmentLevel="35"/>
+    <production id="60560" count="1" enchantmentLevel="35"/>
+    <production id="6657" count="1" enchantmentLevel="35"/>
+    <production id="6656" count="1" enchantmentLevel="35"/>
+    <production id="6658" count="1" enchantmentLevel="35"/>
+    <production id="6659" count="1" enchantmentLevel="35"/>
+    <production id="6660" count="1" enchantmentLevel="35"/>
+    <production id="33331" count="1" enchantmentLevel="35"/>
+    <production id="33332" count="1" enchantmentLevel="35"/>
+    <production id="33333" count="1" enchantmentLevel="35"/>
+    <production id="24130" count="1" enchantmentLevel="35"/>
+    <production id="15587" count="1" enchantmentLevel="35"/>
+  </item>
+   <item>
+    <ingredient id="10639" count="400"/>
+    <production id="38019" count="1"/>
+  </item> 
+    <item>
+    <ingredient id="10639" count="600"/>
+    <production id="38020" count="1"/>
+  </item> 
+
+
+
+</list>

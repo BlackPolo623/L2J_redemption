@@ -1,0 +1,100 @@
+<html><title>游戏管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="角色" action="bypass -h admin_admin6" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="游戏" action="bypass -h admin_admin2" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="管理" action="bypass -h admin_admin7" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><font color="LEVEL">数值:</font></td>
+<td><edit var="qbox" width=150 height=11></td>
+<td><Button value="帮助" action="bypass -h admin_html help/game_menu.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<font color="0EE280">【 血盟相关 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="创造血盟" action="bypass -h admin_pledge create $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="血盟资讯" action="bypass -h admin_pledge info" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="修改等级" action="bypass -h admin_pledge setlevel $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="删除血盟" action="bypass -h admin_pledge dismiss $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="修改声望" action="bypass -h admin_pledge rep $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="领导承诺" action="bypass -h admin_clan_show_pending" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+</table>
+<br>
+
+
+<font color="0EE280">【 战争相关 】</font><br1>
+<table width=260>
+<tr>
+<td><button value="城堡" action="bypass -h admin_siege" width=82 height=20 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="根据地" action="bypass -h admin_fortsiege" width=82 height=20 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="边境要塞" action="bypass -h admin_territory_war" width=82 height=20 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+</table>
+<br>
+
+<font color="0EE280">【 受诅咒的武器 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="资讯" action="bypass -h admin_cw_info_menu $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="增加" action="bypass -h admin_cw_add $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="移除" action="bypass -h admin_cw_remove $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<font color="0EE280">【 七封印 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="铁匠" action="bypass -h admin_mammon_find 1" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="商人" action="bypass -h admin_mammon_find 2" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="重生" action="bypass -h admin_mammon_respawn" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260>
+<tr>
+<td><font color="0EE280">【 庄园 】</font></td>
+<td><font color="0EE280">【 格拉西亚种子 】</font></td>
+</tr>
+
+<tr>
+<td><Button value="庄园资讯" action="bypass -h admin_manor" width="125" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="格拉西亚资讯" action="bypass -h admin_gracia_seeds" width="125" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260>
+<tr>
+<td><font color="0EE280">【 地狱边界 】</font></td>
+<td><font color="0EE280">【 狩猎首领 】</font></td>
+</tr>
+
+<tr>
+<td><Button value="庄园资讯" action="bypass -h admin_hellbound" width="125" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="狩猎首领" action="bypass -h admin_grandboss" width="125" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><font color="0EE280">【 奥林匹亚 】</font></td><br1>
+<td><font color="0EE280">【 英雄 】</font></td><br1>
+</tr>
+
+<tr>
+<td><Button value="储存奥林匹亚" action="bypass -h admin_saveolymp" width="90" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="设定英雄" action="bypass -h admin_sethero" width="60" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="给予无名英雄" action="bypass -h admin_givehero" width="90" height="20" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="3">
+</center>
+</body></html>

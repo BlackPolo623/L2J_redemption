@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd " maintainEnchantment="true">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <!-- Refined Jester Hat -->
+
+  <item>
+    <ingredient id="10314" count="1"/>
+    <production id="6660" count="1"/>
+  </item>
+  
+  <item>
+    <ingredient id="6660" count="1"/>
+    <production id="10314" count="1"/>
+  </item>
+  <item>
+    <ingredient id="14957" count="1"/>
+    <production id="14961" count="1"/>
+  </item>
+
+  <!-- Refined Jester Hat -->
+  <item>
+    <ingredient id="14961" count="1"/>
+    <production id="14957" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="16026" count="1"/>
+    <production id="6657" count="1"/>
+  </item>
+  
+  <item>
+    <ingredient id="16026" count="1"/>
+    <production id="8191" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="6657" count="1"/>
+    <production id="16026" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="6657" count="1"/>
+    <production id="8191" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="8191" count="1"/>
+    <production id="16026" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="8191" count="1"/>
+    <production id="6657" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="14957" count="1"/>
+    <production id="14953" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="14961" count="1"/>
+    <production id="14953" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="14953" count="1"/>
+    <production id="14961" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="14953" count="1"/>
+    <production id="14957" count="1"/>
+  </item>
+
+
+  <item>
+    <ingredient id="16025" count="1"/>
+    <production id="16026" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="6659" count="1"/>
+    <production id="6659" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="10512" count="1"/>
+    <production id="13392" count="1"/> 
+  </item>
+
+  <item>
+    <ingredient id="13392" count="1"/>
+    <production id="10512" count="1"/> 
+  </item>
+</list>

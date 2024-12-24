@@ -1,0 +1,34 @@
+<html><title>诉求资讯</title><body>
+<center>
+<table width=260><tr>
+<td><button value="接受" action="bypass -h admin_accept_petition %petition%" width="64" height="22" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="拒绝" action="bypass -h admin_reject_petition %petition%" width="64" height="22" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="返回" action="bypass -h admin_view_petitions" width="64" height="22" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="LEVEL">诉求编号 #%petition%</font><br>
+
+<img src="L2UI.SquareWhite" width=260 height=1><br>
+
+<table width=270 border=0>
+<tr>
+<td align="right" fixwidth="100">时间：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%time%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">诉求者：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%petitioner%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="100">类别：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%type%</font></td>
+</tr></table>
+
+<br><img src="L2UI.SquareWhite" width=260 height=1><br>
+<table width=260><tr><td>%text%</td></tr></table>
+<br><img src="L2UI.SquareWhite" width=260 height=1><br>
+</center>
+</body></html>

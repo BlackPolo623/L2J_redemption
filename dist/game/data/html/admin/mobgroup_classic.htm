@@ -1,0 +1,56 @@
+<html><title>怪物控制管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>怪物控制选单〔经典〕</center></td>
+<td><Button value="返回" action="bypass -h admin_admin3" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 经典 】</font><br1>
+
+<table width="260">
+<tr>
+<td><Button value="创造群组" action="bypass -h admin_mobgroup_create $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="召唤群组" action="bypass -h admin_mobgroup_spawn $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td> 
+</tr>
+<tr>
+<td><Button value="取消群组" action="bypass -h admin_mobgroup_unspawn $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="删除群组" action="bypass -h admin_mobgroup_remove $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="全部清单" action="bypass -h admin_list_groups $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="攻击目标" action="bypass -h admin_mobgroup_attack $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="攻击群组" action="bypass -h admin_mobgroup_attackgrp" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="任意攻击" action="bypass -h admin_mobgroup_rnd" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="群组返回" action="bypass -h admin_mobgroup_return $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组跟随" action="bypass -h admin_mobgroup_follow $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="群组传送" action="bypass -h admin_mobgroup_teleport $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组杀死" action="bypass -h admin_mobgroup_kill $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="群组无敌" action="bypass -h admin_mobgroup_invul" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td> 
+<td><Button value="群组闲置" action="bypass -h admin_mobgroup_idle $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="群组静止" action="bypass -h admin_mobgroup_nomove $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组施法" action="bypass -h admin_mobgroup_casting" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<table width="260">
+<tr>
+<td align="right" fixwidth="280">怪物控制数值：</td>
+<td align="left" fixwidth="250"><edit var="qbox" width=80 height=13></td>
+<td align="left" fixwidth="250"><Button value="说明" action="bypass -h admin_mobinst" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="63">
+</body></html>

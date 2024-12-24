@@ -1,0 +1,76 @@
+<html><title>首页管理</title><body>
+<center>
+<table width=265><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="角色" action="bypass -h admin_admin6" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="游戏" action="bypass -h admin_admin2" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="管理" action="bypass -h admin_admin7" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=265><tr>
+<td><font color="LEVEL">数值:</font></td>
+<td><edit var="qbox" width=150 height=11></td>
+<td><button value="帮助" action="bypass -h admin_html help/main_menu.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+<table width=265><tr>
+<td><button value="创造物品" action="bypass -h admin_create_item $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="传送选单" action="bypass -h admin_move_to $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="寻找玩家" action="bypass -h admin_find_character $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="召唤 NPC" action="bypass -h admin_spawn_monster $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="前往 NPC" action="bypass -h admin_list_spawns $qbox 1" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="附近 NPC" action="bypass -h admin_scan $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="NPC 座标" action="bypass -h admin_list_positions $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="列出 NPC" action="bypass -h admin_list_spawns $qbox" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="前往位置" action="bypass -h admin_list_positions $qbox 1" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="高级用户" action="bypass -h admin_premium_menu" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td></td>
+<td></td>
+</tr>
+
+</table>
+<br><br>
+
+<font color="0EE280">【 对目标进行操作 】</font><br1>
+<table width=265>
+<tr>
+<td><button value="杀死" action="bypass -h admin_kill_menu" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="开启" action="bypass -h admin_open" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="删除" action="bypass -h admin_delete" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="复活" action="bypass -h admin_res" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="关闭" action="bypass -h admin_close" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="移动NPC" action="bypass -h admin_recall_npc" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="补血" action="bypass -h admin_heal" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td></td>
+<td><button value="饱食度" action="bypass -h admin_fullfood" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+<font color="0EE280">【 排版测试用 】</font><br1>
+<table width=265>
+<tr>
+<td><button value="查看排列" action="bypass -h admin_html 123.htm" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td></td>
+<td><button value="刷新网页" action="bypass -h admin_reload html $value" width=82 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="250" height="7">
+</body></html>

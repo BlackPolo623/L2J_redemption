@@ -1,0 +1,89 @@
+<html><title>异常视觉效果管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width="150"><center>异常视觉效果</center></td>
+<td><button value="返回" action="bypass -h admin_admin3" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td>数值：</td>
+<td><edit var="qbox" width="100" height="13"></td>
+<td>
+<button value="帮助" action="bypass -h admin_html help/abnormal.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+</td>
+</tr></table>
+<br>
+
+<table width="260"><tr>
+<td><button value="流血" action="bypass -h admin_ave_abnormal DOT_BLEEDING $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="中毒" action="bypass -h admin_ave_abnormal DOT_POISON $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="烧伤" action="bypass -h admin_ave_abnormal DOT_FIRE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="水" action="bypass -h admin_ave_abnormal DOT_WATER $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="风" action="bypass -h admin_ave_abnormal DOT_WIND $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="地震" action="bypass -h admin_ave_abnormal DOT_SOIL $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="眩晕" action="bypass -h admin_ave_abnormal STUN $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="睡眠" action="bypass -h admin_ave_abnormal SLEEP $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="沉默" action="bypass -h admin_ave_abnormal SILENCE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="固定" action="bypass -h admin_ave_abnormal ROOT $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="瘫痪" action="bypass -h admin_ave_abnormal PARALYZE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="石化" action="bypass -h admin_ave_abnormal FLESH_STONE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="加MP" action="bypass -h admin_ave_abnormal DOT_MP $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="大头" action="bypass -h admin_ave_abnormal BIG_HEAD $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="火焰" action="bypass -h admin_ave_abnormal DOT_FIRE_AREA $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="改变纹理" action="bypass -h admin_ave_abnormal CHANGE_TEXTURE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="身体变大" action="bypass -h admin_ave_abnormal BIG_BODY $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="悬空固定" action="bypass -h admin_ave_abnormal FLOATING_ROOT $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="舞蹈眩晕" action="bypass -h admin_ave_abnormal DANCE_ROOT $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="幽灵眩晕" action="bypass -h admin_ave_abnormal GHOST_STUN $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="隐身" action="bypass -h admin_ave_abnormal STEALTH $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="夺取 1" action="bypass -h admin_ave_abnormal SEIZURE1 $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="夺取 2" action="bypass -h admin_ave_abnormal SEIZURE2 $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="魔法圈" action="bypass -h admin_ave_abnormal MAGIC_SQUARE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="冰冻" action="bypass -h admin_ave_abnormal FREEZING $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="摇晃" action="bypass -h admin_ave_abnormal SHAKE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="盲人" action="bypass -h admin_ave_abnormal BLIND $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="U. 防御" action="bypass -h admin_ave_abnormal ULTIMATE_DEFENCE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="活力上升" action="bypass -h admin_ave_abnormal VP_UP $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="真实目标" action="bypass -h admin_ave_abnormal REAL_TARGET $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="死亡之印" action="bypass -h admin_ave_abnormal DEATH_MARK $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="恐惧" action="bypass -h admin_ave_abnormal TURN_FLEE $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="活力保持" action="bypass -h admin_ave_abnormal VP_KEEP $qbox" width="80" height="21" back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="250" height="9">
+</body></html>

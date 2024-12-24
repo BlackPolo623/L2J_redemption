@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="24_21">
+		<npc id="13001" x="154684" y="121098" z="-3759" heading="27259" respawnDelay="10" /> <!-- Heart of Warding -->
+	</spawn>
+</list>

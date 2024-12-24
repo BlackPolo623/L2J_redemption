@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_17">
+		<npc id="55552" x="82552" y="-16292" z="-1896" heading="32029" respawnDelay="14400" /> <!-- 循环BOSS - 循环BOSS -->
+	</spawn>
+</list>

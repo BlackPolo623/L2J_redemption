@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skillTrees.xsd">
+	<!-- Elven Elder -->
+	<skillTree type="classSkillTree" classId="30" parentClassId="29">
+		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" autoGet="true">
+			<item id="8618" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" autoGet="true">
+			<item id="8619" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" autoGet="true">
+			<item id="8620" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" autoGet="true">
+			<item id="8621" count="1" />
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="12" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="9" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="9" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="13" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="14" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="15" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="3" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="12" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="5" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="6" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="1" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="2" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Might" skillId="1068" skillLevel="3" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="6" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Resist Poison" skillId="1033" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="3" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Resist Shock" skillId="1259" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="1" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="2" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="3" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Inquisitor" skillId="1521" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="13" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="14" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="15" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="12" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="13" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="14" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="12" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="13" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="14" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="17" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="18" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="2" getLevel="44" levelUpSp="39000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="3" getLevel="44" levelUpSp="39000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="15" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="7" getLevel="44" levelUpSp="20500" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="8" getLevel="44" levelUpSp="20500" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="3" getLevel="44" levelUpSp="20500" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="4" getLevel="44" levelUpSp="20500" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="7" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="1" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Resist Poison" skillId="1033" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Shield" skillId="1040" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Agility" skillId="1087" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Return" skillId="1050" skillLevel="1" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Decrease Weight" skillId="1257" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="4" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="5" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="6" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="19" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="20" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="21" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Quick Recycle" skillId="164" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="1" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="2" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="3" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="10" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="5" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="6" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="1" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="2" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="3" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="8" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Regeneration" skillId="1044" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Party Recall" skillId="1255" skillLevel="1" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="7" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="8" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="19" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="20" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="21" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="18" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="19" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="20" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="18" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="19" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="20" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="22" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="23" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="24" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="3" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="4" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="19" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="20" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="21" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="4" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="5" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="6" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="11" getLevel="52" levelUpSp="38000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="12" getLevel="52" levelUpSp="38000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="7" getLevel="52" levelUpSp="38000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="8" getLevel="52" levelUpSp="38000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="4" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="5" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="6" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="9" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="3" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Agility" skillId="1087" skillLevel="3" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="4" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Kiss of Eva" skillId="1073" skillLevel="2" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Decrease Weight" skillId="1257" skillLevel="3" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Resist Shock" skillId="1259" skillLevel="2" getLevel="52" levelUpSp="77000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="10" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="11" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="12" getLevel="52" levelUpSp="26000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="22" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="23" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="24" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="21" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="22" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="23" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="21" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="22" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="23" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="25" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="26" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="27" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="5" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="3" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="22" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="23" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="24" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="7" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="8" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="9" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="13" getLevel="56" levelUpSp="47000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="14" getLevel="56" levelUpSp="47000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="9" getLevel="56" levelUpSp="47000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="10" getLevel="56" levelUpSp="47000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="7" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="8" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="9" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="10" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="4" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="5" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Regeneration" skillId="1044" skillLevel="3" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="3" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="4" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Return" skillId="1050" skillLevel="2" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Party Recall" skillId="1255" skillLevel="2" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="1" getLevel="56" levelUpSp="95000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="13" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="14" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="15" getLevel="56" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="25" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="26" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="24" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="25" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="28" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="29" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="24" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="25" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="4" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="25" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="26" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="10" getLevel="58" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="11" getLevel="58" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="12" getLevel="58" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="15" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="16" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="11" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="10" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="11" getLevel="58" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="11" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="5" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Advanced Block" skillId="1304" skillLevel="1" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Cure Poison" skillId="1012" skillLevel="3" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="1" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="2" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="2" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Clarity" skillId="1397" skillLevel="1" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="2" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="2" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="2" getLevel="58" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="16" getLevel="58" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="17" getLevel="58" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="27" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="28" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="26" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="27" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="30" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="31" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="26" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="27" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="6" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="5" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="27" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="28" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="13" getLevel="60" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="14" getLevel="60" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="15" getLevel="60" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="17" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="18" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="12" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="12" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="13" getLevel="60" levelUpSp="70000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="12" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="6" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="5" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="3" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="3" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="3" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="3" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="3" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="2" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="18" getLevel="60" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="19" getLevel="60" levelUpSp="50000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="29" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="30" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="28" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="29" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="32" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="33" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="28" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="29" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="29" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="30" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="16" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="17" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="19" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="20" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="13" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="14" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="15" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="13" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="7" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Wild Magic" skillId="1303" skillLevel="1" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="4" getLevel="62" levelUpSp="210000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="20" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="21" getLevel="62" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="31" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="32" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="30" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="31" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="34" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="35" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="30" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="31" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="31" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="32" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="18" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="19" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="21" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="22" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="14" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="16" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="17" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="14" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="8" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="6" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Resist Shock" skillId="1259" skillLevel="3" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="5" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="3" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="22" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="23" getLevel="64" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="33" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="34" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="32" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="33" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="36" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="37" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="32" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="33" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="7" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="33" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="34" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="20" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="21" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="23" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="24" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="15" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="18" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="19" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="15" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="9" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="5" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Advanced Block" skillId="1304" skillLevel="2" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="2" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="6" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="6" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Clarity" skillId="1397" skillLevel="2" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="6" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="6" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="6" getLevel="66" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="24" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="25" getLevel="66" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="35" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="36" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="34" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="35" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="38" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="39" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="34" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="35" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="6" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="35" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="36" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="22" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="23" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="25" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="26" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="16" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="20" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="21" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="16" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="10" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="6" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="7" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="7" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="7" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="7" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="7" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="4" getLevel="68" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="26" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="27" getLevel="68" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="37" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="38" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="36" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="37" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="40" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="41" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="36" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="37" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="37" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="38" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="24" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="25" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="27" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="28" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="17" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="22" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="23" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="17" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="11" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="6" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Wild Magic" skillId="1303" skillLevel="2" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="8" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="8" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="8" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="8" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="8" getLevel="70" levelUpSp="490000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="28" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="29" getLevel="70" levelUpSp="250000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="39" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="40" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="38" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="39" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="43" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="38" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="39" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="8" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="39" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="40" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="26" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="27" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="29" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="30" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="18" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="24" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="25" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="18" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="12" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Advanced Block" skillId="1304" skillLevel="3" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Resist Shock" skillId="1259" skillLevel="4" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="9" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="9" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="9" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="9" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="9" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="5" getLevel="72" levelUpSp="710000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="30" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="31" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="41" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="42" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="40" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="41" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="44" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="45" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="40" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="41" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="6" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="7" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="41" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="42" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="28" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="29" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="31" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="32" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="19" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="26" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="27" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="19" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Serenade of Eva" skillId="1273" skillLevel="13" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="7" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="3" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="10" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="10" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Clarity" skillId="1397" skillLevel="3" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="10" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="10" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="10" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="11" getLevel="74" levelUpSp="1050000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="32" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="33" getLevel="74" levelUpSp="520000" autoGet="true" />
+
+		<!-- Forgotten Scrolls -->
+		<skill skillName="Improve Shield Defense" skillId="1503" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Improve Movement" skillId="1504" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" autoGet="true">
+			<item id="8618" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" autoGet="true">
+			<item id="8619" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" autoGet="true">
+			<item id="8620" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" autoGet="true">
+			<item id="8621" count="1" />
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="12" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="9" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="9" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="13" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="14" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="15" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="3" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="10" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="11" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="12" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="5" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="6" getLevel="40" levelUpSp="15000" autoGet="true" />
+		<skill skillName="Might" skillId="1068" skillLevel="3" getLevel="40" levelUpSp="34000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="6" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Resist Wind" skillId="1189" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="2" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Stigma of Shilien" skillId="1539" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="1" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="2" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="3" getLevel="40" levelUpSp="10000" autoGet="true" />
+		<skill skillName="Inquisitor" skillId="1522" skillLevel="1" getLevel="40" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="15" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="12" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="12" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="17" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="18" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="15" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="7" getLevel="44" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="8" getLevel="44" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="7" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Resist Wind" skillId="1189" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Shield" skillId="1040" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Empower" skillId="1059" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Focus" skillId="1077" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="1" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="3" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Vampiric Rage" skillId="1268" skillLevel="2" getLevel="44" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="4" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="5" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="6" getLevel="44" levelUpSp="13000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="16" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="17" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="18" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="15" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="16" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="17" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="15" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="16" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="17" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="19" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="20" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="21" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="4" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Quick Recycle" skillId="164" skillLevel="3" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="16" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="17" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="18" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="1" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="2" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="3" getLevel="48" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="9" getLevel="48" levelUpSp="40000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="10" getLevel="48" levelUpSp="40000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="8" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="2" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="2" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="3" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="2" getLevel="48" levelUpSp="80000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="7" getLevel="48" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="8" getLevel="48" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="9" getLevel="48" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="19" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="20" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="21" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="18" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="19" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="20" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="18" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="19" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="20" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="22" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="23" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="24" getLevel="52" levelUpSp="35000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="3" getLevel="52" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="4" getLevel="52" levelUpSp="110000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="19" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="20" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="21" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="4" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="5" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="6" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="11" getLevel="52" levelUpSp="53000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="12" getLevel="52" levelUpSp="53000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="9" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Focus" skillId="1077" skillLevel="3" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="2" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="4" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Kiss of Eva" skillId="1073" skillLevel="2" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Empower" skillId="1059" skillLevel="3" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Stigma of Shilien" skillId="1539" skillLevel="2" getLevel="52" levelUpSp="106000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="10" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="11" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="12" getLevel="52" levelUpSp="36000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="22" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="23" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="24" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="21" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="22" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="23" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="21" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="22" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="23" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="25" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="26" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="27" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="5" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="3" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="22" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="23" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="24" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="7" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="8" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="9" getLevel="56" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="13" getLevel="56" levelUpSp="56000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="14" getLevel="56" levelUpSp="56000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="10" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="3" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="3" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="4" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="1" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="1" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="1" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="3" getLevel="56" levelUpSp="111000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="13" getLevel="56" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="14" getLevel="56" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="15" getLevel="56" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="25" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="26" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="24" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="25" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="28" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="29" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="24" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="25" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="4" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="25" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="15" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="16" getLevel="58" levelUpSp="73000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="10" getLevel="58" levelUpSp="49000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="11" getLevel="58" levelUpSp="49000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="12" getLevel="58" levelUpSp="49000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="11" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Vampiric Rage" skillId="1268" skillLevel="3" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Cure Poison" skillId="1012" skillLevel="3" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="1" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="2" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="2" getLevel="58" levelUpSp="147000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="16" getLevel="58" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="17" getLevel="58" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="27" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="28" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="26" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="27" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="30" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="31" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="26" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="27" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="6" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="5" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="26" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="17" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="18" getLevel="60" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="13" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="14" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="15" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="12" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="5" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="3" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="3" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="2" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="4" getLevel="60" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="18" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="19" getLevel="60" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="29" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="30" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="28" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="29" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="32" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="33" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="28" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="29" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="27" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="19" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="20" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="16" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="17" getLevel="62" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="13" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Wild Magic" skillId="1303" skillLevel="1" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="3" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="4" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="4" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Stigma of Shilien" skillId="1539" skillLevel="3" getLevel="62" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="20" getLevel="62" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="21" getLevel="62" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="31" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="32" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="30" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="31" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="34" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="35" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="30" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="31" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="5" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="28" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="21" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="22" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="18" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="19" getLevel="64" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="14" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="5" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="5" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="3" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="5" getLevel="64" levelUpSp="290000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="22" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="23" getLevel="64" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="33" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="34" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="32" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="33" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="36" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="37" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="32" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="33" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="7" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="29" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="23" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="24" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="20" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="21" getLevel="66" levelUpSp="270000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="15" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="2" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="6" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="6" getLevel="66" levelUpSp="540000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="24" getLevel="66" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="25" getLevel="66" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="35" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="36" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="34" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="35" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="38" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="39" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="34" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="35" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="6" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="30" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="25" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="26" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="22" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="23" getLevel="68" levelUpSp="230000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="16" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="6" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="7" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="7" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="4" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="6" getLevel="68" levelUpSp="470000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="26" getLevel="68" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="27" getLevel="68" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="37" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="38" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="36" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="37" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="40" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="41" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="36" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="37" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="31" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="27" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="28" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="24" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="25" getLevel="70" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="17" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Wild Magic" skillId="1303" skillLevel="2" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="8" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="8" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Stigma of Shilien" skillId="1539" skillLevel="4" getLevel="70" levelUpSp="720000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="28" getLevel="70" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="29" getLevel="70" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="39" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="40" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="38" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="39" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="43" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="38" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="39" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="8" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="32" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="29" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="30" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="26" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="27" getLevel="72" levelUpSp="500000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="18" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Vampiric Rage" skillId="1268" skillLevel="4" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="9" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="9" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="5" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Blessed Blood" skillId="1531" skillLevel="7" getLevel="72" levelUpSp="1000000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="30" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="31" getLevel="72" levelUpSp="360000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="41" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="42" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="40" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="41" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="44" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="45" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="40" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="41" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="6" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="7" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="33" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="31" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Recharge" skillId="1013" skillLevel="32" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="28" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="29" getLevel="74" levelUpSp="820000" autoGet="true" />
+		<skill skillName="Wind Shackle" skillId="1206" skillLevel="19" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="3" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="10" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="10" getLevel="74" levelUpSp="1640000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="32" getLevel="74" levelUpSp="520000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="33" getLevel="74" levelUpSp="520000" autoGet="true" />
+
+		<!-- Forgotten Scrolls -->
+		<skill skillName="Improve Magic" skillId="1500" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Improve Critical" skillId="1502" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" autoGet="true">
+			<item id="8618" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" autoGet="true">
+			<item id="8619" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" autoGet="true">
+			<item id="8620" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" autoGet="true">
+			<item id="8621" count="1" />
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="12" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="9" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="9" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="1" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="2" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="3" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="13" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="14" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="15" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="3" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="2" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="12" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Might" skillId="1068" skillLevel="3" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Resist Fire" skillId="1191" skillLevel="2" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="2" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Return" skillId="1050" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Invigor" skillId="1032" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="1" getLevel="40" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="13" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="14" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="15" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="12" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="13" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="14" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="12" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="13" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="14" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="4" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="5" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="6" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="17" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="18" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="2" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="3" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="2" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="13" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="14" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="15" getLevel="44" levelUpSp="12000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Resist Fire" skillId="1191" skillLevel="3" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Shield" skillId="1040" skillLevel="3" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Focus" skillId="1077" skillLevel="2" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="3" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Magic Barrier" skillId="1036" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Haste" skillId="1086" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Steal Mana" skillId="1526" skillLevel="1" getLevel="44" levelUpSp="37000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="7" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="8" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="19" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="20" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="21" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Quick Recycle" skillId="164" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Regeneration" skillId="1044" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Invigor" skillId="1032" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Acumen" skillId="1085" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="19" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="20" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="21" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="18" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="19" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="20" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="18" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="19" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="20" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="10" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="11" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="12" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="22" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="23" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="24" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="3" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="4" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="4" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="19" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="20" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="21" getLevel="52" levelUpSp="30000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="3" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="3" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="3" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Focus" skillId="1077" skillLevel="3" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="4" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Magic Barrier" skillId="1036" skillLevel="2" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Berserker Spirit" skillId="1062" skillLevel="2" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Kiss of Eva" skillId="1073" skillLevel="2" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Haste" skillId="1086" skillLevel="2" getLevel="52" levelUpSp="89000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="22" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="23" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="24" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="21" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="22" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="23" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="21" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="22" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="23" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="13" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="14" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="15" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="25" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="26" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="27" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="5" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="5" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="22" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="23" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="24" getLevel="56" levelUpSp="31000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="4" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="4" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="4" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Guidance" skillId="1240" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Death Whisper" skillId="1242" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Regeneration" skillId="1044" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Invigor" skillId="1032" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Return" skillId="1050" skillLevel="2" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Bless Shield" skillId="1243" skillLevel="3" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Mental Shield" skillId="1035" skillLevel="4" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="1" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="1" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Steal Mana" skillId="1526" skillLevel="2" getLevel="56" levelUpSp="91000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="25" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="26" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="24" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="25" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="28" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="29" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="24" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="25" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="16" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="17" getLevel="58" levelUpSp="69000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="4" getLevel="58" levelUpSp="138000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="25" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="5" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Resist Aqua" skillId="1182" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Resist Wind" skillId="1189" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Greater Might" skillId="1388" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Greater Shield" skillId="1389" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="1" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="2" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="2" getLevel="58" levelUpSp="148000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="27" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="28" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="26" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="27" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="30" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="31" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="26" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="27" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="18" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="19" getLevel="60" levelUpSp="115000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="6" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="5" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="26" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="6" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="5" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="1" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Resist Poison" skillId="1033" skillLevel="1" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="3" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="3" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="29" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="30" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="28" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="29" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="32" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="33" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="28" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="29" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="20" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="21" getLevel="62" levelUpSp="150000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="6" getLevel="62" levelUpSp="310000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="27" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="7" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="5" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Resist Aqua" skillId="1182" skillLevel="2" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Resist Wind" skillId="1189" skillLevel="2" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="4" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="4" getLevel="62" levelUpSp="301000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="31" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="32" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="30" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="31" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="34" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="35" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="30" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="31" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="22" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="23" getLevel="64" levelUpSp="180000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="5" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="28" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="8" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="5" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="2" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Resist Poison" skillId="1033" skillLevel="2" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="5" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="5" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Steal Mana" skillId="1526" skillLevel="3" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="33" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="34" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="32" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="33" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="36" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="37" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="32" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="33" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="24" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="25" getLevel="66" levelUpSp="220000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="7" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="29" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="9" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Resist Aqua" skillId="1182" skillLevel="3" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Resist Wind" skillId="1189" skillLevel="3" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Might" skillId="1388" skillLevel="2" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Shield" skillId="1389" skillLevel="2" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="2" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="2" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="6" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="6" getLevel="66" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="35" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="36" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="34" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="35" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="38" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="39" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="34" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="35" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="26" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="27" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="6" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="30" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="10" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Concentration" skillId="1078" skillLevel="6" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="3" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Resist Poison" skillId="1033" skillLevel="3" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="7" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="7" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="37" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="38" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="36" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="37" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="40" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="41" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="36" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="37" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="28" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="29" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Boost HP" skillId="211" skillLevel="7" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="31" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="11" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Bless the Soul" skillId="1048" skillLevel="6" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="8" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="8" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Bless the Body" skillId="1045" skillLevel="6" getLevel="70" levelUpSp="780000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="39" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="40" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="38" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="39" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="43" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="38" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="39" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="30" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="31" getLevel="72" levelUpSp="750000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="8" getLevel="72" levelUpSp="1500000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="32" getLevel="72" levelUpSp="1500000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="12" getLevel="72" levelUpSp="1500000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="9" getLevel="72" levelUpSp="1500000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="9" getLevel="72" levelUpSp="1500000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="41" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="42" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="40" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="41" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="44" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="45" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="40" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="41" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="32" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Heavy Armor Mastery" skillId="259" skillLevel="33" getLevel="74" levelUpSp="770000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="6" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="7" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Dryad Root" skillId="1201" skillLevel="33" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Word of Fear" skillId="1272" skillLevel="13" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Greater Might" skillId="1388" skillLevel="3" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Greater Shield" skillId="1389" skillLevel="3" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Resist Holy" skillId="1392" skillLevel="3" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Resist Dark" skillId="1393" skillLevel="3" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="10" getLevel="74" levelUpSp="1530000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="10" getLevel="74" levelUpSp="1530000" autoGet="true" />
+
+		<!-- Forgotten Scrolls -->
+		<skill skillName="Improved Combat" skillId="1499" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Improved Condition" skillId="1501" skillLevel="1" getLevel="70" autoGet="true" />
+
+		<!-- HighFive new -->
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="1" getLevel="60" levelUpSp="231000" autoGet="true" />
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="2" getLevel="64" levelUpSp="370000" autoGet="true" />
+		<skill skillName="Resist Earth" skillId="1548" skillLevel="3" getLevel="68" levelUpSp="640000" autoGet="true" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" autoGet="true">
+			<item id="8618" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" autoGet="true">
+			<item id="8619" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" autoGet="true">
+			<item id="8620" count="1" />
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" autoGet="true">
+			<item id="8621" count="1" />
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="12" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="9" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="9" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="13" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="14" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="15" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="3" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="2" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="10" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="11" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="12" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="1" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="2" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="3" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="1" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="2" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="3" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="1" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="2" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="3" getLevel="40" levelUpSp="11000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="1" getLevel="40" levelUpSp="17000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="2" getLevel="40" levelUpSp="17000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="2" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="3" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="1" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="1" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Inquisitor" skillId="1520" skillLevel="1" getLevel="40" levelUpSp="33000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="15" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="12" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="12" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="17" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="18" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="2" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="3" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="13" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="14" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="15" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="4" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="5" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="6" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="4" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="5" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="6" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="4" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="5" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="6" getLevel="44" levelUpSp="14000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="3" getLevel="44" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="4" getLevel="44" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="3" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="2" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="1" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="2" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="1" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Restore Life" skillId="1258" skillLevel="1" getLevel="44" levelUpSp="43000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="15" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="19" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="20" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="21" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Quick Recycle" skillId="164" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="16" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="17" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="18" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="7" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="8" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="7" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="8" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="7" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="8" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="9" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="5" getLevel="48" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="6" getLevel="48" levelUpSp="32000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="1" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="2" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="3" getLevel="48" levelUpSp="21000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="3" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="1" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="4" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Restore Life" skillId="1258" skillLevel="2" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="1" getLevel="48" levelUpSp="63000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="19" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="20" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="21" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="18" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="19" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="20" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="18" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="19" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="20" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="22" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="23" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="24" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="3" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="4" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="19" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="20" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="21" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="10" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="11" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="12" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="10" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="11" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="12" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="10" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="11" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="12" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="7" getLevel="52" levelUpSp="42000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="8" getLevel="52" levelUpSp="42000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="4" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="5" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="6" getLevel="52" levelUpSp="28000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="5" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="4" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="3" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="2" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="2" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="3" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Restore Life" skillId="1258" skillLevel="3" getLevel="52" levelUpSp="84000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="22" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="23" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="24" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="21" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="22" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="23" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="21" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="22" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="23" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="25" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="26" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="27" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="5" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Fast Spell Casting" skillId="228" skillLevel="3" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="22" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="23" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="24" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="13" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="14" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="15" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="13" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="14" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="15" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="13" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="14" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="15" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="9" getLevel="56" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="10" getLevel="56" levelUpSp="41000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="7" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="8" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="9" getLevel="56" levelUpSp="27000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="6" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="5" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="4" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="3" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="5" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="4" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Restore Life" skillId="1258" skillLevel="4" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="2" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="1" getLevel="56" levelUpSp="81000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="25" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="26" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="24" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="25" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="28" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="29" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="24" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="25" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="4" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="25" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="26" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="16" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="17" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="16" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="17" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="16" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="17" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="11" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="10" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="11" getLevel="58" levelUpSp="44000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="7" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="6" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="5" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="4" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="5" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Cure Poison" skillId="1012" skillLevel="3" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Mana Storm" skillId="1399" skillLevel="1" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="2" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Major Group Heal" skillId="1402" skillLevel="1" getLevel="58" levelUpSp="88000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="27" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="28" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="26" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="27" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="30" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="31" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="26" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="27" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="6" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="5" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="27" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="28" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="18" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="19" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="18" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="19" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="18" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="19" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="12" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="12" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="13" getLevel="60" levelUpSp="60000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="8" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="7" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="6" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="5" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="6" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="3" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="2" getLevel="60" levelUpSp="120000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="29" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="30" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="28" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="29" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="32" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="33" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="28" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="29" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="29" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="30" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="20" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="21" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="20" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="21" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="20" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="21" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="13" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="14" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="15" getLevel="62" levelUpSp="90000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="9" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="8" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="7" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="6" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Purify" skillId="1018" skillLevel="3" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Mana Storm" skillId="1399" skillLevel="2" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="4" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Major Group Heal" skillId="1402" skillLevel="2" getLevel="62" levelUpSp="170000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="31" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="32" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="30" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="31" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="34" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="35" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="30" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="31" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="31" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="32" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="22" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="23" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="22" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="23" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="22" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="23" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="14" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="16" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="17" getLevel="64" levelUpSp="100000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="10" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="9" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="8" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="7" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="7" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="4" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="5" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Celestial Shield" skillId="1418" skillLevel="1" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="3" getLevel="64" levelUpSp="190000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="33" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="34" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="32" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="33" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="36" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="37" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="32" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="33" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="7" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="33" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="34" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="24" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="25" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="24" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="25" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="24" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="25" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="15" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="18" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="19" getLevel="66" levelUpSp="140000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="11" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="10" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="9" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="8" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Benediction" skillId="1271" skillLevel="1" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Prayer" skillId="1307" skillLevel="1" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Mana Storm" skillId="1399" skillLevel="3" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="6" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Major Group Heal" skillId="1402" skillLevel="3" getLevel="66" levelUpSp="280000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="35" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="36" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="34" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="35" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="38" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="39" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="34" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="35" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="6" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="35" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="36" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="26" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="27" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="26" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="27" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="26" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="27" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="16" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="20" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="21" getLevel="68" levelUpSp="160000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="12" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="11" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="10" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="9" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Mass Resurrection" skillId="1254" skillLevel="6" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="5" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="7" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="4" getLevel="68" levelUpSp="320000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="37" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="38" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="36" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="37" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="40" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="41" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="36" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="37" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="37" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="38" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="28" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="29" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="28" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="29" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="28" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="29" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="17" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="22" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="23" getLevel="70" levelUpSp="200000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="13" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="12" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="11" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="10" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Prayer" skillId="1307" skillLevel="2" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Mana Storm" skillId="1399" skillLevel="4" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="8" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Major Group Heal" skillId="1402" skillLevel="4" getLevel="70" levelUpSp="390000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="39" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="40" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="38" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="39" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="43" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="38" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="39" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Boost Mana" skillId="213" skillLevel="8" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="39" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="40" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="30" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="31" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="30" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="31" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="30" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="31" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="18" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="24" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="25" getLevel="72" levelUpSp="330000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="14" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="13" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="12" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="11" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Body of Avatar" skillId="1311" skillLevel="6" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="9" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Invocation" skillId="1430" skillLevel="5" getLevel="72" levelUpSp="650000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="41" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Weapon Mastery" skillId="249" skillLevel="42" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="40" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Robe Mastery" skillId="235" skillLevel="41" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="44" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Anti Magic" skillId="146" skillLevel="45" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="40" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="41" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Fast HP Recovery" skillId="212" skillLevel="6" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Fast Mana Recovery" skillId="229" skillLevel="7" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="41" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Sleep" skillId="1069" skillLevel="42" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="32" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Group Heal" skillId="1219" skillLevel="33" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="32" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Battle Heal" skillId="1218" skillLevel="33" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="32" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Greater Heal" skillId="1217" skillLevel="33" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Might of Heaven" skillId="1028" skillLevel="19" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="26" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Vitalize" skillId="1020" skillLevel="27" getLevel="74" levelUpSp="440000" autoGet="true" />
+		<skill skillName="Peace" skillId="1075" skillLevel="15" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Requiem" skillId="1049" skillLevel="14" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Repose" skillId="1034" skillLevel="13" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Hold Undead" skillId="1042" skillLevel="12" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Resurrection" skillId="1016" skillLevel="9" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Prayer" skillId="1307" skillLevel="3" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Trance" skillId="1394" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Erase" skillId="1395" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Magical BackFire" skillId="1396" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Mana Burn" skillId="1398" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Mana Storm" skillId="1399" skillLevel="5" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Turn Undead" skillId="1400" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="10" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Major Heal" skillId="1401" skillLevel="11" getLevel="74" levelUpSp="880000" autoGet="true" />
+		<skill skillName="Major Group Heal" skillId="1402" skillLevel="5" getLevel="74" levelUpSp="880000" autoGet="true" />
+	</skillTree>
+</list>

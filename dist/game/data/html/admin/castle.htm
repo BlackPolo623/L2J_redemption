@@ -1,0 +1,56 @@
+<html><title>城堡管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>攻城选单</center></td>
+<td><Button value="返回" action="bypass -h admin_siege" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td align="right" fixwidth="140">城堡：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%castleName%</font></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="10">
+
+<Button value="设置攻城时间" action="bypass -h admin_setsiegetime %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<img src="L2UI.SquareBlank" width="260" height="4">
+
+<table width=260><tr>
+<td width=120 align="center"><Button value="增加攻击者" action="bypass -h admin_add_attacker %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=120 align="center"><Button value="增加守卫者" action="bypass -h admin_add_defender %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td width=120 align="center"><Button value="血盟列表" action="bypass -h admin_list_siege_clans %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=120 align="center"><Button value="清除名单" action="bypass -h admin_clear_siege_list %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td width=120 align="center"><Button value="移动守城方" action="bypass -h admin_move_defenders %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=120 align="center"><Button value="召唤城门" action="bypass -h admin_spawn_doors %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td width=90 align="center"><Button value="开始攻城战" action="bypass -h admin_startsiege %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=90 align="center"><Button value="结束攻城战" action="bypass -h admin_endsiege %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td width=120 align="center"><Button value="给予城堡" action="bypass -h admin_setcastle %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=120 align="center"><Button value="移除城堡" action="bypass -h admin_removecastle %castleName%" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="10">
+
+<table width=260>
+<tr><td align="right" fixwidth="40">NpcId:</td>
+<td align="center"><edit var="value" width=70></td>
+<td align="center"><Button value="增加警卫" action="bypass -h admin_add_guard %castleName% $value" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="90">
+</body></html>

@@ -1,0 +1,84 @@
+<html><title>区域创造管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="角色" action="bypass -h admin_admin6" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="游戏" action="bypass -h admin_admin2" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="管理" action="bypass -h admin_admin7" width=64 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 区域创造 】</font><br1>
+
+<table width=260>
+<tr>
+<td><edit var="name" width=127 height=13></td>
+<td><button value="修改名称" action="bypass -h admin_zones setname $name" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><edit var="minZ" width=127 height=13></td>
+<td><button value="修改 minZ" action="bypass -h admin_zones setMinZ $minZ" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><edit var="maxZ" width=127 height=13></td>
+<td><button value="修改 maxZ" action="bypass -h admin_zones setMaxZ $maxZ" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="选择" action="bypass -h admin_zones start" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="移动" action="bypass -h admin_zones finish" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="倾倒" action="bypass -h admin_zones dump" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="清除" action="bypass -h admin_zones clear" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="显示" action="bypass -h admin_zones show" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="隐藏" action="bypass -h admin_zones hide" width=130 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<br1>
+<table>
+<tr>
+%pages%
+</tr>
+</table>
+<br1>
+<table width=260><tr>
+<td align="right" fixwidth="60">名称：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%name%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">Min Z：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%minZ%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">Max Z：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%maxZ%</font></td>
+</tr></table>
+
+<br>
+<table width=260 height=21 cellspacing=0 background="L2UI_CT1.Button_DF_Calculator">
+<tr>
+<td fixwidth=5></td>
+<td fixwidth=20>#</td>
+<td fixwidth=60>X</td>
+<td fixwidth=60>Y</td>
+<td fixwidth=60>Z</td>
+<td fixwidth=30>Edit</td>
+<td fixwidth=30>Tele</td>
+<td fixwidth=30>Dele</td>
+<td fixwidth=5></td>
+</tr>
+</table>
+<table width=260 cellspacing=0 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+%nodes%
+</table>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="59">
+</body>
+</html>

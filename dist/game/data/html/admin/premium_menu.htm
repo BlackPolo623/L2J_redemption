@@ -1,0 +1,25 @@
+<html><title>付费会员服务管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>付费服务</center></td>
+<td><button value="返回" action="bypass -h admin_admin6" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<font color="0EE280">【 输入帐户名称 】</font><br1>
+<edit var="acc_name" width=200>
+<br>
+<br><button value="１个月会员" action="bypass -h admin_premium_add1 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<button value="２个月会员" action="bypass -h admin_premium_add2 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<button value="３个月会员" action="bypass -h admin_premium_add3 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<br>
+<button value="查看会员信息" action="bypass -h admin_premium_info $acc_name" width=200 height=30 back="L2UI_CT1.HtmlWnd_DF_Area_Down" fore="L2UI_CT1.HtmlWnd_DF_Area">
+<button value="删除会员" action="bypass -h admin_premium_remove $acc_name" width=200 height=30  back="L2UI_CT1.HtmlWnd_DF_Reset_Down" fore="L2UI_CT1.HtmlWnd_DF_Reset">
+<br>
+玩家可以使用：<font color="LEVEL">.premium </font>指令<br1>
+查看他们的帐户状态。</font>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="25">
+</body></html>

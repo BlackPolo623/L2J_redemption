@@ -1,0 +1,55 @@
+<html><title>技能管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>技能选单</center></td>
+<td><button value="返回" action="bypass -h admin_show_skills" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><font color="deba73"><button value="人类技能" action="bypass -h admin_html skills/Human/human.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+<td><font color="bddf94"><button value="精灵技能" action="bypass -h admin_html skills/Elf/elf.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+</tr>
+
+<tr>
+<td><font color="b5a6c6"><button value="黑暗精灵技能" action="bypass -h admin_html skills/DarkElf/delf.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+<td><font color="b5dfad"><button value="半兽人技能" action="bypass -h admin_html skills/Orc/orc.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+</tr>
+
+<tr>
+<td><font color="d6aa63"><button  value="矮人技能" action="bypass -h admin_html skills/Dwarf/dwarf.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+<td><font color="ffffff"><button  value="闇天使技能" action="bypass -h admin_html skills/Kamael/kamael.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+</tr></table>
+
+<br>
+<table width=260>
+<tr>
+<td><font color="676767"><button  value="普通技能" action="bypass -h admin_html skills/Special/Common_Skills.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+<td><font color="9a9a9a"><button  value="血盟技能" action="bypass -h admin_html skills/Special/Clan_Skills.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+</tr>
+
+<tr>
+<td><font color="88aaaa"><button  value="英雄技能" action="bypass -h admin_html skills/Special/Hero_Skills.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+<td><font color="77bbbb"><button  value="贵族技能" action="bypass -h admin_html skills/Special/Nobless_Skills.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font></td>
+</tr></table>
+<br><br>
+<font color="66cccc"><button value="ＧＭ技能" action="bypass -h admin_html skills/Special/GM_Skills.htm" width=120 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></font>
+
+<br><br>
+
+<font color="0EE280">【 增加技能 】</font><br1>
+<table width=260><tr>
+<td align="right" fixwidth="200">技能编号:</td>
+<td align="left" fixwidth="250"><edit var="id" width=50 height=11></td>
+<td align="right" fixwidth="200">技能等级:</td>
+<td align="left" fixwidth="250"><edit var="level" width=50 height=11></td>
+</tr>
+</table>
+<br>
+<Button value="增加技能" action="bypass -h admin_add_skill $id $level" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+
+<img src="L2UI.SquareBlank" width="250" height="39">
+</body></html>

@@ -1,0 +1,185 @@
+<html><title>NPC 管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="杀死" action="bypass -h admin_kill" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="删除" action="bypass -h admin_delete" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="召唤" action="bypass -h admin_recall_npc" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="状态" action="bypass admin_getbuffs" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><button value="任务相关" action="bypass admin_show_quests %tmplid%" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="Npc列表" action="bypass NpcViewMod view %objid%" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="技能列表" action="bypass NpcViewMod skills %objid%" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="主动列表" action="bypass NpcViewMod aggrolist %objid%" width=60 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<font color="LEVEL">Npc 资讯：</font>%name%〔<font color="LEVEL">%id%</font>〕 等级：〔<font color=00FF00>%lvl%</font>〕
+<img src="l2ui_ch3.br_bar2_cp" width="260" height="1">
+<img src="L2UI.SquareBlank" width="260" height="4">
+
+<table width=260>
+<tr>
+<td align="right" fixwidth="80">目标 ID：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%objid%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">职业：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%class%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">种族：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%race%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">重生文件：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%spawnfile%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">重生位置：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%spawnname%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">重生组别：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%spawngroup%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">重生 AI：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%spawnai%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">目前位置：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%spawn%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">区域位置：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%loc%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">面向位置：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%heading%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">范围：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%collision_radius%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">高度：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%collision_height%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">距离：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">2D: %loc2d%, 3D: %loc3d%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">重生时间：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%resp%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">主动性：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%aggro%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">HP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%hp%/%hpmax%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">MP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%mp%/%mpmax%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">根据地：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%clanHall%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="80">Mp奖励：</td>
+<td align="left" fixwidth="250"><font color="6161FF">%mpRewardValue% %mpRewardType% %mpRewardTicks% %mpRewardAffectType%</font></td>
+</tr></table>
+
+%ai_intention%
+%ai%
+%ai_type%
+%ai_clan%
+%ai_enemy_clan%
+%route%
+<br><br>
+
+<font color="LEVEL">战斗数值</font><br1>
+<img src="l2ui_ch3.br_bar2_cp" width="260" height="1">
+<img src="L2UI.SquareBlank" width="260" height="4">
+<table border="0" width="270">
+<tr>
+<td align="right" fixwidth="300">物理攻击力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%patk%</font></td>
+<td align="right" fixwidth="300">魔法攻击力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%matk%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="280">物理防御力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%pdef%</font></td>
+<td align="right" fixwidth="280">魔法防御力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%mdef%</font></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="280">命中能力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%accu%</font></td>
+<td align="right" fixwidth="280">回避能力：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%evas%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="280">致命攻击率：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%crit%</font></td>
+<td align="right" fixwidth="280">移动速度：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%rspd%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="280">攻击速度：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%aspd%</font></td>
+<td align="right" fixwidth="280">施法速度：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%cspd%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="280">攻击类别：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%atkType%</font></td>
+<td align="right" fixwidth="280">攻击范围：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%atkRng%</font></td>
+</tr></table>
+<br><br>
+
+<font color="LEVEL">基本能力</font><br1>
+<img src="l2ui_ch3.br_bar2_cp" width="260" height="1">
+<img src="L2UI.SquareBlank" width="260" height="4">
+<table border="0" width="270">
+<tr>
+<td>力量</td><td>%str%</td>
+<td>敏捷</td><td>%dex%</td>
+<td>体质</td><td>%con%</td>
+</tr>
+<tr>
+<td>智力</td><td>%int%</td>
+<td>智慧</td><td>%wit%</td>
+<td>精神</td><td>%men%</td>
+</tr>
+</table>
+<br><br>

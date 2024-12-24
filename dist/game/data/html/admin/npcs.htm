@@ -1,0 +1,72 @@
+<html><title>召唤选单</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center><Button value="召唤选单" action="bypass -h admin_show_spawns" width=100 height=20 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></center></td>
+<td><Button value="返回" action="bypass -h admin_show_spawns" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+召唤 NPC/怪物 ID：永久或暂时<font color="LEVEL"> 【★】</font><br1>
+<table width=265><tr>
+<td align="right" fixwidth="70">ID | 数量：</td>
+<td width=60><edit var="id" width=70 height=15></td>
+<td width=15><edit var="qty" width=20 height=15></td>
+<td width=50><Button value="永久" action="bypass -h admin_spawn_monster $id $qty" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=30><Button value="暂时" action="bypass -h admin_spawn_once $id $qty" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<font color="0EE280">【 NPC 名称开头文字 】</font><br1>
+<table width=260>
+<tr>
+<td><Button value="A" action="bypass -h admin_npc_index A" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="B" action="bypass -h admin_npc_index B" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="C" action="bypass -h admin_npc_index C" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="D" action="bypass -h admin_npc_index D" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="E" action="bypass -h admin_npc_index E" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="F" action="bypass -h admin_npc_index F" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="G" action="bypass -h admin_npc_index G" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="H" action="bypass -h admin_npc_index H" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="I" action="bypass -h admin_npc_index I" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="J" action="bypass -h admin_npc_index J" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="K" action="bypass -h admin_npc_index K" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="L" action="bypass -h admin_npc_index L" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="M" action="bypass -h admin_npc_index M" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="N" action="bypass -h admin_npc_index N" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="O" action="bypass -h admin_npc_index O" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="P" action="bypass -h admin_npc_index P" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="Q" action="bypass -h admin_npc_index Q" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="R" action="bypass -h admin_npc_index R" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="S" action="bypass -h admin_npc_index S" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="T" action="bypass -h admin_npc_index T" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="U" action="bypass -h admin_npc_index U" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="V" action="bypass -h admin_npc_index V" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="W" action="bypass -h admin_npc_index W" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="X" action="bypass -h admin_npc_index X" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="Y" action="bypass -h admin_npc_index Y" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="Z" action="bypass -h admin_npc_index Z" width=40 height=25 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br>
+
+</center>
+<font color="LEVEL">【★】</font>：名称不区分大小写，但必须使用下划线而不是空格。<br1>如果您不需要多个怪物，则可以将数量字段留空。
+<img src="L2UI.SquareBlank" width="260" height="4">
+</body></html>

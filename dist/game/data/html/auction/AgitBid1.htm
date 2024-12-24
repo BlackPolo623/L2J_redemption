@@ -1,0 +1,26 @@
+<html><body>
+<font color="LEVEL">只可在一个根据地投标</font>，与投标结束的同时，
+会从血盟仓库把与投标价相等的金币<font color="LEVEL">寄存於拍卖所</font>。
+投标价的<font color="LEVEL"> 10% 是交易税</font>，而取消投标时也不会退还。<br>
+投标价应比<font color="LEVEL">最低投标价</font>【再次投标时，以之前投标价为准】高一些，
+在拍卖结束时以写出最高价的血盟得标。<br>
+现在在血盟仓库有<font color="aaccff"> %PLEDGE_ADENA% </font>金币，
+可投标的最低金额是<font color="aaccff"> %AGIT_AUCTION_MINBID% </font>金币。<br>
+投标价要写出多少？
+<table width=270 border=0>
+<tr>
+<td width=220 align=right><edit var=bidprice width=230 align=right type=number></td>
+<td width=40 align=right>金币</td>
+</tr>
+</table>
+<img src="L2UI.SquareBlank" width=270 height=10>
+<img src="L2UI.SquareWhite" width=270 height=1>
+<img src="L2UI.SquareBlank" width=270 height=5>
+<table width=270 border=0>
+<tr>
+<td width=110></td>
+<td width=80 align=center><Button action="%AGIT_LINK_BACK%" value="上一步" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=80 align=center><Button action="bypass -h npc_%objectId%_bid $bidprice" value="确认已投标" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</body></html>

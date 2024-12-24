@@ -1,0 +1,50 @@
+﻿<html><body><head><title>.::全能商店::.</title></head><br>
+<center><img src="l2ui.bbs_lineage2" width=80 height=15></img>
+<br>
+</center>
+温馨提示:<br>
+1.修改角色名字需要5000珍贵宝石<br1>
+2.修改密码需要1000珍贵宝石<br1>
+<table bgcolor=555555>
+<tr>
+<td><edit var="qbox" width=180 height=20></td>
+<td><button value="修改角色名字" action="bypass -h setName $qbox" width=93 height=25 back="L2UI_CT1.Button_DF.Gauge_DF_Attribute_earth" fore="L2UI_CT1.Button_DF.Gauge_DF_Attribute_water"></td>
+</tr>
+</table>
+<br>
+<table bgcolor=555555>
+<tr>
+<td><combobox width=180 height=20 var=s1box list=男;女></td>
+<td><button value="角色变性"action="bypass -h setSex $s1box" width=93 height=25 back="L2UI_CT1.Button_DF.Gauge_DF_Attribute_earth" fore="L2UI_CT1.Button_DF.Gauge_DF_Attribute_water"></td>
+</tr>
+</table>
+<br>
+<table bgcolor=555555>
+<tr>
+<td><combobox width=180 height=20 var=s2box list=255></td>
+<td><button value="修改推荐"action="bypass -h setRec $s2box" width=93 height=25 back="L2UI_CT1.Button_DF.Gauge_DF_Attribute_earth" fore="L2UI_CT1.Button_DF.Gauge_DF_Attribute_water"></td>
+</tr>
+</table>
+<br>
+<center>
+<font color=ff0000>密码只可使用</font><font color=00ff00> 数字,字母 </font><font color=ff0000>.否则无法正常登陆</font></font><br1>
+</center>
+<table bgcolor=555555>
+<tr>
+<td><edit var="qbox2" width=180 height=20></td>
+<td><button value="修改密码"action="bypass -h setPwd $qbox2" width=93 height=25 back="L2UI_CT1.Button_DF.Gauge_DF_Attribute_earth" fore="L2UI_CT1.Button_DF.Gauge_DF_Attribute_water"></td>
+</tr>
+</table>
+<br>
+<center>
+<font color=00ff00>追杀仇人请输入仇人名字,每次消耗30会员币</font><br1>
+<font color=ff0000>每个帐号仅可使用30次,维护后清零</font><br1>
+</center>
+<table bgcolor=555555>
+<tr>
+<td><edit var="qbox3" width=180 height=20></td>
+<td><button value="追杀仇人"action="bypass -h killTarget $qbox3" width=93 height=25 back="L2UI_CT1.Button_DF.Gauge_DF_Attribute_earth" fore="L2UI_CT1.Button_DF.Gauge_DF_Attribute_water"></td>
+</tr>
+</table>
+</center>
+</body></html>

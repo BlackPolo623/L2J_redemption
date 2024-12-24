@@ -1,0 +1,22 @@
+<html><title>异常条件管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>异常条件</center></td>
+<td><button value="返回" action="bypass -h admin_admin7" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td width=40><button value="启用全部" action="bypass -h admin_set_exception enable_all" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=100></td>
+<td width=40><button value="全部禁用" action="bypass -h admin_set_exception disable_all" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<table width="260" bgcolor="666666">
+%cond_table%
+</table>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="4">
+</body></html>

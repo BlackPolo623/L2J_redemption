@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="10000" levels="1" name="法力药">
+		<set name="abnormalTime" val="15" />
+		<set name="displayId" val="2288" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="726" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="ManaHealOverTime" ticks="3">
+				<param power="1.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10001" levels="1" name="魔力治愈药水">
+		<set name="displayId" val="2288" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="728" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="500" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="ManaHeal">
+				<param power="500" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10002" levels="1" name="自定义陷阱技能">
+		<!-- Use this skill if you want to handle trap activation in scripts(example Seed of Destruction Spawn Traps) -->
+		<set name="targetType" val="AURA" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="53007" levels="20" name="披风pvp强化" >
+		<table name="#pvp">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.11 1.12 1.13 1.14 1.15 1.16 1.17 1.18 1.19 1.20</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<mul stat="pvpPhysDmg" val="#pvp" />
+				<mul stat="pvpPhysSkillsDmg" val="#pvp" />
+				<mul stat="pvpMagicalDmg" val="#pvp" />
+				<mul stat="pvpMagicalDef" val="#pvp" />
+				<mul stat="pvpPhysSkillsDef" val="#pvp" />
+				<mul stat="pvpPhysDef" val="#pvp" />
+			</effect>
+		</for>
+	</skill>	
+	<skill id="53008" levels="1" name="手镯技能">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="TalismanSlot">
+				<param slots="6" />
+				<add stat="STR" val="3" />		
+				<add stat="INT" val="3" />		
+				<add stat="CON" val="3" />		
+				<add stat="MEN" val="3" />		
+				<add stat="DEX" val="3" />		
+				<add stat="WIT" val="3" />
+				<add stat="runSpd" val="6" />				
+				<mul stat="pvpPhysDmg" val="#pvp" />
+				<mul stat="pvpPhysSkillsDmg" val="#pvp" />
+				<mul stat="pvpMagicalDmg" val="#pvp" />
+				<mul stat="pvpMagicalDef" val="#pvp" />
+				<mul stat="pvpPhysSkillsDef" val="#pvp" />
+				<mul stat="pvpPhysDef" val="#pvp" />
+				</effect>
+		</for>
+	</skill>	
+	<skill id="53009" levels="1" name="腰带">
+		<!-- Increases inventory size when wearing a belt. -->
+		<set name="icon" val="icon.skill0332" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="DEX" val="2" />		
+				<add stat="WIT" val="2" />	
+				<add stat="runSpd" val="5" />
+			</effect>
+		</for>
+	</skill>	
+	<skill id="53010" levels="1" name="衬衣">
+		<!-- Increases inventory size when wearing a belt. -->
+		<set name="icon" val="icon.skill0332" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="STR" val="2" />		
+				<add stat="INT" val="2" />	
+				<add stat="runSpd" val="6" />
+				<add stat="maxHp" val="500" />
+				<add stat="maxCp" val="1000" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="53016" levels="1" name="VIP身份">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#bonusExp">100</table>
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="STR" val="2" />		
+				<add stat="INT" val="2" />		
+				<add stat="CON" val="2" />		
+				<add stat="MEN" val="2" />		
+				<add stat="DEX" val="2" />		
+				<add stat="WIT" val="2" />
+				<mul stat="pvpPhysDmg" val="1.03" />
+				<mul stat="pvpPhysSkillsDmg" val="1.03" />
+				<mul stat="pvpMagicalDmg" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysSkillsDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+				<add stat="bonusExp" val="#bonusExp" />
+			</effect>
+		</for>
+	</skill>		
+	<skill id="53017" levels="1" name="技能伤害">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="pvpPhysSkillsDmg" val="1.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="53011" levels="1" name="普通伤害">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="pvpPhysDmg" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="53012" levels="1" name="30%职业魔防">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="mDef" val="1.30" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="53013" levels="1" name="xueliang">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<add stat="maxHp" val="12000" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="53014" levels="1" name="刺客">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="critDmg" val="1.5" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="53015" levels="1" name="鸟刀">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="pvpPhysDmg" val="0.80" />
+				<mul stat="pvpPhysSkillsDmg" val="0.80" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="53019" levels="1" name="yongbing">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="pvpPhysDmg" val="0.85" />
+				<mul stat="pvpPhysSkillsDmg" val="0.85" />
+				<mul stat="pAtk" val="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="53020" levels="1" name="会员发光">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="STR" val="2" />		
+				<add stat="INT" val="2" />		
+				<add stat="CON" val="2" />		
+				<add stat="MEN" val="2" />		
+				<add stat="DEX" val="2" />		
+				<add stat="WIT" val="2" />
+				<mul stat="pvpPhysDmg" val="1.05" />
+				<mul stat="pvpPhysSkillsDmg" val="1.05" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="53021" levels="1" name="吊坠">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="STR" val="2" />		
+				<add stat="INT" val="2" />		
+				<add stat="CON" val="2" />		
+				<add stat="MEN" val="2" />		
+				<add stat="DEX" val="2" />		
+				<add stat="WIT" val="2" />
+				<mul stat="pvpPhysDmg" val="1.03" />
+				<mul stat="pvpPhysSkillsDmg" val="1.03" />
+				<mul stat="pvpMagicalDmg" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysSkillsDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="53022" levels="1" name="卡迪拉重套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="pAtk" val="1.1049" />
+				<add stat="maxHp" val="660" />
+				<add stat="absorbDam" val="3" />
+				<mul stat="magicSuccRes" val="2" />
+				<add stat="critRate" val="162" />		
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.03" />
+				<mul stat="pvpPhysSkillsDmg" val="1.03" />
+				<mul stat="pvpMagicalDmg" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53023" levels="1" name="卡迪拉轻套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="pAtk" val="1.0759" />
+				<mul stat="pAtkSpd" val="1.08" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="7" />
+				<add stat="critRate" val="171" />
+				<add stat="critDmgAdd" val="625" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.03" />
+				<mul stat="pvpPhysSkillsDmg" val="1.03" />
+				<mul stat="pvpMagicalDmg" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53024" levels="1" name="卡迪拉法套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="mAtk" val="1.21" />
+				<mul stat="mAtkSpd" val="1.15" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="8" />
+				<add stat="maxHp" val="785" />
+				<mul stat="pReuse" val="0.9" />
+				<mul stat="mReuse" val="0.9" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.03" />
+				<mul stat="pvpPhysSkillsDmg" val="1.03" />
+				<mul stat="pvpMagicalDmg" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+
+	<skill id="53025" levels="1" name="神谕重套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="pAtk" val="1.1249" />
+				<add stat="maxHp" val="760" />
+				<add stat="absorbDam" val="4" />
+				<mul stat="magicSuccRes" val="2" />
+				<add stat="critRate" val="182" />		
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysSkillsDmg" val="1.08" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpMagicalDef" val="1.10" />
+				<mul stat="pvpPhysSkillsDef" val="1.10" />
+				<mul stat="pvpPhysDef" val="1.10" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53026" levels="1" name="神谕轻套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="pAtk" val="1.0959" />
+				<mul stat="pAtkSpd" val="1.10" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="7" />
+				<add stat="critRate" val="202" />
+				<add stat="critDmgAdd" val="725" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysSkillsDmg" val="1.08" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpMagicalDef" val="1.10" />
+				<mul stat="pvpPhysSkillsDef" val="1.10" />
+				<mul stat="pvpPhysDef" val="1.10" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53027" levels="1" name="神谕法套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="mAtk" val="1.21" />
+				<mul stat="mAtkSpd" val="1.15" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="8" />
+				<add stat="maxHp" val="785" />
+				<mul stat="pReuse" val="0.9" />
+				<mul stat="mReuse" val="0.9" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysSkillsDmg" val="1.08" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpMagicalDef" val="1.10" />
+				<mul stat="pvpPhysSkillsDef" val="1.10" />
+				<mul stat="pvpPhysDef" val="1.10" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53028" levels="1" name="剑斗/暴君">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.03</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">		
+				<mul stat="pvpPhysDmg" val="1.2" />
+				<mul stat="pvpPhysSkillsDmg" val="1.2" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="53029" levels="1" name="止水重套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="pAtk" val="1.3249" />
+				<add stat="maxHp" val="760" />
+				<add stat="absorbDam" val="4" />
+				<mul stat="magicSuccRes" val="2" />
+				<mul stat="pDef" val="1.11" />
+				<mul stat="mDef" val="1.11" />
+				<add stat="critRate" val="182" />		
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.12" />
+				<mul stat="pvpPhysSkillsDmg" val="1.12" />
+				<mul stat="pvpMagicalDmg" val="1.12" />
+				<mul stat="pvpMagicalDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.3" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvePhysDmg" val="3" />
+				<mul stat="pvePhysSkillsDmg" val="3" />
+				<mul stat="pveBowDmg" val="3" />
+				<mul stat="pveBowSkillsDmg" val="3" />
+				<add stat="maxHp" val="4000" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53030" levels="1" name="止水轻套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="pAtk" val="1.2959" />
+				<mul stat="pAtkSpd" val="1.10" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="7" />
+				<mul stat="pDef" val="1.11" />
+				<mul stat="mDef" val="1.11" />
+				<add stat="critRate" val="202" />
+				<add stat="critDmgAdd" val="725" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.12" />
+				<mul stat="pvpPhysSkillsDmg" val="1.12" />
+				<mul stat="pvpMagicalDmg" val="1.12" />
+				<mul stat="pvpMagicalDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.3" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvePhysDmg" val="3" />
+				<mul stat="pvePhysSkillsDmg" val="3" />
+				<mul stat="pveBowDmg" val="3" />
+				<mul stat="pveBowSkillsDmg" val="3" />
+				<add stat="maxHp" val="4000" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53031" levels="1" name="止水法套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="mAtk" val="1.41" />
+				<mul stat="mAtkSpd" val="1.15" />
+				<mul stat="pDef" val="1.11" />
+				<mul stat="mDef" val="1.11" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="8" />
+				<add stat="maxHp" val="785" />
+				<mul stat="pReuse" val="0.9" />
+				<mul stat="mReuse" val="0.9" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.12" />
+				<mul stat="pvpPhysSkillsDmg" val="1.12" />
+				<mul stat="pvpMagicalDmg" val="1.12" />
+				<mul stat="pvpMagicalDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.3" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pveMagicalDmg" val="3" />
+				<add stat="maxHp" val="4000" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+	
+	<skill id="53032" levels="1" name="虎魄重套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="pAtk" val="1.5249" />
+				<add stat="maxHp" val="760" />
+				<mul stat="pDef" val="1.21" />
+				<mul stat="mDef" val="1.21" />
+				<add stat="absorbDam" val="4" />
+				<mul stat="magicSuccRes" val="2" />
+				<add stat="critRate" val="182" />		
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.16" />
+				<mul stat="pvpPhysSkillsDmg" val="1.16" />
+				<mul stat="pvpMagicalDmg" val="1.16" />
+				<mul stat="pvpMagicalDef" val="1.5" />
+				<mul stat="pvpPhysSkillsDef" val="1.5" />
+				<mul stat="pvpPhysDef" val="1.5" />
+				<add stat="maxHp" val="8000" />
+				<mul stat="pvePhysDmg" val="6" />
+				<mul stat="pvePhysSkillsDmg" val="6" />
+				<mul stat="pveBowDmg" val="6" />
+				<mul stat="pveBowSkillsDmg" val="6" />
+				</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53033" levels="1" name="虎魄轻套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="pAtk" val="1.4959" />
+				<mul stat="pAtkSpd" val="1.15" />
+				<mul stat="pDef" val="1.21" />
+				<mul stat="mDef" val="1.21" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="7" />
+				<add stat="critRate" val="202" />
+				<add stat="critDmgAdd" val="725" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.16" />
+				<mul stat="pvpPhysSkillsDmg" val="1.16" />
+				<mul stat="pvpMagicalDmg" val="1.16" />
+				<mul stat="pvpMagicalDef" val="1.5" />
+				<mul stat="pvpPhysSkillsDef" val="1.5" />
+				<mul stat="pvpPhysDef" val="1.5" />
+				<add stat="maxHp" val="8000" />
+				<mul stat="pvePhysDmg" val="6" />
+				<mul stat="pvePhysSkillsDmg" val="6" />
+				<mul stat="pveBowDmg" val="6" />
+				<mul stat="pveBowSkillsDmg" val="6" />
+				</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53034" levels="1" name="虎魄法套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="mAtk" val="1.61" />
+				<mul stat="mAtkSpd" val="1.20" />
+				<mul stat="pDef" val="1.21" />
+				<mul stat="mDef" val="1.21" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="8" />
+				<add stat="maxHp" val="785" />
+				<mul stat="pReuse" val="0.9" />
+				<mul stat="mReuse" val="0.9" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.16" />
+				<mul stat="pvpPhysSkillsDmg" val="1.16" />
+				<mul stat="pvpMagicalDmg" val="1.16" />
+				<mul stat="pvpMagicalDef" val="1.5" />
+				<mul stat="pvpPhysSkillsDef" val="1.5" />
+				<mul stat="pvpPhysDef" val="1.5" />
+				<mul stat="pveMagicalDmg" val="3" />
+				<add stat="maxHp" val="8000" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+	
+	<skill id="53035" levels="1" name="破星重套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="pAtk" val="1.7249" />
+				<mul stat="pDef" val="1.31" />
+				<mul stat="mDef" val="1.31" />
+				<add stat="maxHp" val="760" />
+				<add stat="absorbDam" val="4" />
+				<mul stat="magicSuccRes" val="2" />
+				<add stat="critRate" val="182" />		
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.19" />
+				<mul stat="pvpPhysSkillsDmg" val="1.19" />
+				<mul stat="pvpMagicalDmg" val="1.19" />
+				<mul stat="pvpMagicalDef" val="1.7" />
+				<mul stat="pvpPhysSkillsDef" val="1.7" />
+				<mul stat="pvpPhysDef" val="1.7" />
+				<add stat="maxHp" val="12000" />
+				<mul stat="pvePhysDmg" val="9" />
+				<mul stat="pvePhysSkillsDmg" val="9" />
+				<mul stat="pveBowDmg" val="9" />
+				<mul stat="pveBowSkillsDmg" val="9" />
+				</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53036" levels="1" name="破星轻套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+			    <mul stat="pAtk" val="1.4959" />
+				<mul stat="pDef" val="1.31" />
+				<mul stat="mDef" val="1.31" />
+				<mul stat="pAtkSpd" val="1.15" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="7" />
+				<add stat="critRate" val="202" />
+				<add stat="critDmgAdd" val="725" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.19" />
+				<mul stat="pvpPhysSkillsDmg" val="1.19" />
+				<mul stat="pvpMagicalDmg" val="1.19" />
+				<mul stat="pvpMagicalDef" val="1.7" />
+				<mul stat="pvpPhysSkillsDef" val="1.7" />
+				<mul stat="pvpPhysDef" val="1.7" />
+				<add stat="maxHp" val="12000" />
+				<mul stat="pvePhysDmg" val="9" />
+				<mul stat="pvePhysSkillsDmg" val="9" />
+				<mul stat="pveBowDmg" val="9" />
+				<mul stat="pveBowSkillsDmg" val="9" />
+				</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+	<skill id="53037" levels="1" name="破星法套">
+		<!-- Acquired Exp. increases by 100%. -->
+		<table name="#icons">icon.xmas_pcwin1_i00</table>
+		<set name="icon" val="#icons" />
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="DefenceTrait">
+				<param BLEED="65" />
+				<param HOLD="65" />
+				<param SLEEP="65" />
+			    <mul stat="mAtk" val="1.61" />
+				<mul stat="pDef" val="1.31" />
+				<mul stat="mDef" val="1.31" />
+				<mul stat="mAtkSpd" val="1.20" />
+				<add stat="absorbDam" val="3" />
+				<add stat="runSpd" val="8" />
+				<add stat="maxHp" val="785" />
+				<mul stat="pReuse" val="0.9" />
+				<mul stat="mReuse" val="0.9" />							
+				<add stat="waterRes" val="8" />
+				<add stat="fireRes" val="8" />
+				<add stat="windRes" val="8" />
+				<add stat="earthRes" val="8" />				
+				<mul stat="pvpPhysDmg" val="1.19" />
+				<mul stat="pvpPhysSkillsDmg" val="1.19" />
+				<mul stat="pvpMagicalDmg" val="1.19" />
+				<mul stat="pvpMagicalDef" val="1.7" />
+				<mul stat="pvpPhysSkillsDef" val="1.7" />
+				<mul stat="pvpPhysDef" val="1.7" />
+				<add stat="maxHp" val="12000" />
+				<mul stat="pveMagicalDmg" val="9" />
+			</effect>
+			<effect name="EnableCloak" />
+		</for>
+	</skill>
+
+
+	<skill id="53038" levels="1" name="手镯技能">
+		<!-- 4 Talisman can be equipped. -->
+		<table name="#pvp">1.06</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="magicLevel" val="61" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="TalismanSlot">
+				<param slots="6" />
+				<add stat="STR" val="6" />		
+				<add stat="INT" val="6" />		
+				<add stat="CON" val="6" />		
+				<add stat="MEN" val="6" />		
+				<add stat="DEX" val="6" />		
+				<add stat="WIT" val="6" />
+				<add stat="runSpd" val="25" />				
+				<mul stat="pvpPhysDmg" val="#pvp" />
+				<mul stat="pvpPhysSkillsDmg" val="#pvp" />
+				<mul stat="pvpMagicalDmg" val="#pvp" />
+				<mul stat="pvpMagicalDef" val="#pvp" />
+				<mul stat="pvpPhysSkillsDef" val="#pvp" />
+				<mul stat="pvpPhysDef" val="#pvp" />
+				</effect>
+		</for>
+	</skill>	
+	<skill id="53039" levels="1" name="腰带">
+		<!-- Increases inventory size when wearing a belt. -->
+		<set name="icon" val="icon.skill0332" />
+		<table name="#pvp">1.03</table>
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="DEX" val="4" />		
+				<add stat="WIT" val="4" />	
+				<add stat="runSpd" val="20" />
+				<mul stat="pvpPhysDmg" val="#pvp" />
+				<mul stat="pvpPhysSkillsDmg" val="#pvp" />
+				<mul stat="pvpMagicalDmg" val="#pvp" />
+				<mul stat="pvpMagicalDef" val="#pvp" />
+				<mul stat="pvpPhysSkillsDef" val="#pvp" />
+				<mul stat="pvpPhysDef" val="#pvp" />
+			</effect>
+		</for>
+	</skill>	
+	<skill id="53040" levels="1" name="衬衣">
+		<!-- Increases inventory size when wearing a belt. -->
+		<set name="icon" val="icon.skill0332" />
+		<table name="#pvp">1.03</table>
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="STR" val="4" />		
+				<add stat="INT" val="4" />	
+				<add stat="runSpd" val="15" />
+				<add stat="maxHp" val="2500" />
+				<add stat="maxCp" val="5000" />
+				<mul stat="pvpPhysDmg" val="#pvp" />
+				<mul stat="pvpPhysSkillsDmg" val="#pvp" />
+				<mul stat="pvpMagicalDmg" val="#pvp" />
+				<mul stat="pvpMagicalDef" val="#pvp" />
+				<mul stat="pvpPhysSkillsDef" val="#pvp" />
+				<mul stat="pvpPhysDef" val="#pvp" />
+				</effect>
+		</for>
+	</skill>
+	<skill id="53041" levels="1" name="衬衣">
+		<!-- Increases inventory size when wearing a belt. -->
+		<set name="icon" val="icon.skill0332" />
+		<table name="#pvp">1.03</table>
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="ReplaceSkillBySkill">
+			<param existingSkillId="78" replacementSkillId="7029" />	
+			</effect>
+		</for>
+	</skill>
+	
+</list>

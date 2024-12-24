@@ -1,0 +1,24 @@
+<html><title>玩家管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>角色搜索</center></td>
+<td><button value="返回" action="bypass -h admin_show_characters 0" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<tr><td width=80>名称</td><td width=110>职业</td><td width=40>等级</td></tr>
+%results%
+</table><br>
+<center>
+<table width=260><tr>
+<td><edit var="character_name" width=80></td>
+<td><button value="查找角色" action="bypass -h admin_find_character $character_name" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+搜寻到 %number% 个玩家 %end%
+</center>
+</body></html>

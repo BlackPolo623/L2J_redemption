@@ -1,0 +1,33 @@
+﻿<html><title>特殊服务</title><body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr>
+<td valign="top" align="center">
+	<table border=0 cellpadding=0 cellspacing=0>
+		<tr><td height=15></td></tr>
+		<tr><td align=center><font color=00FF00>更换职业，更换武器属性</font></td></tr>
+		<tr><td align=center><font color=00FF00>更换武器属性消耗天堂金币和S宝石</font></td></tr>
+
+	</table>
+	<br>
+	<table border=0 cellpadding=0 cellspacing=0 width=240 bgcolor="FCFCFC">
+		<tr>
+			<td align=center><combobox width=100 var=ele list=火;水;风;地;黑暗;神圣></td>
+			<td align=center><button action="bypass -h Quest Service YuanSu $ele" value="更换武器属性" width=100 height=22 back="L2UI_CT1.Gauge_DF_Attribute_Dark_bg" fore="L2UI_CT1.Gauge_DF_Attribute_Dark"></td>
+		</tr>
+	</table>
+	
+	<br>
+	<table border=0 cellpadding=0 cellspacing=0 width=240 bgcolor="FCFCFC">
+
+		<tr>
+			<td><img src="BranchSys2.br_NavitGaugeMid" width=260 height=3></td>
+		</tr>
+		<tr>
+			<td align=center><button action="bypass -h npc_%objectId%_Chat 1" value="免费换职业" width=100 height=22 back="L2UI_CT1.Gauge_DF_Attribute_Water_bg" fore="L2UI_CT1.Gauge_DF_Attribute_Water"></td>
+		</tr>
+	</table>
+	<br>
+</td>
+</tr>
+</table>
+</body></html>

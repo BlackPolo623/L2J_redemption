@@ -1,0 +1,52 @@
+<html><title>创造物品</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>创造物品选单</center></td>
+<td><Button value="返回" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td>请输入您想创造的物品编号、及所需数量。
+<br1>如果您需要多个物品，请使用金币购买。<font color="LEVEL"><br1>
+注意：请勿创造多个无法堆叠的物品。</font></td>
+</tr></table>
+<br>
+
+<table width=260 cellpadding="5"><tr>
+<td align="right" fixwidth="70">ID编号：</td>
+<td align="left" fixwidth="250"><edit var="itemid" width=70 height=13></td>
+</tr>
+<tr>
+<td align="right" fixwidth="70">数量：</td>
+<td align="left" fixwidth="250"><edit var="itemnum" width=70 height=13 type=number></td>
+</tr></table>
+<br>
+
+<Button value="创造物品" action="bypass -h admin_create_item $itemid $itemnum" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<Button value="给予目标玩家" action="bypass -h admin_give_item_target $itemid $itemnum" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<Button value="给予全部线上玩家" action="bypass -h admin_give_item_to_all $itemid $itemnum" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+<br>
+
+<table width=260 cellpadding="4">
+<tr>
+<td align="right" fixwidth="140">货币选项：</td>
+<td align="left" fixwidth="250"><combobox width=120 height=17 var=ebox list=Adena;AncientAdena;FestivalAdena;BlueEva;GoldEinhasad;SilverShilen;BloodyPaagrio;FantasyIsleCoin></td>
+</tr>
+
+<tr>
+<td align="right" fixwidth="140">数量：</td>
+<td align="left" fixwidth="250"><edit var="vbox" width=120 height=13 type=number></td>
+</tr>
+
+<tr>
+<td></td>
+<td><Button value="创造货币" action="bypass -h admin_create_coin $ebox $vbox" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="17">
+</center>
+</body></html>

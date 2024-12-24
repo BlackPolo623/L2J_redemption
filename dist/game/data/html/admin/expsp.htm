@@ -1,0 +1,53 @@
+<html><title>角色管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>人物管理选单</center></td>
+<td><Button value="返回" action="bypass -h admin_character_info %name%" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+编辑：<font color="LEVEL">%name%</font><br>
+
+<table width=260><tr>
+<tr>
+<td align="right" fixwidth="60">等级：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%level%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">职业：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%class%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">Exp：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%xp%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">SP：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%sp%</font></td>
+</tr></table>
+<br><br>
+
+<font color="0EE280">【 注意 】<br1>
+更改 Exp、SP 值。必须输入两<br1>
+个数值，如果不需要修改的请填 0</font><br1>
+
+<table width=260><tr>
+<td width=30>Exp:</td><td><edit var="exp_to_add" width=40></td>
+<td width=20>SP:</td><td><edit var="sp_to_add" width=40></td>
+<td><Button value="增加" action="bypass -h admin_add_exp_sp $exp_to_add $sp_to_add" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="删除" action="bypass -h admin_remove_exp_sp $exp_to_add $sp_to_add" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+<br><br>
+
+<font color="0EE280">【 使用下面的对话框设置新的角色等级 】</font><br1>
+<table width=260><tr>
+<td align="right" fixwidth="40">等级：</td>
+<td align="left" fixwidth="80"><edit var="lv" width=60></td>
+<td><Button value="设置等级" action="bypass -h admin_set_level $lv" width=80 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="46">
+</body></html>

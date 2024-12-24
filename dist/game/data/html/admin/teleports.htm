@@ -1,0 +1,62 @@
+<html><title>传送管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>选择传送区域位置</center></td>
+<td><button value="返回" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td><button value="城镇 / 村庄" action="bypass -h admin_html teleports/TownAreas.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="领地区域" action="bypass -h admin_html teleports/WorldAreas.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="城堡区域" action="bypass -h admin_html teleports/CastleAreas.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="边境要塞" action="bypass -h admin_html teleports/fort.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="七封印" action="bypass -h admin_html teleports/sevensigns.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="即时地区" action="bypass -h admin_html teleports/instance.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="狩猎首领" action="bypass -h admin_html teleports/raid.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="竞技场" action="bypass -h admin_html teleports/OlympiadStadiums.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="争夺要塞" action="bypass -h admin_html teleports/clanhall/clanhall.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="其他区域" action="bypass -h admin_html teleports/OtherLocations.htm" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<br><br>
+<button value="其他传送模式" action="bypass -h admin_tele" width=180 height=30 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"><br>
+
+<img src="L2UI.SquareBlank" width="260" height="10">
+<font color="0EE280">【 传送座标位置 】</font><br1>
+
+<table width=260><tr>
+<td align="center" width=85><font color="LEVEL">X</font></td>
+<td align="center" width=85><font color="LEVEL">Y</font></td>
+<td align="center" width=85><font color="LEVEL">Z</font></td>
+</tr></table>
+
+<table width=260><tr>
+<td align="center"><edit var="char_cord_x" width=75></td>
+<td align="center"><edit var="char_cord_y" width=75></td>
+<td align="center"><edit var="char_cord_z" width=75></td>
+</tr></table>
+<br>
+
+<table width=260><tr>
+<td><center><button value="传送" action="bypass -h admin_move_to $char_cord_x $char_cord_y $char_cord_z" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></center></td>
+</tr></table>
+
+</center>
+<img src="L2UI.SquareBlank" width="260" height="25">
+</body></html>

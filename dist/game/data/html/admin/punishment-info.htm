@@ -1,0 +1,33 @@
+<html><title>惩罚管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>%affect_type%: %player_name%</center></td>
+<td><button value="返回" action="bypass -h admin_punishment" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width=260>
+<tr>
+<td align="right" fixwidth="140">影响类型：</td>
+<td align="left" fixwidth="250"><combobox width=130 height=13 var="affectType" list="%affects%"></td>
+</tr>
+<tr>
+<td align="right" fixwidth="140">关键：</td>
+<td align="left" fixwidth="250"><edit var="key" width="130" height="12"></td>
+</tr>
+<tr>
+<td></td>
+<td align="left" fixwidth="60"><a action="bypass -h admin_punishment info $key $affectType">检查</a></td>
+</tr>
+</table>
+<br>
+<table width=270>
+<tr>
+<td>类型</td>
+<td>截止</td>
+<td>行动</td>
+</tr>
+%punishments%
+</table>

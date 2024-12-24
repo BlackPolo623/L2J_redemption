@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <item>
+    <ingredient id="65544" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75544" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65545" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75545" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65546" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75546" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65547" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75547" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65548" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75548" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65549" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75549" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65550" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75550" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65551" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75551" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65553" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75553" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65554" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75554" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65555" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75555" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65556" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75556" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="65557" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="75557" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="66152" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="76152" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+
+  <item>
+    <ingredient id="66154" count="1" enchantmentLevel="20"/>
+    <ingredient id="30055" count="1" />
+    <production id="76154" count="1" enchantmentLevel="20"/>
+    <production id="30051" count="1" />
+    <production id="16178" count="1" />
+  </item>
+</list>

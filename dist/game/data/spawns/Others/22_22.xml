@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_22">
+		<npc id="33338" x="83464" y="147908" z="-3409" heading="10250" respawnDelay="10" /> <!-- 状态管理 - 状态管理 -->
+		<npc id="955" x="83265" y="148394" z="-3409" heading="59066" respawnDelay="10" /> <!-- 综合商店 - 综合商店 -->
+		<npc id="33342" x="83328" y="147904" z="-3409" heading="8992" respawnDelay="10" /> <!-- 一键BUFF - 一键BUFF -->
+		<npc id="33340" x="83701" y="148377" z="-3409" heading="32024" respawnDelay="10" /> <!-- 安全强化 - 安全强化 -->
+		<npc id="33335" x="83392" y="147905" z="-3409" heading="18664" respawnDelay="10" /> <!-- 传送管理员 - 传送管理员 -->
+		<npc id="33334" x="83807" y="148185" z="-3397" heading="31045" respawnDelay="10" /> <!-- VIP管理员 - VIP管理员 -->
+		<npc id="33339" x="83445" y="148679" z="-3409" heading="13481" respawnDelay="10" /> <!-- 测试管理员 - 测试管理员 -->
+		<npc id="31756" x="83695" y="147992" z="-3407" heading="25376" respawnDelay="10" /> <!-- Mr. Cat - Test Server Helper -->
+		<npc id="35643" x="82510" y="149311" z="-3469" heading="16035" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="81363" y="147899" z="-3469" heading="48972" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="82543" y="147871" z="-3469" heading="49134" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="81138" y="148129" z="-3469" heading="32417" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="82715" y="148092" z="-3469" heading="27" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="81117" y="149081" z="-3469" heading="33034" respawnDelay="12" /> <!-- Gate -->
+		<npc id="35643" x="82702" y="149090" z="-3469" heading="187" respawnDelay="12" /> <!-- Gate -->
+
+		<npc id="33342" x="82780" y="148647" z="-3471" heading="62011" respawnDelay="10" /> <!-- 一键BUFF - 一键BUFF -->
+		<npc id="35183" x="83054" y="147913" z="-3471" heading="32767" respawnDelay="10" /> <!-- Warehouse Keeper - Giran -->
+		<npc id="30120" x="82837" y="147859" z="-3471" heading="14540" respawnDelay="10" /> <!-- Maximilian - High Priest -->
+		<npc id="30081" x="83270" y="148843" z="-3407" heading="1352" respawnDelay="10" /> <!-- Helvetia - Grocer -->
+		<npc id="30300" x="83062" y="148394" z="-3471" heading="27616" respawnDelay="10" /> <!-- Pushkin - Blacksmith -->
+		<npc id="31049" x="82904" y="147870" z="-3471" heading="15031" respawnDelay="10" /> <!-- Pepper - Symbol Maker -->
+		<npc id="33333" x="83780" y="148609" z="-3396" heading="37217" respawnDelay="60" /> <!-- quaneng - quaneng -->
+		</spawn>
+</list>

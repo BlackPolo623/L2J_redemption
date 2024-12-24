@@ -1,0 +1,72 @@
+<html><title>怪物控制管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>怪物控制选单</center></td>
+<td><Button value="返回" action="bypass -h admin_admin3" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td>怪物控制数值：</td><td><edit var="qbox" width=100 height=11></td>
+<td><Button value="帮助" action="bypass -h admin_html help/mobgroup.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 备用 】</font><br1>
+
+<table width=260>
+<tr>
+<td><Button value="创造群组" action="bypass -h admin_mobgroup_create $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="召唤群组" action="bypass -h admin_mobgroup_spawn $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="取消群组" action="bypass -h admin_mobgroup_unspawn $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="删除群组" action="bypass -h admin_mobgroup_remove $qbox"  width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="群组清单" action="bypass -h admin_mobgroup_list $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="攻击目标" action="bypass -h admin_mobgroup_attack $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="攻击群组" action="bypass -h admin_mobgroup_attackgrp $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="任意攻击" action="bypass -h admin_mobgroup_rnd $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="群组返回" action="bypass -h admin_mobgroup_return $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组跟随" action="bypass -h admin_mobgroup_follow $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="群组传送" action="bypass -h admin_mobgroup_teleport $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="杀死群组" action="bypass -h admin_mobgroup_kill $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="群组无敌" action="bypass -h admin_mobgroup_invul $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组闲置" action="bypass -h admin_mobgroup_idle $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><Button value="群组静止" action="bypass -h admin_mobgroup_nomove $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="群组施法" action="bypass -h admin_mobgroup_casting $qbox" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 开发选项 】</font><br1>
+
+<table width=260>
+<tr>
+<td><Button value="经典选单" action="bypass -h admin_html mobgroup_classic.htm" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="备用选单" action="bypass -h admin_html mobgroup.htm" width="120" height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="6">
+</center>
+</body></html>

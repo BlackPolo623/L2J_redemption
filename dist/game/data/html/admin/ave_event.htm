@@ -1,0 +1,50 @@
+<html><title>异常视觉效果管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width="150"><center>异常视觉效果</center></td>
+<td><button value="返回" action="bypass -h admin_admin3" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width="260">
+<tr>
+<td>数值：</td>
+<td><edit var="qbox" width="100" height="13"></td>
+<td>
+<button value="帮助" action="bypass -h admin_html help/abnormal.htm" width=45 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+</td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+<table width=260>
+<tr>
+<td><button value="没有" action="bypass -h admin_ave_event BR_NONE $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="非裔正常" action="bypass -h admin_ave_event BR_AFRO_NORMAL $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="非洲粉红" action="bypass -h admin_ave_event BR_AFRO_PINK $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="非洲黄金" action="bypass -h admin_ave_event BR_AFRO_GOLD $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="伊娃的愤怒" action="bypass -h admin_ave_event BR_POWER_OF_EVA $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="耳机" action="bypass -h admin_ave_event BR_HEADPHONE $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="黄昏 1" action="bypass -h admin_ave_event BR_VESPER1 $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="黄昏 2" action="bypass -h admin_ave_event BR_VESPER2 $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+
+<tr>
+<td><button value="黄昏 3" action="bypass -h admin_ave_event BR_VESPER3 $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="Soul Avatar" action="bypass -h admin_ave_event BR_SOUL_AVATAR $qbox" width=90 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<html><title>宠物管理</title><body>
+<center>
+<table width=260><tr>
+<td><button value="杀死" action="bypass -h admin_kill_menu" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="复活" action="bypass -h admin_res" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="恢复" action="bypass -h admin_heal" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="饱食" action="bypass -h admin_fullfood" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><button value="解除" action="bypass -h admin_unsummon" width=50 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+<font color="0EE280">【 宠物信息 】</font><br1>
+<br><img src="L2UI.SquareWhite" width=260 height=1><br1>
+
+<table width=260>
+<tr>
+<td align="right" fixwidth="80">种类：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%class%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">AI：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%ai%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">拥有者：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%owner%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">名称：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%name%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">等级：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%level%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">Exp：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%exp%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">Hp：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%hp%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">Mp：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%mp%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">饱食度：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%food%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">负重：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%load%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">性向：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%karma%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">清单：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%inv%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="80">种族：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%race%</font></td>
+</tr>
+</table>
+<br>
+
+<img src="L2UI.SquareWhite" width=260 height=1>
+<br>
+
+<table width=240>
+<tr>
+<td align="right" fixwidth="100">等级：</td>
+<td align="left" fixwidth="250"><edit var="qbox" width=60 height=13></td>
+<td align="left" fixwidth="250"><button value="改变等级" action="bypass -h admin_summon_setlvl $qbox" width=100 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+</table>
+</center>
+<img src="L2UI.SquareBlank" width="260" height="11">
+</body></html>

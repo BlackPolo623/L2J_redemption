@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="17_25">
+		<npc id="33345" x="-98220" y="241478" z="-3539" heading="3976" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98045" y="241335" z="-3528" heading="55335" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97896" y="241110" z="-3517" heading="54973" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97789" y="240939" z="-3501" heading="54973" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97771" y="240749" z="-3494" heading="47755" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97790" y="240548" z="-3492" heading="48115" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97824" y="240214" z="-3491" heading="48115" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97851" y="239946" z="-3490" heading="48115" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97970" y="239886" z="-3510" heading="39083" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98175" y="239713" z="-3532" heading="40972" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98257" y="253544" z="-3489" heading="59234" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98037" y="253392" z="-3522" heading="59234" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97990" y="253343" z="-3525" heading="57156" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97777" y="253178" z="-3528" heading="59578" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97720" y="253142" z="-3528" heading="60048" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97545" y="253040" z="-3528" heading="57628" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97399" y="252901" z="-3525" heading="57628" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97256" y="252758" z="-3525" heading="56690" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97130" y="252598" z="-3531" heading="54859" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97130" y="252598" z="-3531" heading="53551" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97080" y="252472" z="-3531" heading="52558" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96972" y="252152" z="-3531" heading="52558" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96907" y="251960" z="-3531" heading="52558" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96862" y="251763" z="-3533" heading="50928" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96816" y="251499" z="-3538" heading="50928" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96887" y="251310" z="-3541" heading="45599" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-96909" y="251247" z="-3542" heading="45599" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97066" y="250805" z="-3551" heading="45599" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97111" y="250678" z="-3553" heading="45599" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97133" y="250615" z="-3554" heading="41823" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97262" y="250461" z="-3554" heading="41823" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97436" y="250257" z="-3554" heading="42994" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97473" y="250201" z="-3554" heading="43199" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97509" y="250144" z="-3555" heading="42821" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97623" y="249978" z="-3555" heading="42821" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97768" y="249752" z="-3556" heading="42391" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97849" y="249644" z="-3556" heading="42174" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97890" y="249591" z="-3556" heading="42131" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97973" y="249485" z="-3556" heading="42131" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98099" y="249328" z="-3556" heading="42131" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98225" y="249170" z="-3558" heading="42131" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98258" y="249760" z="-3570" heading="10891" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98163" y="249937" z="-3568" heading="12069" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98109" y="250060" z="-3568" heading="12069" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98028" y="250243" z="-3568" heading="12098" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98001" y="250304" z="-3568" heading="12087" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97055" y="252399" z="-3531" heading="12087" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97714" y="250984" z="-3568" heading="12870" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97714" y="250984" z="-3568" heading="15327" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97693" y="251185" z="-3568" heading="15327" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97721" y="251308" z="-3568" heading="22202" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-97975" y="251398" z="-3573" heading="29213" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98109" y="251397" z="-3573" heading="32805" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+		<npc id="33345" x="-98239" y="251422" z="-3572" heading="28782" respawnDelay="10" /> <!-- 梦魇侵略军战士 -->
+	</spawn>
+</list>

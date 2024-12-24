@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd " maintainEnchantment="true">
+	<npcs>
+		<npc>-1</npc> <!-- Martin (Pet Manager) -->
+	</npcs>
+  <item>
+    <ingredient id="33099" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27099" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33104" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27104" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33109" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27109" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33095" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27095" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33100" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27100" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33105" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27105" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33096" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27096" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33101" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27101" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33106" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27106" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33097" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27097" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33102" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27102" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33107" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27107" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33098" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27098" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33103" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27103" count="1"/>
+  </item>
+
+  <item>
+    <ingredient id="33108" count="1"/>
+    <ingredient id="38004" count="4000" />
+    <ingredient id="34168" count="3000"/>
+    <production id="27108" count="1"/>
+  </item>
+
+</list>

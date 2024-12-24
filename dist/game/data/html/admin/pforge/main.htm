@@ -1,0 +1,26 @@
+<html><title>　</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=180><center>Packet Forge Panel</center></td>
+<td><Button value="返回" action="bypass -h admin_admin4" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="20">
+	<table width=180 cellspacing=0 cellpadding=0>
+		<tr>
+			<td><center>操作１</center></td><td><center>操作２</center></td><td><center>操作３</center></td>
+		</tr>
+		<tr>
+			<td><edit width=60 var=opcode1></td><td><edit width=60 var=opcode2></td><td><edit width=60 var=opcode3></td>
+		</tr>
+	</table><br>
+
+	<table width=180 cellspacing=0 cellpadding=0>
+		<tr><td><center>格式 (b,x,c,h,d,q,f,s)</center></td></tr>
+		<tr><td><edit width=180 var=format></td></tr>
+	</table><br>
+
+	<button value="下一步 >>" action="bypass -h admin_forge_values $opcode1 $opcode2 $opcode3 ; $format" width=180 height=23 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn">
+</center>
+</body></html>

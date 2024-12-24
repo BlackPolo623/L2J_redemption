@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_10">
+		<npc id="31757" x="-114379" y="-249680" z="-2990" heading="13973" respawnDelay="10" /> <!-- Miss Queen - Test Server Helper -->
+	</spawn>
+</list>

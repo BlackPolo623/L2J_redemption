@@ -1,0 +1,59 @@
+<html><title>人物修改管理</title><body>
+<center>
+<table width=260><tr>
+<td><Button value="主页" action="bypass -h admin_admin" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td width=150><center>人物修改介面</center></td>
+<td><Button value="返回" action="bypass -h admin_character_info %name%" width=45 height=22 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="250" height="10">
+
+修改人物：<font color="LEVEL">%name%</font>
+<br>
+
+<table width=265>
+<tr>
+<td align="right" fixwidth="60">职业：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%class%</font></td>
+</tr>
+<tr>
+<td align="right" fixwidth="60">等级：</td>
+<td align="left" fixwidth="250"><font color="LEVEL">%level%</font></td>
+</tr></table>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280"><center>============【 玩家 】============</center></font><br1>
+
+<table width=270>
+<tr>
+<td><Button value="增加技能" action="bypass -h admin_skill_list" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="取得技能" action="bypass -h admin_get_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="移除技能" action="bypass -h admin_remove_skills 0" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="重置技能" action="bypass -h admin_removereuse" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="增加所有技能" action="bypass -h admin_give_all_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="提供技能" action="bypass -h admin_reset_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+<tr>
+<td><Button value="给所有技能" action="bypass -h admin_give_all_skills_fs" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="移除所有技能" action="bypass -h admin_remove_all_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr>
+</table>
+
+<img src="L2UI.SquareBlank" width="260" height="20">
+
+<font color="0EE280"><center>============【 血盟 】============</center></font><br1>
+
+<table width=270>
+<tr>
+<td><Button value="增加血盟技能" action="bypass -h admin_give_clan_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+<td><Button value="增加所有血盟技能" action="bypass -h admin_give_all_clan_skills" width=120 height=21 back="L2UI_ct1.Button_DF_Msn_over" fore="L2UI_ct1.Button_DF_Msn"></td>
+</tr></table>
+</center>
+
+<img src="L2UI.SquareBlank" width="260" height="46">
+</body></html>

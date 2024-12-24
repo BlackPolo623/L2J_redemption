@@ -1,0 +1,10 @@
+<html><body>黄昏的祭司:<br>
+<font color="LEVEL">[ 将 %stoneColor% 封印石交换成古代的金币 ]</font><br>
+你现在拥有 %stoneCount% 个 %stoneColor% 封印石。
+你要将其中几个交换为古代的金币？
+供你参考，１个 %stoneColor% 封印石的价值等於 %stoneValue% 个古代的金币。<br>
+[ 输入要交换的数量 ]
+<br>
+<edit var="Amount" width="80">
+<Button value="交换" action="bypass -h npc_%objectId%_SevenSigns 18 %stoneItemId% $Amount" width="80" height="27" back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</body></html>
